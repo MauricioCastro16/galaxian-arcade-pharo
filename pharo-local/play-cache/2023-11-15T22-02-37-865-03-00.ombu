@@ -1,0 +1,7 @@
+OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-15T22:02:47.448-03:00' ],
+		#self : OmReference [ '1' ]
+	},
+	#content : '|x|\rx:= Morph new.\rx openInWorld'
+}

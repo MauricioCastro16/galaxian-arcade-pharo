@@ -1,0 +1,1 @@
+|x|x:= Morph new.x openInWorld

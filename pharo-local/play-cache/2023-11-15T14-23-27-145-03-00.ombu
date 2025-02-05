@@ -1,0 +1,187 @@
+OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-15T14:23:49.194-03:00' ],
+		#self : OmReference [ '1' ]
+	},
+	#content : '|x|\rx:='
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-15T14:24:24.353-03:00' ],
+		#self : OmReference [ '2' ]
+	},
+	#content : '|vent x|\rvent:= OSWindowWorldMorph new.\rx:= Nave new.\rx color: Color red.\rx openInWorld: vent.\rvent open.\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-15T14:24:38.02-03:00' ],
+		#self : OmReference [ '3' ]
+	},
+	#content : '|vent x|\rvent:= OSWindowWorldMorph new.\rx:= Nave new.\rx position: 10@10.\rx color: Color red.\rx openInWorld: vent.\rvent open.\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-15T15:23:07.635-03:00' ],
+		#self : OmReference [ '4' ]
+	},
+	#content : '|vent x|\rvent:= OSWindowWorldMorph new.\rx:= Nave new.\rx position: 10@10.\rx bounds.\rx color: Color red.\rx openInWorld: vent.\rvent open.\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-15T15:23:38.618-03:00' ],
+		#self : OmReference [ '5' ]
+	},
+	#content : '|vent x|\rvent:= OSWindowWorldMorph new.\rx:= Nave new.\rx position: 10@10.\rx position\rx color: Color red.\rx openInWorld: vent.\rvent open.\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-15T15:23:59.94-03:00' ],
+		#self : OmReference [ '6' ]
+	},
+	#content : '|vent x|\rvent:= OSWindowWorldMorph new.\rx:= Nave new.\rx position: 10@10.\rx \rx color: Color red.\rx openInWorld: vent.\rvent open.\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-15T15:25:33.662-03:00' ],
+		#self : OmReference [ '7' ]
+	},
+	#content : '|vent x|\rvent:= OSWindowWorldMorph new.\rx:= Nave new.\rx position: 10@10.\rx fillRectangle: (10@10)\rx color: Color red.\rx openInWorld: vent.\rvent open.\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-15T15:25:38.93-03:00' ],
+		#self : OmReference [ '8' ]
+	},
+	#content : '|vent x|\rvent:= OSWindowWorldMorph new.\rx:= Nave new.\rx position: 10@10.\rx fillRectangle: (10@10).\rx color: Color red.\rx openInWorld: vent.\rvent open.\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-15T15:25:50.386-03:00' ],
+		#self : OmReference [ '9' ]
+	},
+	#content : '|vent x|\rvent:= OSWindowWorldMorph new.\rx:= Nave new.\rx position: 10@10.\rx fillRectangle: (20@20).\rx color: Color red.\rx openInWorld: vent.\rvent open.\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-15T15:26:21.219-03:00' ],
+		#self : OmReference [ '10' ]
+	},
+	#content : '|vent x|\rvent:= OSWindowWorldMorph new.\rx:= Nave new.\rx position: 10@10.\rx bounds insetBy: (50 / 3) @ 10.\rx color: Color red.\rx openInWorld: vent.\rvent open.\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-15T15:26:36.094-03:00' ],
+		#self : OmReference [ '11' ]
+	},
+	#content : '|vent x|\rvent:= OSWindowWorldMorph new.\rx:= Nave new.\rx position: 10@10.\r(x bounds) insetBy: (50 / 3) @ 10.\rx color: Color red.\rx openInWorld: vent.\rvent open.\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-15T15:26:47.304-03:00' ],
+		#self : OmReference [ '12' ]
+	},
+	#content : '|vent x|\rvent:= OSWindowWorldMorph new.\rx:= Nave new.\rx position: 10@10.\r(x bounds) insetBy: (50 / 2) @ 10.\rx color: Color red.\rx openInWorld: vent.\rvent open.\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-15T15:27:02.459-03:00' ],
+		#self : OmReference [ '13' ]
+	},
+	#content : '|vent x|\rvent:= OSWindowWorldMorph new.\rx:= Nave new.\rx position: 10@10.\rx bounds\r(x bounds) insetBy: (50 / 2) @ 10.\rx color: Color red.\rx openInWorld: vent.\rvent open.\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-15T15:27:10.389-03:00' ],
+		#self : OmReference [ '14' ]
+	},
+	#content : '|vent x|\rvent:= OSWindowWorldMorph new.\rx:= Nave new.\rx position: 10@10.\rx bounds.\r(x bounds) insetBy: (50 / 2) @ 10.\rx color: Color red.\rx openInWorld: vent.\rvent open.\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-15T15:27:35.911-03:00' ],
+		#self : OmReference [ '15' ]
+	},
+	#content : '|vent x|\rvent:= OSWindowWorldMorph new.\rx:= Nave new.\rx position: 10@10.\rx bounds.\r(x bounds) insetBy: 25 @ 10.\rx color: Color red.\rx openInWorld: vent.\rvent open.\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-15T15:35:33.959-03:00' ],
+		#self : OmReference [ '16' ]
+	},
+	#content : '|vent x y|\rvent:= OSWindowWorldMorph new.\rx:= Nave new.\rx position: 10@10.\rx bounds.\ry:= (x bounds) insetBy: 25 @ 10.\rx color: Color red.\rx openInWorld: vent.\rvent open.\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-15T15:35:42.568-03:00' ],
+		#self : OmReference [ '17' ]
+	},
+	#content : '|vent x y|\rvent:= OSWindowWorldMorph new.\rx:= Nave new.\rx position: 10@10.\rx bounds.\ry:= (x bounds) insetBy: 20 @ 10.\ry color: Color red.\ry openInWorld: vent.\rvent open.\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-15T15:35:47.041-03:00' ],
+		#self : OmReference [ '18' ]
+	},
+	#content : '|vent x y|\rvent:= OSWindowWorldMorph new.\rx:= Nave new.\rx position: 10@10.\rx bounds.\ry:= (x bounds) insetBy: 20 @ 10.\ry openInWorld: vent.\rvent open.\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-15T15:35:53.574-03:00' ],
+		#self : OmReference [ '19' ]
+	},
+	#content : '|vent x y|\rvent:= OSWindowWorldMorph new.\rx:= Nave new.\rx position: 10@10.\rx bounds.\ry:= (x bounds) insetBy: 20 @ 10.\rx color: Color red.\rx openInWorld: vent.\rvent open.\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-15T15:36:12.253-03:00' ],
+		#self : OmReference [ '20' ]
+	},
+	#content : '|vent x y|\rvent:= OSWindowWorldMorph new.\rx:= Nave new.\rx position: 10@10.\rx bounds.\ry:= (x bounds) insetBy: 20 @ 10.\rx fillRectangle: y\rx color: Color red.\rx openInWorld: vent.\rvent open.\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-15T15:36:29.943-03:00' ],
+		#self : OmReference [ '21' ]
+	},
+	#content : '|vent x y|\rvent:= OSWindowWorldMorph new.\rx:= Nave new.\rx position: 10@10.\rx bounds.\ry:= (x bounds) insetBy: 20 @ 10.\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-15T22:05:01.376-03:00' ],
+		#self : OmReference [ '22' ]
+	},
+	#content : '|vent x y z|\rvent:= OSWindowWorldMorph new.\rx:= Fondo new.\ry:= Nave new.\rz:= Bala new,\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-15T22:06:09.361-03:00' ],
+		#self : OmReference [ '23' ]
+	},
+	#content : '|vent x y z|\rvent:= OSWindowWorldMorph new.\rx:= Fondo new.\ry:= Nave new.\rz:= Bala new.\rx addMorph: y.\rx openInWorld: vent.\rvent open.\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-15T22:06:24.51-03:00' ],
+		#self : OmReference [ '24' ]
+	},
+	#content : '|vent x y z|\rvent:= OSWindowWorldMorph new.\rx:= Fondo new.\ry:= Nave new.\rz:= Bala new.\ry position: (10 @ 10).\rx addMorph: y.\rx openInWorld: vent.\rvent open.\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-15T22:07:12.95-03:00' ],
+		#self : OmReference [ '25' ]
+	},
+	#content : '|vent x y z|\rvent:= OSWindowWorldMorph new.\rx:= Fondo new.\ry:= Nave new.\rz:= Bala new.\ry position: (10 @ 10).\rx addMorph: y.\rx openInWorld: vent.\rvent open.\rx owner.\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-15T22:07:21.984-03:00' ],
+		#self : OmReference [ '26' ]
+	},
+	#content : '|vent x y z|\rvent:= OSWindowWorldMorph new.\rx:= Fondo new.\ry:= Nave new.\rz:= Bala new.\ry position: (10 @ 10).\rx addMorph: y.\rx openInWorld: vent.\rx owner.\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-15T22:07:29.003-03:00' ],
+		#self : OmReference [ '27' ]
+	},
+	#content : '|vent x y z|\rvent:= OSWindowWorldMorph new.\rx:= Fondo new.\ry:= Nave new.\rz:= Bala new.\ry position: (10 @ 10).\rx addMorph: y.\rx openInWorld: vent.\r^x owner.\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-15T22:07:42.063-03:00' ],
+		#self : OmReference [ '28' ]
+	},
+	#content : '|vent x y z|\rvent:= OSWindowWorldMorph new.\rx:= Fondo new.\ry:= Nave new.\rz:= Bala new.\ry position: (10 @ 10).\rx addMorph: y.\rx openInWorld: vent.\r^y owner.\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-15T22:07:48.655-03:00' ],
+		#self : OmReference [ '29' ]
+	},
+	#content : '|vent x y z|\rvent:= OSWindowWorldMorph new.\rx:= Fondo new.\ry:= Nave new.\rz:= Bala new.\ry position: (10 @ 10).\rx addMorph: y.\rx openInWorld: vent.\ry owner.\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-15T22:08:01.206-03:00' ],
+		#self : OmReference [ '30' ]
+	},
+	#content : '|vent x y z|\rvent:= OSWindowWorldMorph new.\rx:= Fondo new.\ry:= Nave new.\rz:= Bala new.\ry position: (10 @ 10).\rx addMorph: y.\rx openInWorld: vent.\ry owner addMorph: z.\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-15T22:08:22.433-03:00' ],
+		#self : OmReference [ '31' ]
+	},
+	#content : '|vent x y z|\rvent:= OSWindowWorldMorph new.\rx:= Fondo new.\ry:= Nave new.\rz:= Bala new.\ry position: (10 @ 10).\rx addMorph: y.\r(y owner) addMorph: z.\rx openInWorld: vent.\rvent open.'
+}

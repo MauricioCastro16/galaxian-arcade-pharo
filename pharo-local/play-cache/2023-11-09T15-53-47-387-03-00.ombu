@@ -1,0 +1,589 @@
+OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-09T15:54:13.136-03:00' ],
+		#self : OmReference [ '1' ]
+	},
+	#content : '|ventana x|\rventana:= OSWindowWorldMorph.\rx:= Nave new.\rx openInWorld: ventana.\rventana open.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-09T15:54:33.243-03:00' ],
+		#self : OmReference [ '2' ]
+	},
+	#content : '|ventana x|\rventana:= OSWindowWorldMorph new.\rx:= Nave new.\rx openInWorld: ventana.\rventana open.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-09T17:20:14.2-03:00' ],
+		#self : OmReference [ '3' ]
+	},
+	#content : '|ventana x|\rventana:= OSWindowWorldMorph new.\rx:= Nave new.\rx bounds.\rx openInWorld: ventana.\rventana open.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-09T17:20:20.66-03:00' ],
+		#self : OmReference [ '4' ]
+	},
+	#content : '|ventana x|\rventana:= OSWindowWorldMorph new.\rx:= Nave new.\rx bounds x.\rx openInWorld: ventana.\rventana open.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-09T17:20:26.304-03:00' ],
+		#self : OmReference [ '5' ]
+	},
+	#content : '|ventana x|\rventana:= OSWindowWorldMorph new.\rx:= Nave new.\rx bounds.\rx openInWorld: ventana.\rventana open.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-09T17:21:05.815-03:00' ],
+		#self : OmReference [ '6' ]
+	},
+	#content : '|ventana x|\rventana:= OSWindowWorldMorph new.\rx:= Nave new.\rx bottomRight.\rx openInWorld: ventana.\rventana open.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-09T17:21:49.82-03:00' ],
+		#self : OmReference [ '7' ]
+	},
+	#content : '|ventana x|\rventana:= OSWindowWorldMorph new.\rx:= Nave new.\rx bottomRight x.\rx openInWorld: ventana.\rventana open.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-09T17:22:01.231-03:00' ],
+		#self : OmReference [ '8' ]
+	},
+	#content : '|ventana x|\rventana:= OSWindowWorldMorph new.\rNave bottomRight.\rx openInWorld: ventana.\rventana open.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-09T17:23:08.356-03:00' ],
+		#self : OmReference [ '9' ]
+	},
+	#content : '|ventana x|\rventana:= OSWindowWorldMorph new.\rx:= Nave new.\rx bottomRight x.\rx openInWorld: ventana.\rventana open.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-10T17:09:16.49-03:00' ],
+		#self : OmReference [ '3' ]
+	},
+	#content : '|ventana x|\rventana:= OSWindowWorldMorph new.\rx:= Nave new.\rx bottomRight.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-10T17:09:23.265-03:00' ],
+		#self : OmReference [ '4' ]
+	},
+	#content : '|ventana x|\rventana:= OSWindowWorldMorph new.\rx:= Nave new.\rx bottomRight x.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-10T17:09:33.752-03:00' ],
+		#self : OmReference [ '5' ]
+	},
+	#content : '|ventana x|\rventana:= OSWindowWorldMorph new.\rx:= Nave new.\rx position: (50@40)\rx bottomRight x.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-10T17:09:40.056-03:00' ],
+		#self : OmReference [ '6' ]
+	},
+	#content : '|ventana x|\rventana:= OSWindowWorldMorph new.\rx:= Nave new.\rx position: (50@40).\rx bottomRight x.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-10T17:12:03.422-03:00' ],
+		#self : OmReference [ '7' ]
+	},
+	#content : '|ventana x|\rventana:= OSWindowWorldMorph new.\rx:= Nave new.\rx position: (50@40).\rx extension.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-10T17:12:52.353-03:00' ],
+		#self : OmReference [ '8' ]
+	},
+	#content : '|ventana x|\rventana:= OSWindowWorldMorph new.\rx:= Nave new.\rx position: (50@40).\rx right.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-10T17:13:31.37-03:00' ],
+		#self : OmReference [ '9' ]
+	},
+	#content : '|ventana x|\rventana:= OSWindowWorldMorph new.\rx:= Nave new.\rx position: (50@40).\rx width.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-14T16:19:00.899-03:00' ],
+		#self : OmReference [ '10' ]
+	},
+	#content : '|ventana x|\rventana:= OSWindowWorldMorph new.\rx:= Nave new.\rx position: (50@40).\rx openInWorld: ventana.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-14T16:19:09.147-03:00' ],
+		#self : OmReference [ '11' ]
+	},
+	#content : '|ventana x|\rventana:= OSWindowWorldMorph new.\rx:= Nave new.\rx position: (50@40).\rx openInWorld: ventana.\rventana open.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-14T16:27:11.142-03:00' ],
+		#self : OmReference [ '12' ]
+	},
+	#content : '|ventana x|\rventana:= OSWindowWorldMorph new.\rx:= HandMorph new.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-14T16:27:23.286-03:00' ],
+		#self : OmReference [ '13' ]
+	},
+	#content : '|ventana x|\rventana:= OSWindowWorldMorph new.\rx:= HandMorph new.\rx openInWorld: ventana.\rventana open.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-14T16:27:48.385-03:00' ],
+		#self : OmReference [ '14' ]
+	},
+	#content : '|ventana x|\rventana:= OSWindowWorldMorph new.\rx:= HandMorph new.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-14T17:26:40.51-03:00' ],
+		#self : OmReference [ '15' ]
+	},
+	#content : 'Character arrowUp'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-14T17:27:05.188-03:00' ],
+		#self : OmReference [ '16' ]
+	},
+	#content : 'a'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-14T19:29:19.269-03:00' ],
+		#self : OmReference [ '17' ]
+	},
+	#content : '|x vent|\rx:= Nave new.\rvent:= OSWindowWorldMorph new.\rx openInWorld: vent.\rvent open.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-14T19:33:35.874-03:00' ],
+		#self : OmReference [ '18' ]
+	},
+	#content : '|x vent|\rx:= Nave new.\rx position: (10@10).\rvent:= OSWindowWorldMorph new.\rx openInWorld: vent.\rvent open.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-15T13:38:18.49-03:00' ],
+		#self : OmReference [ '19' ]
+	},
+	#content : '|x|\rx:= Matrix new.\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-15T13:39:35.075-03:00' ],
+		#self : OmReference [ '20' ]
+	},
+	#content : '|x|\rx:= GMatrix new.\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-15T13:39:52.035-03:00' ],
+		#self : OmReference [ '21' ]
+	},
+	#content : '|x|\rx:= Array new: 5.\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-15T13:40:34.057-03:00' ],
+		#self : OmReference [ '22' ]
+	},
+	#content : '|x|\rx:= Array new: 5.\r1 to: 5 do: [ :i | x at: i put: (Array new: 5) ]'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-15T13:40:38.43-03:00' ],
+		#self : OmReference [ '23' ]
+	},
+	#content : '|x|\rx:= Array new: 5.\r1 to: 5 do: [ :i | x at: i put: (Array new: 5) ]\r^x'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-15T13:40:42.252-03:00' ],
+		#self : OmReference [ '24' ]
+	},
+	#content : '|x|\rx:= Array new: 5.\r1 to: 5 do: [ :i | x at: i put: (Array new: 5) ].\r^x'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-15T13:41:14.744-03:00' ],
+		#self : OmReference [ '25' ]
+	},
+	#content : '|mat x y|\rx:=7.\ry:=4.\rmat:= Array new: x.\r1 to: 5 do: [ :i | mat at: i put: (Array new: y) ].\r^mat'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-15T13:41:21.458-03:00' ],
+		#self : OmReference [ '26' ]
+	},
+	#content : '|mat x y|\rx:=7.\ry:=4.\rmat:= Array new: x.\r1 to: x do: [ :i | mat at: i put: (Array new: y) ].\r^mat'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-15T13:44:26.597-03:00' ],
+		#self : OmReference [ '27' ]
+	},
+	#content : '|mat x y|\rx:=7.\ry:=4.\rmat:= Array new: y.\r1 to: y do: [ :i | mat at: i put: (Array new: x) ].\r^mat'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-15T13:45:35.456-03:00' ],
+		#self : OmReference [ '28' ]
+	},
+	#content : '|mat x y dir|\r\r"Crear la matrix x*y"\rx:=7.\ry:=4.\rmat:= Array new: y.\r1 to: y do: [ :i | mat at: i put: (Array new: x) ].\r\r"Abrir un documento"\rdir:= FileSystem disk workingDirectory.\r^mat'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-15T13:46:04.194-03:00' ],
+		#self : OmReference [ '29' ]
+	},
+	#content : '|mat x y dir pArch|\r\r"Crear la matrix x*y"\rx:=7.\ry:=4.\rmat:= Array new: y.\r1 to: y do: [ :i | mat at: i put: (Array new: x) ].\r\r"Abrir un documento"\rdir:= FileSystem disk workingDirectory.\rpArch:= (dir,\'\\Naves.csv\') readStream.\r^mat'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-15T13:48:10.424-03:00' ],
+		#self : OmReference [ '30' ]
+	},
+	#content : '|mat x y dir pArch line|\r\r"Crear la matrix x*y"\rx:=7.\ry:=4.\rmat:= Array new: y.\r1 to: y do: [ :i | mat at: i put: (Array new: x) ].\r\r"Abrir un documento"\rdir:= FileSystem disk workingDirectory.\rpArch:= (dir,\'\\Naves.csv\') readStream.\r[pArch atEnd] whileFalse: [\r\t\t\t\t\tline:= pArch nextLine.\r\t\t\t\t\tline do: [ :k| ].\r\t\t\t\t].\r\t\t\t\tpArch close.\r\r^mat'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-15T14:06:27.991-03:00' ],
+		#self : OmReference [ '29' ]
+	},
+	#content : '|mat x y dir pArch|\r\r"Crear la matrix x*y"\rx:=7.\ry:=4.\rmat:= Array new: y.\r1 to: y do: [ :i | mat at: i put: (Array new: x) ].\r\r"Abrir un documento"\rdir:= FileSystem disk workingDirectory.\rpArch:= (dir,\'\\Naves.csv\') readStream.\r^mat'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-15T14:06:37.864-03:00' ],
+		#self : OmReference [ '30' ]
+	},
+	#content : '|mat x y dir pArch|\r\r"Crear la matrix x*y"\rx:=7.\ry:=4.\rmat:= Array new: y.\r1 to: y do: [ :i | mat at: i put: (Array new: x) ].\r\r"Abrir un documento"\rdir:= FileSystem disk workingDirectory.\rpArch:= (dir,\'\\Naves.csv\') readStream.\r\r^mat'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-15T14:08:16.012-03:00' ],
+		#self : OmReference [ '31' ]
+	},
+	#content : '|mat x y dir pArch line|\r\r"Crear la matrix x*y"\rx:=7.\ry:=4.\rmat:= Array new: y.\r1 to: y do: [ :i | mat at: i put: (Array new: x) ].\r\r"Abrir un documento"\rdir:= FileSystem disk workingDirectory.\rpArch:= (dir,\'\\Naves.csv\') readStream.\r[pArch atEnd] whileFalse: [\r\t\t\t\t\tline:= pArch nextLine.\r\t\t\t\t\tline do: [ :i| Transcript show: line].\r\t\t\t\t\t].\r\t\t\t\tpArch close.\r\r^mat'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-15T14:08:45.543-03:00' ],
+		#self : OmReference [ '32' ]
+	},
+	#content : '|mat x y dir pArch line|\r\r"Crear la matrix x*y"\rx:=7.\ry:=4.\rmat:= Array new: y.\r1 to: y do: [ :i | mat at: i put: (Array new: x) ].\r\r"Abrir un documento"\rdir:= FileSystem disk workingDirectory.\rpArch:= (dir,\'\\Naves.csv\') readStream.\r[pArch atEnd] whileFalse: [\r\t\t\t\t\tline:= pArch nextLine.\r\t\t\t\t\tline do: [ :i| Transcript show: line;cr].\r\t\t\t\t\t].\r\t\t\t\tpArch close.\r\r^mat'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-15T14:09:48.643-03:00' ],
+		#self : OmReference [ '33' ]
+	},
+	#content : '|mat x y dir pArch line|\r\r"Crear la matrix x*y"\rx:=7.\ry:=4.\rmat:= Array new: y.\r1 to: y do: [ :i | mat at: i put: (Array new: x) ].\r\r"Abrir un documento"\rdir:= FileSystem disk workingDirectory.\rpArch:= (dir,\'\\Naves.csv\') readStream.\r[pArch atEnd] whileFalse: [\r\t\t\t\t\tline:= pArch nextLine.\r\t\t\t\t\tTranscript show: line;cr\r\t\t\t\t\tline do: [ :i| ].\r\t\t\t\t\t].\r\t\t\t\tpArch close.\r\r^mat'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-15T14:09:52.254-03:00' ],
+		#self : OmReference [ '34' ]
+	},
+	#content : '|mat x y dir pArch line|\r\r"Crear la matrix x*y"\rx:=7.\ry:=4.\rmat:= Array new: y.\r1 to: y do: [ :i | mat at: i put: (Array new: x) ].\r\r"Abrir un documento"\rdir:= FileSystem disk workingDirectory.\rpArch:= (dir,\'\\Naves.csv\') readStream.\r[pArch atEnd] whileFalse: [\r\t\t\t\t\tline:= pArch nextLine.\r\t\t\t\t\tTranscript show: line;cr.\r\t\t\t\t\tline do: [ :i| ].\r\t\t\t\t\t].\r\t\t\t\tpArch close.\r\r^mat'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-15T14:10:17.484-03:00' ],
+		#self : OmReference [ '35' ]
+	},
+	#content : '|mat x y dir pArch line|\r\r"Crear la matrix x*y"\rx:=7.\ry:=4.\rmat:= Array new: y.\r1 to: y do: [ :i | mat at: i put: (Array new: x) ].\r\r"Abrir un documento"\rdir:= FileSystem disk workingDirectory.\rpArch:= (dir,\'\\Naves.csv\') readStream.\r[pArch atEnd] whileFalse: [\r\t\t\t\t\tline:= pArch nextLine.\r\t\t\t\t\tline do: [ :i| Transcript show: i].\r\t\t\t\t\tTranscript cr.\r\t\t\t\t\t].\r\t\t\t\tpArch close.\r\r^mat'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-15T14:11:06.747-03:00' ],
+		#self : OmReference [ '36' ]
+	},
+	#content : '|mat x y dir pArch line|\r\r"Crear la matrix x*y"\rx:=7.\ry:=4.\rmat:= Array new: y.\r1 to: y do: [ :i | mat at: i put: (Array new: x) ].\r\r"Abrir un documento"\rdir:= FileSystem disk workingDirectory.\rpArch:= (dir,\'\\Naves.csv\') readStream.\r[pArch atEnd] whileFalse: [\r\t\t\t\t\tline:= pArch nextLine.\r\t\t\t\t\tline do: [ :i| \r\t\t\t\t\t\ti caseOf:\r\t\t\t\t\t\t].\r\t\t\t\t\tTranscript cr.\r\t\t\t\t\t].\r\t\t\t\tpArch close.\r\r^mat'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-15T14:11:24.702-03:00' ],
+		#self : OmReference [ '37' ]
+	},
+	#content : '|mat x y dir pArch line|\r\r"Crear la matrix x*y"\rx:=7.\ry:=4.\rmat:= Array new: y.\r1 to: y do: [ :i | mat at: i put: (Array new: x) ].\r\r"Abrir un documento"\rdir:= FileSystem disk workingDirectory.\rpArch:= (dir,\'\\Naves.csv\') readStream.\r[pArch atEnd] whileFalse: [\r\t\t\t\t\tline:= pArch nextLine.\r\t\t\t\t\tline do: [ :i| \r\t\t\t\t\t\ti caseOf:\r\t\t\t\t\t\t[  ]\r\t\t\t\t\t\t].\r\t\t\t\t\tTranscript cr.\r\t\t\t\t\t].\r\t\t\t\tpArch close.\r\r^mat'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-15T14:12:49.936-03:00' ],
+		#self : OmReference [ '38' ]
+	},
+	#content : '|mat x y dir pArch line|\r\r"Crear la matrix x*y"\rx:=7.\ry:=4.\rmat:= Array new: y.\r1 to: y do: [ :i | mat at: i put: (Array new: x) ].\r\r"Abrir un documento"\rdir:= FileSystem disk workingDirectory.\rpArch:= (dir,\'\\Naves.csv\') readStream.\r[pArch atEnd] whileFalse: [\r\t\t\t\t\tline:= pArch nextLine.\r\t\t\t\t\tline do: [ :i| \r\t\t\t\t\t\t(i = $■) ifTrue: (Transcript show: true)\r\t\t\t\t\t\t\t\t\tifFalse: (Transcript show: false).\r\t\t\t\t\tTranscript cr.\r\t\t\t\t\t].\r\t\t\t\tpArch close.\r\r^mat'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-15T14:13:02.845-03:00' ],
+		#self : OmReference [ '39' ]
+	},
+	#content : '|mat x y dir pArch line|\r\r"Crear la matrix x*y"\rx:=7.\ry:=4.\rmat:= Array new: y.\r1 to: y do: [ :i | mat at: i put: (Array new: x) ].\r\r"Abrir un documento"\rdir:= FileSystem disk workingDirectory.\rpArch:= (dir,\'\\Naves.csv\') readStream.\r[pArch atEnd] whileFalse: [\r\t\t\t\t\tline:= pArch nextLine.\r\t\t\t\t\tline do: [ :i| \r\t\t\t\t\t\t(i = $■) ifTrue: (Transcript show: true)\r\t\t\t\t\t\t\t\t\tifFalse: (Transcript show: false).\r\t\t\t\t\t\t\t\t].\r\t\t\t\t\tTranscript cr.\r\t\t\t\t\t].\r\t\t\t\tpArch close.\r\r^mat'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-15T14:13:29.885-03:00' ],
+		#self : OmReference [ '40' ]
+	},
+	#content : '|mat x y dir pArch line|\r\r"Crear la matrix x*y"\rx:=7.\ry:=4.\rmat:= Array new: y.\r1 to: y do: [ :i | mat at: i put: (Array new: x) ].\r\r"Abrir un documento"\rdir:= FileSystem disk workingDirectory.\rpArch:= (dir,\'\\Naves.csv\') readStream.\r[pArch atEnd] whileFalse: [\r\t\t\t\t\tline:= pArch nextLine.\r\t\t\t\t\tline do: [ :i| \r\t\t\t\t\t\t(i = $■) ifTrue: (Transcript show: 0)\r\t\t\t\t\t\t\t\t\tifFalse: (Transcript show: 1).\r\t\t\t\t\t\t\t\t].\r\t\t\t\t\tTranscript cr.\r\t\t\t\t\t].\r\t\t\t\tpArch close.\r\r^mat'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-15T14:14:16.857-03:00' ],
+		#self : OmReference [ '41' ]
+	},
+	#content : '|mat x y dir pArch line|\r\r"Crear la matrix x*y"\rx:=7.\ry:=4.\rmat:= Array new: y.\r1 to: y do: [ :i | mat at: i put: (Array new: x) ].\r\r"Abrir un documento"\rdir:= FileSystem disk workingDirectory.\rpArch:= (dir,\'\\Naves.csv\') readStream.\r[pArch atEnd] whileFalse: [\r\t\t\t\t\tline:= pArch nextLine.\r\t\t\t\t\tline do: [ :i| \r\t\t\t\t\t\t(i = $○) ifTrue: (Transcript show: 0)\r\t\t\t\t\t\t\t\t\tifFalse: (Transcript show: 1).\r\t\t\t\t\t\t\t\t].\r\t\t\t\t\tTranscript cr.\r\t\t\t\t\t].\r\t\t\t\tpArch close.\r\r^mat'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-15T14:14:38.144-03:00' ],
+		#self : OmReference [ '42' ]
+	},
+	#content : '|mat x y dir pArch line|\r\r"Crear la matrix x*y"\rx:=7.\ry:=4.\rmat:= Array new: y.\r1 to: y do: [ :i | mat at: i put: (Array new: x) ].\r\r"Abrir un documento"\rdir:= FileSystem disk workingDirectory.\rpArch:= (dir,\'\\Naves.csv\') readStream.\r[pArch atEnd] whileFalse: [\r\t\t\t\t\tline:= pArch nextLine.\r\t\t\t\t\tline do: [ :i| \r\t\t\t\t\t\t(i = \'○\') ifTrue: (Transcript show: 0)\r\t\t\t\t\t\t\t\t\tifFalse: (Transcript show: 1).\r\t\t\t\t\t\t\t\t].\r\t\t\t\t\tTranscript cr.\r\t\t\t\t\t].\r\t\t\t\tpArch close.\r\r^mat'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-15T14:15:34.304-03:00' ],
+		#self : OmReference [ '43' ]
+	},
+	#content : '|mat x y dir pArch line|\r\r"Crear la matrix x*y"\rx:=7.\ry:=4.\rmat:= Array new: y.\r1 to: y do: [ :i | mat at: i put: (Array new: x) ].\r\r"Abrir un documento"\rdir:= FileSystem disk workingDirectory.\rpArch:= (dir,\'\\Naves.csv\') readStream.\r[pArch atEnd] whileFalse: [\r\t\t\t\t\tline:= pArch nextLine.\r\t\t\t\t\tline do: [ :i| \r\t\t\t\t\t\t(i asString = \'○\') ifTrue: (Transcript show: 0)\r\t\t\t\t\t\t\t\t\tifFalse: (Transcript show: 1).\r\t\t\t\t\t\t\t\t].\r\t\t\t\t\tTranscript cr.\r\t\t\t\t\t].\r\t\t\t\tpArch close.\r\r^mat'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-15T14:16:12.693-03:00' ],
+		#self : OmReference [ '44' ]
+	},
+	#content : '|mat x y dir pArch line|\r\r"Crear la matrix x*y"\rx:=7.\ry:=4.\rmat:= Array new: y.\r1 to: y do: [ :i | mat at: i put: (Array new: x) ].\r\r"Abrir un documento"\rdir:= FileSystem disk workingDirectory.\rpArch:= (dir,\'\\Naves.csv\') readStream.\r[pArch atEnd] whileFalse: [\r\t\t\t\t\tline:= pArch nextLine.\r\t\t\t\t\tline do: [ :i| \r\t\t\t\t\t\t(i = \'○\') ifTrue: (Transcript show: 0)\r\t\t\t\t\t\t\t\t\tifFalse: (Transcript show: 1).\r\t\t\t\t\t\t\t\t].\r\t\t\t\t\tTranscript cr.\r\t\t\t\t\t].\r\t\t\t\tpArch close.\r\r^mat'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-15T14:19:30.417-03:00' ],
+		#self : OmReference [ '45' ]
+	},
+	#content : '|mat x y dir pArch line|\r\r"Crear la matrix x*y"\rx:=7.\ry:=4.\rmat:= Array new: y.\r1 to: y do: [ :i | mat at: i put: (Array new: x) ].\r\r"Abrir un documento"\rdir:= FileSystem disk workingDirectory.\rpArch:= (dir,\'\\Naves.csv\') readStream.\r[pArch atEnd] whileFalse: [\r\t\t\t\t\tline:= pArch nextLine.\r\t\t\t\t\tline do: [ :i| \r\t\t\t\t\t\t(i = $a) ifTrue: (Transcript show: 0)\r\t\t\t\t\t\t\t\t\tifFalse: (Transcript show: 1).\r\t\t\t\t\t\t\t\t].\r\t\t\t\t\tTranscript cr.\r\t\t\t\t\t].\r\t\t\t\tpArch close.\r\r^mat'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-15T14:20:02.698-03:00' ],
+		#self : OmReference [ '46' ]
+	},
+	#content : '|mat x y dir pArch line|\r\r"Crear la matrix x*y"\rx:=7.\ry:=4.\rmat:= Array new: y.\r1 to: y do: [ :i | mat at: i put: (Array new: x) ].\r\r"Abrir un documento"\rdir:= FileSystem disk workingDirectory.\rpArch:= (dir,\'\\Naves.csv\') readStream.\r[pArch atEnd] whileFalse: [\r\t\t\t\t\tline:= pArch nextLine.\r\t\t\t\t\tline do: [ :i| \r\t\t\t\t\t\t(i = $a) ifTrue: [Transcript show: 0]\r\t\t\t\t\t\t\t\t\tifFalse: [Transcript show: 1].\r\t\t\t\t\t\t\t\t].\r\t\t\t\t\tTranscript cr.\r\t\t\t\t\t].\r\t\t\t\tpArch close.\r\r^mat'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-15T14:20:20.59-03:00' ],
+		#self : OmReference [ '47' ]
+	},
+	#content : '|mat x y dir pArch line|\r\r"Crear la matrix x*y"\rx:=7.\ry:=4.\rmat:= Array new: y.\r1 to: y do: [ :i | mat at: i put: (Array new: x) ].\r\r"Abrir un documento"\rdir:= FileSystem disk workingDirectory.\rpArch:= (dir,\'\\Naves.csv\') readStream.\r[pArch atEnd] whileFalse: [\r\t\t\t\t\tline:= pArch nextLine.\r\t\t\t\t\tline do: [ :i| \r\t\t\t\t\t\t(i = $■) ifTrue: [Transcript show: 0]\r\t\t\t\t\t\t\t\t\tifFalse: [Transcript show: 1].\r\t\t\t\t\t\t\t\t].\r\t\t\t\t\tTranscript cr.\r\t\t\t\t\t].\r\t\t\t\tpArch close.\r\r^mat'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-15T14:21:39.737-03:00' ],
+		#self : OmReference [ '48' ]
+	},
+	#content : '|mat x y dir pArch line|\r\r"Crear la matrix x*y"\rx:=7.\ry:=4.\rmat:= Array new: y.\r1 to: y do: [ :i | mat at: i put: (Array new: x) ].\r\r"Abrir un documento"\rdir:= FileSystem disk workingDirectory.\rpArch:= (dir,\'\\Naves.csv\') readStream.\r[pArch atEnd] whileFalse: [\r\t\t\t\t\tline:= pArch nextLine.\r\t\t\t\t\tline do: [ :i| \r\t\t\t\t\t\t(i = $■) ifTrue: [Transcript show: 0].\r\t\t\t\t\t\t(i = $⌂) ifTrue: [Transcript show: 1].\r\t\t\t\t\t\t(i = $○) ifTrue: [Transcript show: 2].\r\t\t\t\t\t\t(i = $▲) ifTrue: [Transcript show: 3].\r\t\t\t\t\t\t(i = $☼) ifTrue: [Transcript show: 3].\r\t\t\t\t\t\t\t\t].\r\t\t\t\t\tTranscript cr.\r\t\t\t\t\t].\r\t\t\t\tpArch close.\r\r^mat'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-15T14:21:46.22-03:00' ],
+		#self : OmReference [ '49' ]
+	},
+	#content : '|mat x y dir pArch line|\r\r"Crear la matrix x*y"\rx:=7.\ry:=4.\rmat:= Array new: y.\r1 to: y do: [ :i | mat at: i put: (Array new: x) ].\r\r"Abrir un documento"\rdir:= FileSystem disk workingDirectory.\rpArch:= (dir,\'\\Naves.csv\') readStream.\r[pArch atEnd] whileFalse: [\r\t\t\t\t\tline:= pArch nextLine.\r\t\t\t\t\tline do: [ :i| \r\t\t\t\t\t\t(i = $■) ifTrue: [Transcript show: 0].\r\t\t\t\t\t\t(i = $⌂) ifTrue: [Transcript show: 1].\r\t\t\t\t\t\t(i = $○) ifTrue: [Transcript show: 2].\r\t\t\t\t\t\t(i = $▲) ifTrue: [Transcript show: 3].\r\t\t\t\t\t\t(i = $☼) ifTrue: [Transcript show: 4].\r\t\t\t\t\t\t\t\t].\r\t\t\t\t\tTranscript cr.\r\t\t\t\t\t].\r\t\t\t\tpArch close.\r\r^mat'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-15T14:27:12.192-03:00' ],
+		#self : OmReference [ '50' ]
+	},
+	#content : '|mat x y dir pArch line vent|\r\r"Debug"\rvent:= OSWindowWorldMorph new.\r\r"Crear la matrix x*y"\rx:=7.\ry:=4.\rmat:= Array new: y.\r1 to: y do: [ :i | mat at: i put: (Array new: x) ].\r\r"Abrir un documento"\rdir:= FileSystem disk workingDirectory.\rpArch:= (dir,\'\\Naves.csv\') readStream.\r[pArch atEnd] whileFalse: [\r\t\t\t\t\tline:= pArch nextLine.\r\t\t\t\t\tline do: [ :i| \r\t\t\t\t\t\t(i = $■) ifTrue: [Transcript show: 0].\r\t\t\t\t\t\t(i = $⌂) ifTrue: [Transcript show: 1].\r\t\t\t\t\t\t(i = $○) ifTrue: [Transcript show: 2].\r\t\t\t\t\t\t(i = $▲) ifTrue: [Transcript show: 3].\r\t\t\t\t\t\t(i = $☼) ifTrue: [Transcript show: 4].\r\t\t\t\t\t\t\t\t].\r\t\t\t\t\tTranscript cr.\r\t\t\t\t\t].\r\t\t\t\tpArch close.\r\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-15T14:27:39.611-03:00' ],
+		#self : OmReference [ '51' ]
+	},
+	#content : '|mat x y dir pArch line vent|\r\r"Debug"\rvent:= OSWindowWorldMorph new.\r\r"Abrir un documento"\rdir:= FileSystem disk workingDirectory.\rpArch:= (dir,\'\\Naves.csv\') readStream.\r[pArch atEnd] whileFalse: [\r\t\t\t\t\tline:= pArch nextLine.\r\t\t\t\t\tline do: [ :i| \r\t\t\t\t\t\t(i = $■) ifTrue: [Transcript show: 0].\r\t\t\t\t\t\t(i = $⌂) ifTrue: [Transcript show: 1].\r\t\t\t\t\t\t(i = $○) ifTrue: [Transcript show: 2].\r\t\t\t\t\t\t(i = $▲) ifTrue: [Transcript show: 3].\r\t\t\t\t\t\t(i = $☼) ifTrue: [Transcript show: 4].\r\t\t\t\t\t\t\t\t].\r\t\t\t\t\tTranscript cr.\r\t\t\t\t\t].\r\t\t\t\tpArch close.\r\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-15T14:29:35.425-03:00' ],
+		#self : OmReference [ '52' ]
+	},
+	#content : '|mat x y dir pArch line vent aux|\r\r"Debug"\rvent:= OSWindowWorldMorph new.\r\r"Abrir un documento"\rdir:= FileSystem disk workingDirectory.\rpArch:= (dir,\'\\Naves.csv\') readStream.\r[pArch atEnd] whileFalse: [\r\t\t\t\t\tline:= pArch nextLine.\r\t\t\t\t\tline do: [ :i| \r\t\t\t\t\t\t(i = $■) ifTrue: ["nada"].\r\t\t\t\t\t\t(i = $⌂) ifTrue: [aux:= ].\r\t\t\t\t\t\t(i = $○) ifTrue: [Transcript show: 2].\r\t\t\t\t\t\t(i = $▲) ifTrue: [Transcript show: 3].\r\t\t\t\t\t\t(i = $☼) ifTrue: [Transcript show: 4].\r\t\t\t\t\t\t\t\t].\r\t\t\t\t\tTranscript cr.\r\t\t\t\t\t].\r\t\t\t\tpArch close.\r\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-15T14:32:46.772-03:00' ],
+		#self : OmReference [ '53' ]
+	},
+	#content : '|mat x y dir pArch line vent aux|\r\r"Debug"\rvent:= OSWindowWorldMorph new.\r\r"Abrir un documento"\rdir:= FileSystem disk workingDirectory.\rpArch:= (dir,\'\\Naves.csv\') readStream.\r[pArch atEnd] whileFalse: [\r\t\t\t\t\tline:= pArch nextLine.\r\t\t\t\t\tline do: [ :i| \r\t\t\t\t\t\t(i = $■) ifTrue: ["nada"].\r\t\t\t\t\t\t(i = $⌂) ifTrue: [aux:= Nave new.].\r\t\t\t\t\t\t(i = $○) ifTrue: [aux:= Nave new. aux color: Color red].\r\t\t\t\t\t\t(i = $▲) ifTrue: [aux:= Nave new. aux color: Color pink].\r\t\t\t\t\t\t(i = $☼) ifTrue: [aux:= Nave new. aux color: Color green].\r\t\t\t\t\t\taux position:\r\t\t\t\t\t\t\t\t].\r\t\t\t\t\tTranscript cr.\r\t\t\t\t\t].\r\t\t\t\tpArch close.\r\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-15T14:33:20.183-03:00' ],
+		#self : OmReference [ '54' ]
+	},
+	#content : '|mat x y dir pArch line vent aux|\r\r"Debug"\rvent:= OSWindowWorldMorph new.\r\r"Abrir un documento"\rdir:= FileSystem disk workingDirectory.\rpArch:= (dir,\'\\Naves.csv\') readStream.\r[pArch atEnd] whileFalse: [\r\t\t\t\t\tline:= pArch nextLine.\r\t\t\t\t\tline do: [ :i| \r\t\t\t\t\t\t(i = $■) ifTrue: ["nada"].\r\t\t\t\t\t\t(i = $⌂) ifTrue: [aux:= Nave new.].\r\t\t\t\t\t\t(i = $○) ifTrue: [aux:= Nave new. aux color: Color red].\r\t\t\t\t\t\t(i = $▲) ifTrue: [aux:= Nave new. aux color: Color pink].\r\t\t\t\t\t\t(i = $☼) ifTrue: [aux:= Nave new. aux color: Color green].\r\t\t\t\t\t\taux position: Nave width * \r\t\t\t\t\t\t\t\t].\r\t\t\t\t\tTranscript cr.\r\t\t\t\t\t].\r\t\t\t\tpArch close.\r\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-15T14:34:55.361-03:00' ],
+		#self : OmReference [ '55' ]
+	},
+	#content : '|mat x y dir pArch line vent aux cont|\r\r"Debug"\rvent:= OSWindowWorldMorph new.\r\r"Abrir un documento"\rdir:= FileSystem disk workingDirectory.\rpArch:= (dir,\'\\Naves.csv\') readStream.\rcont:= 0.\r[pArch atEnd] whileFalse: [\r\t\t\t\t\tline:= pArch nextLine.\r\t\t\t\t\tcont:= cont + 1.\r\t\t\t\t\tline do: [ :i| \r\t\t\t\t\t\t(i = $■) ifTrue: ["nada"].\r\t\t\t\t\t\t(i = $⌂) ifTrue: [aux:= Nave new.].\r\t\t\t\t\t\t(i = $○) ifTrue: [aux:= Nave new. aux color: Color red].\r\t\t\t\t\t\t(i = $▲) ifTrue: [aux:= Nave new. aux color: Color pink].\r\t\t\t\t\t\t(i = $☼) ifTrue: [aux:= Nave new. aux color: Color green].\r\t\t\t\t\t\taux position: (Nave width * i+0.1)@(Nave height * cont+0.1).\r\t\t\t\t\t\taux openInWorld: vent\r\t\t\t\t\t\t\t\t].\r\t\t\t\t\tTranscript cr.\r\t\t\t\t\t].\r\t\t\t\tpArch close.\r\t\t\t\tvent open.\r\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-15T14:35:25.037-03:00' ],
+		#self : OmReference [ '56' ]
+	},
+	#content : '|mat x y dir pArch line vent aux cont|\r\r"Debug"\rvent:= OSWindowWorldMorph new.\r\r"Abrir un documento"\rdir:= FileSystem disk workingDirectory.\rpArch:= (dir,\'\\Naves.csv\') readStream.\rcont:= 0.\r[pArch atEnd] whileFalse: [\r\t\t\t\t\tline:= pArch nextLine.\r\t\t\t\t\tcont:= cont + 1.\r\t\t\t\t\tline do: [ :i| \r\t\t\t\t\t\t(i = $■) ifTrue: ["nada"].\r\t\t\t\t\t\t(i = $⌂) ifTrue: [aux:= Nave new.].\r\t\t\t\t\t\t(i = $○) ifTrue: [aux:= Nave new. aux color: Color red].\r\t\t\t\t\t\t(i = $▲) ifTrue: [aux:= Nave new. aux color: Color pink].\r\t\t\t\t\t\t(i = $☼) ifTrue: [aux:= Nave new. aux color: Color green].\r\t\t\t\t\t\taux position: (aux width * i+0.1)@(aux height * cont+0.1).\r\t\t\t\t\t\taux openInWorld: vent\r\t\t\t\t\t\t\t\t].\r\t\t\t\t\tTranscript cr.\r\t\t\t\t\t].\r\t\t\t\tpArch close.\r\t\t\t\tvent open.\r\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-15T14:35:53.531-03:00' ],
+		#self : OmReference [ '57' ]
+	},
+	#content : '|mat x y dir pArch line vent aux cont|\r\r"Debug"\rvent:= OSWindowWorldMorph new.\r\r"Abrir un documento"\rdir:= FileSystem disk workingDirectory.\rpArch:= (dir,\'\\Naves.csv\') readStream.\rcont:= 0.\r[pArch atEnd] whileFalse: [\r\t\t\t\t\tline:= pArch nextLine.\r\t\t\t\t\tcont:= cont + 1.\r\t\t\t\t\tline do: [ :i| \r\t\t\t\t\t\t(i = $■) ifTrue: ["nada"].\r\t\t\t\t\t\t(i = $⌂) ifTrue: [aux:= Nave new.].\r\t\t\t\t\t\t(i = $○) ifTrue: [aux:= Nave new. aux color: Color red].\r\t\t\t\t\t\t(i = $▲) ifTrue: [aux:= Nave new. aux color: Color pink].\r\t\t\t\t\t\t(i = $☼) ifTrue: [aux:= Nave new. aux color: Color green].\r\t\t\t\t\t\taux position: (aux width*i+0.1)@(aux height*cont+0.1).\r\t\t\t\t\t\taux openInWorld: vent\r\t\t\t\t\t\t\t\t].\r\t\t\t\t\tTranscript cr.\r\t\t\t\t\t].\r\t\t\t\tpArch close.\r\t\t\t\tvent open.\r\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-15T14:36:34.868-03:00' ],
+		#self : OmReference [ '58' ]
+	},
+	#content : '|mat x y dir pArch line vent aux cont|\r\r"Debug"\rvent:= OSWindowWorldMorph new.\r\r"Abrir un documento"\rdir:= FileSystem disk workingDirectory.\rpArch:= (dir,\'\\Naves.csv\') readStream.\rcont:= 0.\r[pArch atEnd] whileFalse: [\r\t\t\t\t\tline:= pArch nextLine.\r\t\t\t\t\tcont:= cont + 1.\r\t\t\t\t\tline do: [ :i| \r\t\t\t\t\t\t(i = $■) ifTrue: ["nada"].\r\t\t\t\t\t\t(i = $⌂) ifTrue: [aux:= Nave new.].\r\t\t\t\t\t\t(i = $○) ifTrue: [aux:= Nave new. aux color: Color red].\r\t\t\t\t\t\t(i = $▲) ifTrue: [aux:= Nave new. aux color: Color pink].\r\t\t\t\t\t\t(i = $☼) ifTrue: [aux:= Nave new. aux color: Color green].\r\t\t\t\t\t\taux position: (10*i+0.1)@(10*cont+0.1).\r\t\t\t\t\t\taux openInWorld: vent\r\t\t\t\t\t\t\t\t].\r\t\t\t\t\tTranscript cr.\r\t\t\t\t\t].\r\t\t\t\tpArch close.\r\t\t\t\tvent open.\r\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-15T14:37:30.454-03:00' ],
+		#self : OmReference [ '59' ]
+	},
+	#content : '|mat x y dir pArch line vent aux contx conty|\r\r"Debug"\rvent:= OSWindowWorldMorph new.\r\r"Abrir un documento"\rdir:= FileSystem disk workingDirectory.\rpArch:= (dir,\'\\Naves.csv\') readStream.\rconty:= 0.\r[pArch atEnd] whileFalse: [\r\t\t\t\t\tline:= pArch nextLine.\r\t\t\t\t\tconty:= conty + 1.\r\t\t\t\t\tcontx:= 0.\r\t\t\t\t\tline do: [ :i| \r\t\t\t\t\t\tcontx:= contx + 1\r\t\t\t\t\t\t(i = $■) ifTrue: ["nada"].\r\t\t\t\t\t\t(i = $⌂) ifTrue: [aux:= Nave new.].\r\t\t\t\t\t\t(i = $○) ifTrue: [aux:= Nave new. aux color: Color red].\r\t\t\t\t\t\t(i = $▲) ifTrue: [aux:= Nave new. aux color: Color pink].\r\t\t\t\t\t\t(i = $☼) ifTrue: [aux:= Nave new. aux color: Color green].\r\t\t\t\t\t\taux position: (10*contx+0.1)@(10*conty+0.1).\r\t\t\t\t\t\taux openInWorld: vent\r\t\t\t\t\t\t\t\t].\r\t\t\t\t\tTranscript cr.\r\t\t\t\t\t].\r\t\t\t\tpArch close.\r\t\t\t\tvent open.\r\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-15T14:37:36.358-03:00' ],
+		#self : OmReference [ '60' ]
+	},
+	#content : '|mat x y dir pArch line vent aux contx conty|\r\r"Debug"\rvent:= OSWindowWorldMorph new.\r\r"Abrir un documento"\rdir:= FileSystem disk workingDirectory.\rpArch:= (dir,\'\\Naves.csv\') readStream.\rconty:= 0.\r[pArch atEnd] whileFalse: [\r\t\t\t\t\tline:= pArch nextLine.\r\t\t\t\t\tconty:= conty + 1.\r\t\t\t\t\tcontx:= 0.\r\t\t\t\t\tline do: [ :i| \r\t\t\t\t\t\tcontx:= contx + 1.\r\t\t\t\t\t\t(i = $■) ifTrue: ["nada"].\r\t\t\t\t\t\t(i = $⌂) ifTrue: [aux:= Nave new.].\r\t\t\t\t\t\t(i = $○) ifTrue: [aux:= Nave new. aux color: Color red].\r\t\t\t\t\t\t(i = $▲) ifTrue: [aux:= Nave new. aux color: Color pink].\r\t\t\t\t\t\t(i = $☼) ifTrue: [aux:= Nave new. aux color: Color green].\r\t\t\t\t\t\taux position: (10*contx+0.1)@(10*conty+0.1).\r\t\t\t\t\t\taux openInWorld: vent\r\t\t\t\t\t\t\t\t].\r\t\t\t\t\tTranscript cr.\r\t\t\t\t\t].\r\t\t\t\tpArch close.\r\t\t\t\tvent open.\r\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-15T14:37:50.218-03:00' ],
+		#self : OmReference [ '61' ]
+	},
+	#content : '|mat x y dir pArch line vent aux contx conty|\r\r"Debug"\rvent:= OSWindowWorldMorph new.\r\r"Abrir un documento"\rdir:= FileSystem disk workingDirectory.\rpArch:= (dir,\'\\Naves.csv\') readStream.\rconty:= 0.\r[pArch atEnd] whileFalse: [\r\t\t\t\t\tline:= pArch nextLine.\r\t\t\t\t\tconty:= conty + 1.\r\t\t\t\t\tcontx:= 0.\r\t\t\t\t\tline do: [ :i| \r\t\t\t\t\t\tcontx:= contx + 1.\r\t\t\t\t\t\t(i = $■) ifTrue: ["nada"].\r\t\t\t\t\t\t(i = $⌂) ifTrue: [aux:= Nave new.].\r\t\t\t\t\t\t(i = $○) ifTrue: [aux:= Nave new. aux color: Color red].\r\t\t\t\t\t\t(i = $▲) ifTrue: [aux:= Nave new. aux color: Color pink].\r\t\t\t\t\t\t(i = $☼) ifTrue: [aux:= Nave new. aux color: Color green].\r\t\t\t\t\t\taux position: ((10*contx+0.1)@(10*conty+0.1)).\r\t\t\t\t\t\taux openInWorld: vent\r\t\t\t\t\t\t\t\t].\r\t\t\t\t\tTranscript cr.\r\t\t\t\t\t].\r\t\t\t\tpArch close.\r\t\t\t\tvent open.\r\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-15T14:39:20.729-03:00' ],
+		#self : OmReference [ '62' ]
+	},
+	#content : '|mat x y dir pArch line vent aux contx conty|\r\r"Debug"\rvent:= OSWindowWorldMorph new.\r\r"Abrir un documento"\rdir:= FileSystem disk workingDirectory.\rpArch:= (dir,\'\\Naves.csv\') readStream.\rconty:= 0.\r[pArch atEnd] whileFalse: [\r\t\t\t\t\tline:= pArch nextLine.\r\t\t\t\t\tconty:= conty + 1.\r\t\t\t\t\tcontx:= 0.\r\t\t\t\t\tline do: [ :i| \r\t\t\t\t\t\tcontx:= contx + 1.\r\t\t\t\t\t\t(i = $■) ifTrue: ["nada"].\r\t\t\t\t\t\t(i = $⌂) ifTrue: [aux:= Nave new.].\r\t\t\t\t\t\t(i = $○) ifTrue: [aux:= Nave new. aux color: Color red].\r\t\t\t\t\t\t(i = $▲) ifTrue: [aux:= Nave new. aux color: Color pink].\r\t\t\t\t\t\t(i = $☼) ifTrue: [aux:= Nave new. aux color: Color green].\r\t\t\t\t\t\taux position: "((10*contx+0.1)@(10*conty+0.1))" (10@10).\r\t\t\t\t\t\taux openInWorld: vent\r\t\t\t\t\t\t\t\t].\r\t\t\t\t\tTranscript cr.\r\t\t\t\t\t].\r\t\t\t\tpArch close.\r\t\t\t\tvent open.\r\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-15T14:40:23.963-03:00' ],
+		#self : OmReference [ '63' ]
+	},
+	#content : '|mat x y dir pArch line vent aux contx conty|\r\r"Debug"\rvent:= OSWindowWorldMorph new.\r\r"Abrir un documento"\rdir:= FileSystem disk workingDirectory.\rpArch:= (dir,\'\\Naves.csv\') readStream.\rconty:= 0.\r[pArch atEnd] whileFalse: [\r\t\t\t\t\tline:= pArch nextLine.\r\t\t\t\t\tconty:= conty + 1.\r\t\t\t\t\tcontx:= 0.\r\t\t\t\t\tline do: [ :i| \r\t\t\t\t\t\tcontx:= contx + 1.\r\t\t\t\t\t\taux:= Nave new.\r\t\t\t\t\t\taux position: ((10*contx+0.1)@(10*conty+0.1)).\r\t\t\t\t\t\taux openInWorld: vent\r\t\t\t\t\t\t(i = $■) ifTrue: [aux delete].\r\t\t\t\t\t\t(i = $⌂) ifTrue: ["nada"].\r\t\t\t\t\t\t(i = $○) ifTrue: [aux color: Color red].\r\t\t\t\t\t\t(i = $▲) ifTrue: [aux color: Color pink].\r\t\t\t\t\t\t(i = $☼) ifTrue: [aux color: Color green].\r\t\t\t\t\t\t\t\t].\r\t\t\t\t\tTranscript cr.\r\t\t\t\t\t].\r\t\t\t\tpArch close.\r\t\t\t\tvent open.\r\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-15T14:40:28.01-03:00' ],
+		#self : OmReference [ '64' ]
+	},
+	#content : '|mat x y dir pArch line vent aux contx conty|\r\r"Debug"\rvent:= OSWindowWorldMorph new.\r\r"Abrir un documento"\rdir:= FileSystem disk workingDirectory.\rpArch:= (dir,\'\\Naves.csv\') readStream.\rconty:= 0.\r[pArch atEnd] whileFalse: [\r\t\t\t\t\tline:= pArch nextLine.\r\t\t\t\t\tconty:= conty + 1.\r\t\t\t\t\tcontx:= 0.\r\t\t\t\t\tline do: [ :i| \r\t\t\t\t\t\tcontx:= contx + 1.\r\t\t\t\t\t\taux:= Nave new.\r\t\t\t\t\t\taux position: ((10*contx+0.1)@(10*conty+0.1)).\r\t\t\t\t\t\taux openInWorld: vent.\r\t\t\t\t\t\t(i = $■) ifTrue: [aux delete].\r\t\t\t\t\t\t(i = $⌂) ifTrue: ["nada"].\r\t\t\t\t\t\t(i = $○) ifTrue: [aux color: Color red].\r\t\t\t\t\t\t(i = $▲) ifTrue: [aux color: Color pink].\r\t\t\t\t\t\t(i = $☼) ifTrue: [aux color: Color green].\r\t\t\t\t\t\t\t\t].\r\t\t\t\t\tTranscript cr.\r\t\t\t\t\t].\r\t\t\t\tpArch close.\r\t\t\t\tvent open.\r\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-15T14:41:16.124-03:00' ],
+		#self : OmReference [ '65' ]
+	},
+	#content : '|mat x y dir pArch line vent aux contx conty|\r\r"Debug"\rvent:= OSWindowWorldMorph new.\r\r"Abrir un documento"\rdir:= FileSystem disk workingDirectory.\rpArch:= (dir,\'\\Naves.csv\') readStream.\rconty:= 0.\r[pArch atEnd] whileFalse: [\r\t\t\t\t\tline:= pArch nextLine.\r\t\t\t\t\tconty:= conty + 1.\r\t\t\t\t\tcontx:= 0.\r\t\t\t\t\tline do: [ :i| \r\t\t\t\t\t\tcontx:= contx + 1.\r\t\t\t\t\t\taux:= Nave new.\r\t\t\t\t\t\taux position: ((50*contx+0.1)@(50*conty+0.1)).\r\t\t\t\t\t\taux openInWorld: vent.\r\t\t\t\t\t\t(i = $■) ifTrue: [aux delete].\r\t\t\t\t\t\t(i = $⌂) ifTrue: ["nada"].\r\t\t\t\t\t\t(i = $○) ifTrue: [aux color: Color red].\r\t\t\t\t\t\t(i = $▲) ifTrue: [aux color: Color pink].\r\t\t\t\t\t\t(i = $☼) ifTrue: [aux color: Color green].\r\t\t\t\t\t\t\t\t].\r\t\t\t\t\tTranscript cr.\r\t\t\t\t\t].\r\t\t\t\tpArch close.\r\t\t\t\tvent open.\r\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-15T14:43:54.895-03:00' ],
+		#self : OmReference [ '66' ]
+	},
+	#content : '|mat x y dir pArch line vent aux contx conty|\r\r"Debug"\rvent:= OSWindowWorldMorph new.\r\r"Abrir un documento"\rdir:= FileSystem disk workingDirectory.\rpArch:= (dir,\'\\Naves.csv\') readStream.\rconty:= 0.\r((1..20) atRandom = 1)\r[pArch atEnd] whileFalse: [\r\t\t\t\t\tline:= pArch nextLine.\r\t\t\t\t\tconty:= conty + 1.\r\t\t\t\t\tcontx:= 0.\r\t\t\t\t\tline do: [ :i| \r\t\t\t\t\t\tcontx:= contx + 1.\r\t\t\t\t\t\taux:= Nave new.\r\t\t\t\t\t\taux position: ((50*contx+0.1)@(50*conty+0.1)).\r\t\t\t\t\t\taux openInWorld: vent.\r\t\t\t\t\t\t(i = $■) ifTrue: [aux delete].\r\t\t\t\t\t\t(i = $⌂) ifTrue: ["nada"].\r\t\t\t\t\t\t(i = $○) ifTrue: [aux color: Color red].\r\t\t\t\t\t\t(i = $▲) ifTrue: [aux color: Color pink].\r\t\t\t\t\t\t(i = $☼) ifTrue: [aux color: Color green].\r\t\t\t\t\t\t\t\t].\r\t\t\t\t\tTranscript cr.\r\t\t\t\t\t].\r\t\t\t\tpArch close.\r\t\t\t\tvent open.\r\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-15T14:44:32.232-03:00' ],
+		#self : OmReference [ '67' ]
+	},
+	#content : '|mat x y dir pArch line vent aux contx conty|\r\r"Debug"\rvent:= OSWindowWorldMorph new.\r\r"Abrir un documento"\rdir:= FileSystem disk workingDirectory.\rpArch:= (dir,\'\\Naves.csv\') readStream.\rconty:= 0.\r((1 to: 2) atRandom) \r[pArch atEnd] whileFalse: [\r\t\t\t\t\tline:= pArch nextLine.\r\t\t\t\t\tconty:= conty + 1.\r\t\t\t\t\tcontx:= 0.\r\t\t\t\t\tline do: [ :i| \r\t\t\t\t\t\tcontx:= contx + 1.\r\t\t\t\t\t\taux:= Nave new.\r\t\t\t\t\t\taux position: ((50*contx+0.1)@(50*conty+0.1)).\r\t\t\t\t\t\taux openInWorld: vent.\r\t\t\t\t\t\t(i = $■) ifTrue: [aux delete].\r\t\t\t\t\t\t(i = $⌂) ifTrue: ["nada"].\r\t\t\t\t\t\t(i = $○) ifTrue: [aux color: Color red].\r\t\t\t\t\t\t(i = $▲) ifTrue: [aux color: Color pink].\r\t\t\t\t\t\t(i = $☼) ifTrue: [aux color: Color green].\r\t\t\t\t\t\t\t\t].\r\t\t\t\t\tTranscript cr.\r\t\t\t\t\t].\r\t\t\t\tpArch close.\r\t\t\t\tvent open.\r\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-15T14:45:27.859-03:00' ],
+		#self : OmReference [ '68' ]
+	},
+	#content : '|mat x y dir pArch line vent aux contx conty|\r\r"Debug"\rvent:= OSWindowWorldMorph new.\r\r"Abrir un documento"\rdir:= FileSystem disk workingDirectory.\rpArch:= (dir,\'\\Naves.csv\') readStream.\rconty:= 0.\r((1 to: 2) atRandom) timesRepeat: [ (7) timesRepeat: [  ] ].\r[pArch atEnd] whileFalse: [\r\t\t\t\t\tline:= pArch nextLine.\r\t\t\t\t\tconty:= conty + 1.\r\t\t\t\t\tcontx:= 0.\r\t\t\t\t\tline do: [ :i| \r\t\t\t\t\t\tcontx:= contx + 1.\r\t\t\t\t\t\taux:= Nave new.\r\t\t\t\t\t\taux position: ((50*contx+0.1)@(50*conty+0.1)).\r\t\t\t\t\t\taux openInWorld: vent.\r\t\t\t\t\t\t(i = $■) ifTrue: [aux delete].\r\t\t\t\t\t\t(i = $⌂) ifTrue: ["nada"].\r\t\t\t\t\t\t(i = $○) ifTrue: [aux color: Color red].\r\t\t\t\t\t\t(i = $▲) ifTrue: [aux color: Color pink].\r\t\t\t\t\t\t(i = $☼) ifTrue: [aux color: Color green].\r\t\t\t\t\t\t\t\t].\r\t\t\t\t\tTranscript cr.\r\t\t\t\t\t].\r\t\t\t\tpArch close.\r\t\t\t\tvent open.\r\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-15T14:45:50.388-03:00' ],
+		#self : OmReference [ '69' ]
+	},
+	#content : '|mat x y dir pArch line vent aux contx conty|\r\r"Debug"\rvent:= OSWindowWorldMorph new.\r\r"Abrir un documento"\rdir:= FileSystem disk workingDirectory.\rpArch:= (dir,\'\\Naves.csv\') readStream.\rconty:= 0.\r((1 to: 2) atRandom) timesRepeat: [ (7) timesRepeat: [ line:= pArch nextLine. ] ].\r[pArch atEnd] whileFalse: [\r\t\t\t\t\tline:= pArch nextLine.\r\t\t\t\t\tconty:= conty + 1.\r\t\t\t\t\tcontx:= 0.\r\t\t\t\t\tline do: [ :i| \r\t\t\t\t\t\tcontx:= contx + 1.\r\t\t\t\t\t\taux:= Nave new.\r\t\t\t\t\t\taux position: ((50*contx+0.1)@(50*conty+0.1)).\r\t\t\t\t\t\taux openInWorld: vent.\r\t\t\t\t\t\t(i = $■) ifTrue: [aux delete].\r\t\t\t\t\t\t(i = $⌂) ifTrue: ["nada"].\r\t\t\t\t\t\t(i = $○) ifTrue: [aux color: Color red].\r\t\t\t\t\t\t(i = $▲) ifTrue: [aux color: Color pink].\r\t\t\t\t\t\t(i = $☼) ifTrue: [aux color: Color green].\r\t\t\t\t\t\t\t\t].\r\t\t\t\t\tTranscript cr.\r\t\t\t\t\t].\r\t\t\t\tpArch close.\r\t\t\t\tvent open.\r\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-15T14:46:24.151-03:00' ],
+		#self : OmReference [ '70' ]
+	},
+	#content : '|mat x y dir pArch line vent aux contx conty|\r\r"Debug"\rvent:= OSWindowWorldMorph new.\r\r"Abrir un documento"\rdir:= FileSystem disk workingDirectory.\rpArch:= (dir,\'\\Naves.csv\') readStream.\rconty:= 0.\r((0 to: 1) atRandom) timesRepeat: [ \r\t(7) timesRepeat: [ line:= pArch nextLine. ] \r\t].\r[pArch atEnd] whileFalse: [\r\t\t\t\t\tline:= pArch nextLine.\r\t\t\t\t\tconty:= conty + 1.\r\t\t\t\t\tcontx:= 0.\r\t\t\t\t\tline do: [ :i| \r\t\t\t\t\t\tcontx:= contx + 1.\r\t\t\t\t\t\taux:= Nave new.\r\t\t\t\t\t\taux position: ((50*contx+0.1)@(50*conty+0.1)).\r\t\t\t\t\t\taux openInWorld: vent.\r\t\t\t\t\t\t(i = $■) ifTrue: [aux delete].\r\t\t\t\t\t\t(i = $⌂) ifTrue: ["nada"].\r\t\t\t\t\t\t(i = $○) ifTrue: [aux color: Color red].\r\t\t\t\t\t\t(i = $▲) ifTrue: [aux color: Color pink].\r\t\t\t\t\t\t(i = $☼) ifTrue: [aux color: Color green].\r\t\t\t\t\t\t\t\t].\r\t\t\t\t\tTranscript cr.\r\t\t\t\t\t].\r\t\t\t\tpArch close.\r\t\t\t\tvent open.\r\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-15T14:46:52.32-03:00' ],
+		#self : OmReference [ '71' ]
+	},
+	#content : '|mat x y dir pArch line vent aux contx conty|\r\r"Debug"\rvent:= OSWindowWorldMorph new.\r\r"Abrir un documento"\rdir:= FileSystem disk workingDirectory.\rpArch:= (dir,\'\\Naves.csv\') readStream.\rconty:= 0.\r((0 to: 1) atRandom) timesRepeat: [ \r\t(7) timesRepeat: [ line:= pArch nextLine. ] \r\t].\r(7) timesRepeat: [\r\t\t\t\t\tline:= pArch nextLine.\r\t\t\t\t\tconty:= conty + 1.\r\t\t\t\t\tcontx:= 0.\r\t\t\t\t\tline do: [ :i| \r\t\t\t\t\t\tcontx:= contx + 1.\r\t\t\t\t\t\taux:= Nave new.\r\t\t\t\t\t\taux position: ((50*contx+0.1)@(50*conty+0.1)).\r\t\t\t\t\t\taux openInWorld: vent.\r\t\t\t\t\t\t(i = $■) ifTrue: [aux delete].\r\t\t\t\t\t\t(i = $⌂) ifTrue: ["nada"].\r\t\t\t\t\t\t(i = $○) ifTrue: [aux color: Color red].\r\t\t\t\t\t\t(i = $▲) ifTrue: [aux color: Color pink].\r\t\t\t\t\t\t(i = $☼) ifTrue: [aux color: Color green].\r\t\t\t\t\t\t\t\t].\r\t\t\t\t\tTranscript cr.\r\t\t\t\t\t].\r\t\t\t\tpArch close.\r\t\t\t\tvent open.\r\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-15T14:47:09.539-03:00' ],
+		#self : OmReference [ '72' ]
+	},
+	#content : '|mat x y dir pArch line vent aux contx conty|\r\r"Debug"\rvent:= OSWindowWorldMorph new.\r\r"Abrir un documento"\rdir:= FileSystem disk workingDirectory.\rpArch:= (dir,\'\\Naves.csv\') readStream.\r"config aleatoria"\r((0 to: 1) atRandom) timesRepeat: [ \r\t(7) timesRepeat: [ line:= pArch nextLine. ] \r\t].\rconty:= 0.\r(7) timesRepeat: [\r\t\t\t\t\tline:= pArch nextLine.\r\t\t\t\t\tconty:= conty + 1.\r\t\t\t\t\tcontx:= 0.\r\t\t\t\t\tline do: [ :i| \r\t\t\t\t\t\tcontx:= contx + 1.\r\t\t\t\t\t\taux:= Nave new.\r\t\t\t\t\t\taux position: ((50*contx+0.1)@(50*conty+0.1)).\r\t\t\t\t\t\taux openInWorld: vent.\r\t\t\t\t\t\t(i = $■) ifTrue: [aux delete].\r\t\t\t\t\t\t(i = $⌂) ifTrue: ["nada"].\r\t\t\t\t\t\t(i = $○) ifTrue: [aux color: Color red].\r\t\t\t\t\t\t(i = $▲) ifTrue: [aux color: Color pink].\r\t\t\t\t\t\t(i = $☼) ifTrue: [aux color: Color green].\r\t\t\t\t\t\t\t\t].\r\t\t\t\t\tTranscript cr.\r\t\t\t\t\t].\r\t\t\t\tpArch close.\r\t\t\t\tvent open.\r\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-15T14:47:29.752-03:00' ],
+		#self : OmReference [ '73' ]
+	},
+	#content : '|mat x y dir pArch line vent aux contx conty|\r\r"Debug"\rvent:= OSWindowWorldMorph new.\r\r"Abrir un documento"\rdir:= FileSystem disk workingDirectory.\rpArch:= (dir,\'\\Naves.csv\') readStream.\r"config aleatoria"\r((0 to: 1) atRandom) timesRepeat: [ \r\t(7) timesRepeat: [ line:= pArch nextLine. ] \r\t].\rconty:= 0.\r(6) timesRepeat: [\r\t\t\t\t\tline:= pArch nextLine.\r\t\t\t\t\tconty:= conty + 1.\r\t\t\t\t\tcontx:= 0.\r\t\t\t\t\tline do: [ :i| \r\t\t\t\t\t\tcontx:= contx + 1.\r\t\t\t\t\t\taux:= Nave new.\r\t\t\t\t\t\taux position: ((50*contx+0.1)@(50*conty+0.1)).\r\t\t\t\t\t\taux openInWorld: vent.\r\t\t\t\t\t\t(i = $■) ifTrue: [aux delete].\r\t\t\t\t\t\t(i = $⌂) ifTrue: ["nada"].\r\t\t\t\t\t\t(i = $○) ifTrue: [aux color: Color red].\r\t\t\t\t\t\t(i = $▲) ifTrue: [aux color: Color pink].\r\t\t\t\t\t\t(i = $☼) ifTrue: [aux color: Color green].\r\t\t\t\t\t\t\t\t].\r\t\t\t\t\tTranscript cr.\r\t\t\t\t\t].\r\t\t\t\tpArch close.\r\t\t\t\tvent open.\r\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-15T14:48:52.958-03:00' ],
+		#self : OmReference [ '74' ]
+	},
+	#content : '|mat x y dir pArch line vent aux contx conty|\r\r"Debug"\rvent:= OSWindowWorldMorph new.\r\r"Abrir un documento"\rdir:= FileSystem disk workingDirectory.\rpArch:= (dir,\'\\Naves.csv\') readStream.\r"config aleatoria"\r((0 to: 1) atRandom) timesRepeat: [ \r\t(7) timesRepeat: [ line:= pArch nextLine. ] \r\t].\rconty:= 0.\r(6) timesRepeat: [\r\t\t\t\t\tline:= pArch nextLine.\r\t\t\t\t\tconty:= conty + 1.\r\t\t\t\t\tcontx:= 0.\r\t\t\t\t\tline do: [ :i| \r\t\t\t\t\t\tcontx:= contx + 1.\r\t\t\t\t\t\taux:= Nave new.\r\t\t\t\t\t\taux position: ((50*contx+0.1)@(50*conty+0.1)).\r\t\t\t\t\t\taux openInWorld: vent.\r\t\t\t\t\t\t(i = $■) ifTrue: [aux delete].\r\t\t\t\t\t\t(i = $⌂) ifTrue: ["nada"].\r\t\t\t\t\t\t(i = $○) ifTrue: [aux color: Color red].\r\t\t\t\t\t\t(i = $▲) ifTrue: [aux color: Color pink].\r\t\t\t\t\t\t(i = $☼) ifTrue: [aux color: Color green].\r\t\t\t\t\t\t\t\t].\r\t\t\t\t\tTranscript cr.\r\t\t\t\t\t].\r\t\t\t\tline:= pArch nextLine.\r\t\t\t\tpArch close.\r\t\t\t\tvent open.\r\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-15T14:59:42.445-03:00' ],
+		#self : OmReference [ '75' ]
+	},
+	#content : '|mat x y dir pArch line vent aux contx conty cantconfig|\r\r"Debug"\rvent:= OSWindowWorldMorph new.\r\r"Abrir un documento"\rdir:= FileSystem disk workingDirectory.\rpArch:= (dir,\'\\Naves.csv\') readStream.\r"config aleatoria"\rcantconfig:= 3.\r((0 to: (cantconfig-1) atRandom) timesRepeat: [ \r\t(7) timesRepeat: [ line:= pArch nextLine. ] \r\t].\rconty:= 0.\r(6) timesRepeat: [\r\t\t\t\t\tline:= pArch nextLine.\r\t\t\t\t\tconty:= conty + 1.\r\t\t\t\t\tcontx:= 0.\r\t\t\t\t\tline do: [ :i| \r\t\t\t\t\t\tcontx:= contx + 1.\r\t\t\t\t\t\taux:= Nave new.\r\t\t\t\t\t\taux position: ((50*contx+0.1)@(50*conty+0.1)).\r\t\t\t\t\t\taux openInWorld: vent.\r\t\t\t\t\t\t(i = $■) ifTrue: [aux delete].\r\t\t\t\t\t\t(i = $⌂) ifTrue: ["nada"].\r\t\t\t\t\t\t(i = $○) ifTrue: [aux color: Color red].\r\t\t\t\t\t\t(i = $▲) ifTrue: [aux color: Color pink].\r\t\t\t\t\t\t(i = $☼) ifTrue: [aux color: Color green].\r\t\t\t\t\t\t\t\t].\r\t\t\t\t\tTranscript cr.\r\t\t\t\t\t].\r\t\t\t\tline:= pArch nextLine.\r\t\t\t\tpArch close.\r\t\t\t\tvent open.\r\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-15T14:59:46.625-03:00' ],
+		#self : OmReference [ '76' ]
+	},
+	#content : '|mat x y dir pArch line vent aux contx conty cantconfig|\r\r"Debug"\rvent:= OSWindowWorldMorph new.\r\r"Abrir un documento"\rdir:= FileSystem disk workingDirectory.\rpArch:= (dir,\'\\Naves.csv\') readStream.\r"config aleatoria"\rcantconfig:= 3.\r((0 to: (cantconfig-1) atRandom)) timesRepeat: [ \r\t(7) timesRepeat: [ line:= pArch nextLine. ] \r\t].\rconty:= 0.\r(6) timesRepeat: [\r\t\t\t\t\tline:= pArch nextLine.\r\t\t\t\t\tconty:= conty + 1.\r\t\t\t\t\tcontx:= 0.\r\t\t\t\t\tline do: [ :i| \r\t\t\t\t\t\tcontx:= contx + 1.\r\t\t\t\t\t\taux:= Nave new.\r\t\t\t\t\t\taux position: ((50*contx+0.1)@(50*conty+0.1)).\r\t\t\t\t\t\taux openInWorld: vent.\r\t\t\t\t\t\t(i = $■) ifTrue: [aux delete].\r\t\t\t\t\t\t(i = $⌂) ifTrue: ["nada"].\r\t\t\t\t\t\t(i = $○) ifTrue: [aux color: Color red].\r\t\t\t\t\t\t(i = $▲) ifTrue: [aux color: Color pink].\r\t\t\t\t\t\t(i = $☼) ifTrue: [aux color: Color green].\r\t\t\t\t\t\t\t\t].\r\t\t\t\t\tTranscript cr.\r\t\t\t\t\t].\r\t\t\t\tline:= pArch nextLine.\r\t\t\t\tpArch close.\r\t\t\t\tvent open.\r\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-15T15:00:15.125-03:00' ],
+		#self : OmReference [ '77' ]
+	},
+	#content : '|mat x y dir pArch line vent aux contx conty cantconfig|\r\r"Debug"\rvent:= OSWindowWorldMorph new.\r\r"Abrir un documento"\rdir:= FileSystem disk workingDirectory.\rpArch:= (dir,\'\\Naves.csv\') readStream.\r"config aleatoria"\rcantconfig:= 3.\r((0 to: (cantconfig-1)) atRandom) timesRepeat: [ \r\t(7) timesRepeat: [ line:= pArch nextLine. ] \r\t].\rconty:= 0.\r(6) timesRepeat: [\r\t\t\t\t\tline:= pArch nextLine.\r\t\t\t\t\tconty:= conty + 1.\r\t\t\t\t\tcontx:= 0.\r\t\t\t\t\tline do: [ :i| \r\t\t\t\t\t\tcontx:= contx + 1.\r\t\t\t\t\t\taux:= Nave new.\r\t\t\t\t\t\taux position: ((50*contx+0.1)@(50*conty+0.1)).\r\t\t\t\t\t\taux openInWorld: vent.\r\t\t\t\t\t\t(i = $■) ifTrue: [aux delete].\r\t\t\t\t\t\t(i = $⌂) ifTrue: ["nada"].\r\t\t\t\t\t\t(i = $○) ifTrue: [aux color: Color red].\r\t\t\t\t\t\t(i = $▲) ifTrue: [aux color: Color pink].\r\t\t\t\t\t\t(i = $☼) ifTrue: [aux color: Color green].\r\t\t\t\t\t\t\t\t].\r\t\t\t\t\tTranscript cr.\r\t\t\t\t\t].\r\t\t\t\tline:= pArch nextLine.\r\t\t\t\tpArch close.\r\t\t\t\tvent open.\r\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-15T15:00:27.028-03:00' ],
+		#self : OmReference [ '78' ]
+	},
+	#content : '|mat x y dir pArch line vent aux contx conty cantconfig|\r\r"Debug"\rvent:= OSWindowWorldMorph new.\r\r"Abrir un documento"\rdir:= FileSystem disk workingDirectory.\rpArch:= (dir,\'\\Naves.csv\') readStream.\r"config aleatoria"\rcantconfig:= 3.\r((0 to: (cantconfig-1)) atRandom) timesRepeat: [ \r\t(7) timesRepeat: [ line:= pArch nextLine. ] \r\t].\rconty:= 0.\r(6) timesRepeat: [\r\t\t\t\t\tline:= pArch nextLine.\r\t\t\t\t\tconty:= conty + 1.\r\t\t\t\t\tcontx:= 0.\r\t\t\t\t\tline do: [ :i| \r\t\t\t\t\t\tcontx:= contx + 1.\r\t\t\t\t\t\taux:= Nave new.\r\t\t\t\t\t\taux position: ((50*contx+0.1)@(50*conty+0.1)).\r\t\t\t\t\t\taux openInWorld: vent.\r\t\t\t\t\t\t(i = $■) ifTrue: [aux delete].\r\t\t\t\t\t\t(i = $⌂) ifTrue: ["nada"].\r\t\t\t\t\t\t(i = $○) ifTrue: [aux color: Color red].\r\t\t\t\t\t\t(i = $▲) ifTrue: [aux color: Color pink].\r\t\t\t\t\t\t(i = $☼) ifTrue: [aux color: Color green].\r\t\t\t\t\t\t\t\t].\r\t\t\t\t\tTranscript cr.\r\t\t\t\t\t].\r\t\t\t\tline:= pArch nextLine.\r\t\t\t\tpArch close.\r\t\t\t\tvent open.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-15T21:52:37.698-03:00' ],
+		#self : OmReference [ '79' ]
+	},
+	#content : '|mat x y dir pArch line vent aux contx conty cantconfig|\r\r"Debug"\rvent:= OSWindowWorldMorph new.\r\r"Abrir un documento"\rdir:= FileSystem disk workingDirectory.\rpArch:= (dir,\'\\Naves.csv\') readStream.\r\r"config aleatoria"\rcantconfig:= 3.\r((0 to: (cantconfig-1)) atRandom) timesRepeat: [ \r\t(7) timesRepeat: [ line:= pArch nextLine. ] \r\t].\rconty:= 0.\r(6) timesRepeat: [\r\t\t\t\t\tline:= pArch nextLine.\r\t\t\t\t\tconty:= conty + 1.\r\t\t\t\t\tcontx:= 0.\r\t\t\t\t\tline do: [ :i| \r\t\t\t\t\t\tcontx:= contx + 1.\r\t\t\t\t\t\taux:= Nave new.\r\t\t\t\t\t\taux position: ((50*contx+0.1)@(50*conty+0.1)).\r\t\t\t\t\t\taux openInWorld: vent.\r\t\t\t\t\t\t(i = $■) ifTrue: [aux delete].\r\t\t\t\t\t\t(i = $⌂) ifTrue: ["nada"].\r\t\t\t\t\t\t(i = $○) ifTrue: [aux color: Color red].\r\t\t\t\t\t\t(i = $▲) ifTrue: [aux color: Color pink].\r\t\t\t\t\t\t(i = $☼) ifTrue: [aux color: Color green].\r\t\t\t\t\t\t\t\t].\r\t\t\t\t\tTranscript cr.\r\t\t\t\t\t].\r\t\t\t\tline:= pArch nextLine.\r\t\t\t\tpArch close.\r\t\t\t\tvent open.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-15T21:58:48.581-03:00' ],
+		#self : OmReference [ '80' ]
+	},
+	#content : '|mat x y dir pArch line vent aux contx conty cantconfig|\r\r"Debug"\rvent:= OSWindowWorldMorph new.\r\r"Abrir un documento"\rdir:= FileSystem disk workingDirectory.\rpArch:= (dir,\'\\Naves.csv\') readStream.\r\r"config aleatoria"\rcantconfig:= 3.\r((0 to: (cantconfig-1)) atRandom) timesRepeat: [ \r\t(7) timesRepeat: [ line:= pArch nextLine. ] \r\t].\rconty:= 0.\r(6) timesRepeat: [\r\t\t\t\t\tline:= pArch nextLine.\r\t\t\t\t\tconty:= conty + 1.\r\t\t\t\t\tcontx:= 0.\r\t\t\t\t\tline do: [ :i| \r\t\t\t\t\t\tcontx:= contx + 1.\r\t\t\t\t\t\taux:= Nave new.\r\t\t\t\t\t\taux position: (((aux width)*contx+0.1)@((aux height)*conty+0.1)).\r\t\t\t\t\t\taux openInWorld: vent.\r\t\t\t\t\t\t(i = $■) ifTrue: [aux delete].\r\t\t\t\t\t\t(i = $⌂) ifTrue: ["nada"].\r\t\t\t\t\t\t(i = $○) ifTrue: [aux color: Color red].\r\t\t\t\t\t\t(i = $▲) ifTrue: [aux color: Color pink].\r\t\t\t\t\t\t(i = $☼) ifTrue: [aux color: Color green].\r\t\t\t\t\t\t\t\t].\r\t\t\t\t\tTranscript cr.\r\t\t\t\t\t].\r\t\t\t\tline:= pArch nextLine.\r\t\t\t\tpArch close.\r\t\t\t\tvent open.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-15T22:00:54.078-03:00' ],
+		#self : OmReference [ '81' ]
+	},
+	#content : '|mat x y dir pArch line vent aux contx conty cantconfig|\r\r"Instrucciones"\rInstrucciones cantconfig: 3.\r\r"Debug"\rvent:= OSWindowWorldMorph new.\r\r"Abrir un documento"\rdir:= FileSystem disk workingDirectory.\rpArch:= (dir,\'\\Naves.csv\') readStream.\r\r"config aleatoria"\rcantconfig:= 3.\r((0 to: (cantconfig-1)) atRandom) timesRepeat: [ \r\t(7) timesRepeat: [ line:= pArch nextLine. ] \r\t].\rconty:= 0.\r(6) timesRepeat: [\r\t\t\t\t\tline:= pArch nextLine.\r\t\t\t\t\tconty:= conty + 1.\r\t\t\t\t\tcontx:= 0.\r\t\t\t\t\tline do: [ :i| \r\t\t\t\t\t\tcontx:= contx + 1.\r\t\t\t\t\t\taux:= Nave new.\r\t\t\t\t\t\taux position: (((aux width)*contx+0.1)@((aux height)*conty+0.1)).\r\t\t\t\t\t\taux openInWorld: vent.\r\t\t\t\t\t\t(i = $■) ifTrue: [aux delete].\r\t\t\t\t\t\t(i = $⌂) ifTrue: ["nada"].\r\t\t\t\t\t\t(i = $○) ifTrue: [aux color: Color red].\r\t\t\t\t\t\t(i = $▲) ifTrue: [aux color: Color pink].\r\t\t\t\t\t\t(i = $☼) ifTrue: [aux color: Color green].\r\t\t\t\t\t\t\t\t].\r\t\t\t\t\tTranscript cr.\r\t\t\t\t\t].\r\t\t\t\tline:= pArch nextLine.\r\t\t\t\tpArch close.\r\t\t\t\tvent open.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-15T22:01:21.592-03:00' ],
+		#self : OmReference [ '82' ]
+	},
+	#content : '|mat x y dir pArch line vent aux contx conty cantconfig|\r\r"Instrucciones"\rInstrucciones cantconfig: 3.\r\r"Debug"\rvent:= OSWindowWorldMorph new.\r\r"Abrir un documento"\rdir:= FileSystem disk workingDirectory.\rpArch:= (dir,\'\\Naves.csv\') readStream.\r\r"config aleatoria"\r((0 to: ((Instrucciones cantconfig)-1)) atRandom) timesRepeat: [ \r\t(7) timesRepeat: [ line:= pArch nextLine. ] \r\t].\rconty:= 0.\r(6) timesRepeat: [\r\t\t\t\t\tline:= pArch nextLine.\r\t\t\t\t\tconty:= conty + 1.\r\t\t\t\t\tcontx:= 0.\r\t\t\t\t\tline do: [ :i| \r\t\t\t\t\t\tcontx:= contx + 1.\r\t\t\t\t\t\taux:= Nave new.\r\t\t\t\t\t\taux position: (((aux width)*contx+0.1)@((aux height)*conty+0.1)).\r\t\t\t\t\t\taux openInWorld: vent.\r\t\t\t\t\t\t(i = $■) ifTrue: [aux delete].\r\t\t\t\t\t\t(i = $⌂) ifTrue: ["nada"].\r\t\t\t\t\t\t(i = $○) ifTrue: [aux color: Color red].\r\t\t\t\t\t\t(i = $▲) ifTrue: [aux color: Color pink].\r\t\t\t\t\t\t(i = $☼) ifTrue: [aux color: Color green].\r\t\t\t\t\t\t\t\t].\r\t\t\t\t\tTranscript cr.\r\t\t\t\t\t].\r\t\t\t\tline:= pArch nextLine.\r\t\t\t\tpArch close.\r\t\t\t\tvent open.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-15T22:48:09.95-03:00' ],
+		#self : OmReference [ '83' ]
+	},
+	#content : '|mat x y dir pArch line vent aux contx conty cantconfig fondo|\r\r"Instrucciones"\rInstrucciones cantconfig: 3.\r\r"Debug"\rfondo:= Morph new.\rvent:= OSWindowWorldMorph new.\r\r"Abrir un documento"\rdir:= FileSystem disk workingDirectory.\rpArch:= (dir,\'\\Naves.csv\') readStream.\r\r"config aleatoria"\r((0 to: ((Instrucciones cantconfig)-1)) atRandom) timesRepeat: [ \r\t(7) timesRepeat: [ line:= pArch nextLine. ] \r\t].\rconty:= 0.\r(6) timesRepeat: [\r\t\t\t\t\tline:= pArch nextLine.\r\t\t\t\t\tconty:= conty + 1.\r\t\t\t\t\tcontx:= 0.\r\t\t\t\t\tline do: [ :i| \r\t\t\t\t\t\tcontx:= contx + 1.\r\t\t\t\t\t\tfondo addMorph: aux.\r\t\t\t\t\t\taux position: (((aux width)*contx+0.1)@((aux height)*conty+0.1)).\r\t\t\t\t\t\t(i = $■) ifTrue: [aux delete].\r\t\t\t\t\t\t(i = $⌂) ifTrue: ["nada"].\r\t\t\t\t\t\t(i = $○) ifTrue: [aux color: Color red].\r\t\t\t\t\t\t(i = $▲) ifTrue: [aux color: Color pink].\r\t\t\t\t\t\t(i = $☼) ifTrue: [aux color: Color green].\r\t\t\t\t\t\t\t\t].\r\t\t\t\t\tTranscript cr.\r\t\t\t\t\t].\r\t\t\t\tline:= pArch nextLine.\r\t\t\t\tpArch close.\r\t\t\t\tfondo openInWorld: vent.\r\t\t\t\tvent open.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-15T22:48:28.594-03:00' ],
+		#self : OmReference [ '84' ]
+	},
+	#content : '|mat x y dir pArch line vent aux contx conty cantconfig fondo|\r\r"Instrucciones"\rInstrucciones cantconfig: 3.\r\r"Debug"\rfondo:= Morph new.\rvent:= OSWindowWorldMorph new.\r\r"Abrir un documento"\rdir:= FileSystem disk workingDirectory.\rpArch:= (dir,\'\\Naves.csv\') readStream.\r\r"config aleatoria"\r((0 to: ((Instrucciones cantconfig)-1)) atRandom) timesRepeat: [ \r\t(7) timesRepeat: [ line:= pArch nextLine. ] \r\t].\rconty:= 0.\r(6) timesRepeat: [\r\t\t\t\t\tline:= pArch nextLine.\r\t\t\t\t\tconty:= conty + 1.\r\t\t\t\t\tcontx:= 0.\r\t\t\t\t\tline do: [ :i| \r\t\t\t\t\t\tcontx:= contx + 1.\r\t\t\t\t\t\taux:= Nave new.\r\t\t\t\t\t\tfondo addMorph: aux.\r\t\t\t\t\t\taux position: (((aux width)*contx+0.1)@((aux height)*conty+0.1)).\r\t\t\t\t\t\t(i = $■) ifTrue: [aux delete].\r\t\t\t\t\t\t(i = $⌂) ifTrue: ["nada"].\r\t\t\t\t\t\t(i = $○) ifTrue: [aux color: Color red].\r\t\t\t\t\t\t(i = $▲) ifTrue: [aux color: Color pink].\r\t\t\t\t\t\t(i = $☼) ifTrue: [aux color: Color green].\r\t\t\t\t\t\t\t\t].\r\t\t\t\t\tTranscript cr.\r\t\t\t\t\t].\r\t\t\t\tline:= pArch nextLine.\r\t\t\t\tpArch close.\r\t\t\t\tfondo openInWorld: vent.\r\t\t\t\tvent open.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-15T22:49:05.23-03:00' ],
+		#self : OmReference [ '85' ]
+	},
+	#content : '|mat x y dir pArch line vent aux contx conty cantconfig fondo|\r\r"Instrucciones"\rInstrucciones cantconfig: 3.\r\r"Debug"\rfondo:= Morph new.\rvent:= OSWindowWorldMorph new.\r\r"Abrir un documento"\rdir:= FileSystem disk workingDirectory.\rpArch:= (dir,\'\\Naves.csv\') readStream.\r\r"config aleatoria"\r((0 to: ((Instrucciones cantconfig)-1)) atRandom) timesRepeat: [ \r\t(7) timesRepeat: [ line:= pArch nextLine. ] \r\t].\rconty:= 0.\r(6) timesRepeat: [\r\t\t\t\t\tline:= pArch nextLine.\r\t\t\t\t\tconty:= conty + 1.\r\t\t\t\t\tcontx:= 0.\r\t\t\t\t\tline do: [ :i| \r\t\t\t\t\t\tcontx:= contx + 1.\r\t\t\t\t\t\taux:= Nave new.\r\t\t\t\t\t\tfondo addMorph: aux.\r\t\t\t\t\t\taux position: (((aux width)*contx+0.1)@((aux height)*conty+0.1)).\r\t\t\t\t\t\t(i = $■) ifTrue: [aux delete].\r\t\t\t\t\t\t(i = $⌂) ifTrue: ["nada"].\r\t\t\t\t\t\t(i = $○) ifTrue: [aux color: Color red].\r\t\t\t\t\t\t(i = $▲) ifTrue: [aux color: Color pink].\r\t\t\t\t\t\t(i = $☼) ifTrue: [aux color: Color green].\r\t\t\t\t\t\t\t\t].\r\t\t\t\t\tTranscript cr.\r\t\t\t\t\t].\r\t\t\t\tline:= pArch nextLine.\r\t\t\t\tpArch close.\r\t\t\t\tfondo openInWorld: vent.\r\t\t\t\tvent open.\r\t\t\t\t\r\t\t\t\r\t\tfondo MorphDo'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-15T22:49:51.799-03:00' ],
+		#self : OmReference [ '86' ]
+	},
+	#content : '|mat x y dir pArch line vent aux contx conty cantconfig fondo|\r\r"Instrucciones"\rInstrucciones cantconfig: 3.\r\r"Debug"\rfondo:= Morph new.\rvent:= OSWindowWorldMorph new.\r\r"Abrir un documento"\rdir:= FileSystem disk workingDirectory.\rpArch:= (dir,\'\\Naves.csv\') readStream.\r\r"config aleatoria"\r((0 to: ((Instrucciones cantconfig)-1)) atRandom) timesRepeat: [ \r\t(7) timesRepeat: [ line:= pArch nextLine. ] \r\t].\rconty:= 0.\r(6) timesRepeat: [\r\t\t\t\t\tline:= pArch nextLine.\r\t\t\t\t\tconty:= conty + 1.\r\t\t\t\t\tcontx:= 0.\r\t\t\t\t\tline do: [ :i| \r\t\t\t\t\t\tcontx:= contx + 1.\r\t\t\t\t\t\taux:= Nave new.\r\t\t\t\t\t\tfondo addMorph: aux.\r\t\t\t\t\t\taux position: (((aux width)*contx+0.1)@((aux height)*conty+0.1)).\r\t\t\t\t\t\t(i = $■) ifTrue: [aux delete].\r\t\t\t\t\t\t(i = $⌂) ifTrue: ["nada"].\r\t\t\t\t\t\t(i = $○) ifTrue: [aux color: Color red].\r\t\t\t\t\t\t(i = $▲) ifTrue: [aux color: Color pink].\r\t\t\t\t\t\t(i = $☼) ifTrue: [aux color: Color green].\r\t\t\t\t\t\t\t\t].\r\t\t\t\t\tTranscript cr.\r\t\t\t\t\t].\r\t\t\t\tline:= pArch nextLine.\r\t\t\t\tpArch close.\r\t\t\t\tfondo openInWorld: vent.\r\t\t\t\tvent open.\r\t\t\t\t\r\t\t\t\r\t\tfondo submorphsDo: [ :i | i color ]'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-15T22:50:42.022-03:00' ],
+		#self : OmReference [ '87' ]
+	},
+	#content : '|mat x y dir pArch line vent aux contx conty cantconfig fondo|\r\r"Instrucciones"\rInstrucciones cantconfig: 3.\r\r"Debug"\rfondo:= Morph new.\rvent:= OSWindowWorldMorph new.\r\r"Abrir un documento"\rdir:= FileSystem disk workingDirectory.\rpArch:= (dir,\'\\Naves.csv\') readStream.\r\r"config aleatoria"\r((0 to: ((Instrucciones cantconfig)-1)) atRandom) timesRepeat: [ \r\t(7) timesRepeat: [ line:= pArch nextLine. ] \r\t].\rconty:= 0.\r(6) timesRepeat: [\r\t\t\t\t\tline:= pArch nextLine.\r\t\t\t\t\tconty:= conty + 1.\r\t\t\t\t\tcontx:= 0.\r\t\t\t\t\tline do: [ :i| \r\t\t\t\t\t\tcontx:= contx + 1.\r\t\t\t\t\t\taux:= Nave new.\r\t\t\t\t\t\tfondo addMorph: aux.\r\t\t\t\t\t\taux position: (((aux width)*contx+0.1)@((aux height)*conty+0.1)).\r\t\t\t\t\t\t(i = $■) ifTrue: [aux delete].\r\t\t\t\t\t\t(i = $⌂) ifTrue: ["nada"].\r\t\t\t\t\t\t(i = $○) ifTrue: [aux color: Color red].\r\t\t\t\t\t\t(i = $▲) ifTrue: [aux color: Color pink].\r\t\t\t\t\t\t(i = $☼) ifTrue: [aux color: Color green].\r\t\t\t\t\t\t\t\t].\r\t\t\t\t\tTranscript cr.\r\t\t\t\t\t].\r\t\t\t\tline:= pArch nextLine.\r\t\t\t\tpArch close.\r\t\t\t\tfondo openInWorld: vent.\r\t\t\t\tvent open.\r\t\t\t\t\r\t\t\t\r\t\tfondo submorphsDo: [ :i | Transcript show: (i color) ]'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-15T22:51:01.955-03:00' ],
+		#self : OmReference [ '88' ]
+	},
+	#content : '|mat x y dir pArch line vent aux contx conty cantconfig fondo|\r\r"Instrucciones"\rInstrucciones cantconfig: 3.\r\r"Debug"\rfondo:= Morph new.\rvent:= OSWindowWorldMorph new.\r\r"Abrir un documento"\rdir:= FileSystem disk workingDirectory.\rpArch:= (dir,\'\\Naves.csv\') readStream.\r\r"config aleatoria"\r((0 to: ((Instrucciones cantconfig)-1)) atRandom) timesRepeat: [ \r\t(7) timesRepeat: [ line:= pArch nextLine. ] \r\t].\rconty:= 0.\r(6) timesRepeat: [\r\t\t\t\t\tline:= pArch nextLine.\r\t\t\t\t\tconty:= conty + 1.\r\t\t\t\t\tcontx:= 0.\r\t\t\t\t\tline do: [ :i| \r\t\t\t\t\t\tcontx:= contx + 1.\r\t\t\t\t\t\taux:= Nave new.\r\t\t\t\t\t\tfondo addMorph: aux.\r\t\t\t\t\t\taux position: (((aux width)*contx+0.1)@((aux height)*conty+0.1)).\r\t\t\t\t\t\t(i = $■) ifTrue: [aux delete].\r\t\t\t\t\t\t(i = $⌂) ifTrue: ["nada"].\r\t\t\t\t\t\t(i = $○) ifTrue: [aux color: Color red].\r\t\t\t\t\t\t(i = $▲) ifTrue: [aux color: Color pink].\r\t\t\t\t\t\t(i = $☼) ifTrue: [aux color: Color green].\r\t\t\t\t\t\t\t\t].\r\t\t\t\t\tTranscript cr.\r\t\t\t\t\t].\r\t\t\t\tline:= pArch nextLine.\r\t\t\t\tpArch close.\r\t\t\t\tfondo openInWorld: vent.\r\t\t\t\tfondo submorphsDo: [ :i | Transcript show: (i color) ].\r\t\t\t\tvent open.\r\t\t\t\t\r\t\t\t\r\t\t'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-15T22:51:19.739-03:00' ],
+		#self : OmReference [ '89' ]
+	},
+	#content : '|mat x y dir pArch line vent aux contx conty cantconfig fondo|\r\r"Instrucciones"\rInstrucciones cantconfig: 3.\r\r"Debug"\rfondo:= Morph new.\rvent:= OSWindowWorldMorph new.\r\r"Abrir un documento"\rdir:= FileSystem disk workingDirectory.\rpArch:= (dir,\'\\Naves.csv\') readStream.\r\r"config aleatoria"\r((0 to: ((Instrucciones cantconfig)-1)) atRandom) timesRepeat: [ \r\t(7) timesRepeat: [ line:= pArch nextLine. ] \r\t].\rconty:= 0.\r(6) timesRepeat: [\r\t\t\t\t\tline:= pArch nextLine.\r\t\t\t\t\tconty:= conty + 1.\r\t\t\t\t\tcontx:= 0.\r\t\t\t\t\tline do: [ :i| \r\t\t\t\t\t\tcontx:= contx + 1.\r\t\t\t\t\t\taux:= Nave new.\r\t\t\t\t\t\tfondo addMorph: aux.\r\t\t\t\t\t\taux position: (((aux width)*contx+0.1)@((aux height)*conty+0.1)).\r\t\t\t\t\t\t(i = $■) ifTrue: [aux delete].\r\t\t\t\t\t\t(i = $⌂) ifTrue: ["nada"].\r\t\t\t\t\t\t(i = $○) ifTrue: [aux color: Color red].\r\t\t\t\t\t\t(i = $▲) ifTrue: [aux color: Color pink].\r\t\t\t\t\t\t(i = $☼) ifTrue: [aux color: Color green].\r\t\t\t\t\t\t\t\t].\r\t\t\t\t\tTranscript cr.\r\t\t\t\t\t].\r\t\t\t\tline:= pArch nextLine.\r\t\t\t\tpArch close.\r\t\t\t\tfondo openInWorld: vent.\r\t\t\t\tfondo submorphsDo: [ :i | Transcript show: (i color); cr ].\r\t\t\t\tvent open.\r\t\t\t\t\r\t\t\t\r\t\t'
+}

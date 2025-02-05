@@ -1,0 +1,25 @@
+OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-17T12:36:35.379-03:00' ],
+		#self : OmReference [ '1' ]
+	},
+	#content : '|x|\rx:= Beeper new.\rx beep'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-17T12:36:42.902-03:00' ],
+		#self : OmReference [ '2' ]
+	},
+	#content : '|x|\rx:= Beeper new.\rBeeper beep'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-17T12:37:29.216-03:00' ],
+		#self : OmReference [ '3' ]
+	},
+	#content : '|x|\rx:= DummySoundSystem new.\rx beep.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-17T12:39:53.918-03:00' ],
+		#self : OmReference [ '4' ]
+	},
+	#content : '4 timesRepeat: [ Beeper beep ]'
+}

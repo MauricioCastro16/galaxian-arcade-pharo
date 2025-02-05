@@ -1,0 +1,199 @@
+OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-03T13:01:34.155-03:00' ],
+		#self : OmReference [ '1' ]
+	},
+	#content : '|x|\rx:= OSWindow'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-03T13:01:38.893-03:00' ],
+		#self : OmReference [ '2' ]
+	},
+	#content : '|x|\rx:= OSWindow new.\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-03T13:02:16.546-03:00' ],
+		#self : OmReference [ '3' ]
+	},
+	#content : '|x|\rx:= OSWindowWorldMorphWithModel new.\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-03T13:02:22.078-03:00' ],
+		#self : OmReference [ '4' ]
+	},
+	#content : '|x|\rx:= OSWindowWorldMorphWithModel new.\rx open.\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-03T13:03:09.415-03:00' ],
+		#self : OmReference [ '5' ]
+	},
+	#content : '|x|\rx:= OSWindowWorldMorphWithModel new.\rx model: \'a\'\rx open.\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-03T13:03:27.731-03:00' ],
+		#self : OmReference [ '6' ]
+	},
+	#content : '|x y|\rx:= OSWindowWorldMorphWithModel new.\ry:= Morph new.\rx model: y\rx open.\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-03T13:03:35.365-03:00' ],
+		#self : OmReference [ '7' ]
+	},
+	#content : '|x y|\rx:= OSWindowWorldMorphWithModel new.\ry:= Morph new.\rx model: y.\rx open.\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-03T13:03:48.507-03:00' ],
+		#self : OmReference [ '8' ]
+	},
+	#content : '|x y|\rx:= OSWindowWorldMorphWithModel new.\ry:= Morph new.\ry openInWorld: x\rx open.\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-03T13:03:53.431-03:00' ],
+		#self : OmReference [ '9' ]
+	},
+	#content : '|x y|\rx:= OSWindowWorldMorphWithModel new.\ry:= Morph new.\ry openInWorld: x.\rx open.\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-03T13:04:36.59-03:00' ],
+		#self : OmReference [ '10' ]
+	},
+	#content : '|Pantalla Fondo|\rPantalla:= OSWindowWorldMorph new.\rFondo:= Morph new.\rDisplay\rFondo openInWorld: Pantalla.\rPantalla open.\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-03T13:04:52.173-03:00' ],
+		#self : OmReference [ '11' ]
+	},
+	#content : '|Pantalla Fondo|\rPantalla:= OSWindowWorldMorph new.\rFondo:= Morph new.\rDisplay size\rFondo openInWorld: Pantalla.\rPantalla open.\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-03T13:05:15.57-03:00' ],
+		#self : OmReference [ '12' ]
+	},
+	#content : '|Pantalla Fondo|\rPantalla:= OSWindowWorldMorph new.\rFondo:= Morph new.\r(Display width)@(Display height)\rFondo openInWorld: Pantalla.\rPantalla open.\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-03T13:05:36.348-03:00' ],
+		#self : OmReference [ '13' ]
+	},
+	#content : '|Pantalla Fondo|\rPantalla:= OSWindowWorldMorph new.\rFondo:= Morph new.\rFondo dimensions: (Display width)@(Display height).\rFondo openInWorld: Pantalla.\rPantalla open.\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-03T13:06:47.379-03:00' ],
+		#self : OmReference [ '14' ]
+	},
+	#content : '|Pantalla Fondo|\rPantalla:= OSWindowWorldMorph new.\rFondo:= Morph new.\rFondo bounds: (Display width)@(Display height).\rFondo openInWorld: Pantalla.\rPantalla open.\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-03T13:07:38.281-03:00' ],
+		#self : OmReference [ '15' ]
+	},
+	#content : '|Pantalla Fondo|\rPantalla:= OSWindowWorldMorph new.\rFondo:= Morph new.\rFondo bounds:= (0@0) corner:(Display width)@(Display height).\rFondo openInWorld: Pantalla.\rPantalla open.\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-03T13:07:50.743-03:00' ],
+		#self : OmReference [ '16' ]
+	},
+	#content : '|Pantalla Fondo|\rPantalla:= OSWindowWorldMorph new.\rFondo:= Morph new.\rFondo bounds: ((0@0) corner:(Display width)@(Display height)).\rFondo openInWorld: Pantalla.\rPantalla open.\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-03T13:09:00.352-03:00' ],
+		#self : OmReference [ '17' ]
+	},
+	#content : '|Pantalla Fondo|\rPantalla:= OSWindowWorldMorph new.\rFondo:= Morph new.\rFondo bounds: ((0@0) corner:(Display width)@(Display height)).\rFondo color: 0000.\rFondo openInWorld: Pantalla.\rPantalla open.\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-03T13:09:07.364-03:00' ],
+		#self : OmReference [ '18' ]
+	},
+	#content : '|Pantalla Fondo|\rPantalla:= OSWindowWorldMorph new.\rFondo:= Morph new.\rFondo bounds: ((0@0) corner:(Display width)@(Display height)).\rFondo color: \'black\'.\rFondo openInWorld: Pantalla.\rPantalla open.\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-03T13:09:58.339-03:00' ],
+		#self : OmReference [ '19' ]
+	},
+	#content : '|Pantalla Fondo|\rPantalla:= OSWindowWorldMorph new.\rFondo:= Morph new.\rFondo bounds: ((0@0) corner:(Display width)@(Display height)).\rFondo color: (Color black).\rFondo openInWorld: Pantalla.\rPantalla open.\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-03T13:10:25.897-03:00' ],
+		#self : OmReference [ '20' ]
+	},
+	#content : '|Pantalla Fondo|\rPantalla:= OSWindowWorldMorph new.\rFondo:= Morph new.\rFondo bounds: ((0@0) corner:(Display width)-1@(Display height)-1).\rFondo color: (Color black).\rFondo openInWorld: Pantalla.\rPantalla open.\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-03T13:10:34.593-03:00' ],
+		#self : OmReference [ '21' ]
+	},
+	#content : '|Pantalla Fondo|\rPantalla:= OSWindowWorldMorph new.\rFondo:= Morph new.\rFondo bounds: ((0@0) corner:(Display width)-1000@(Display height)-1000).\rFondo color: (Color black).\rFondo openInWorld: Pantalla.\rPantalla open.\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-03T13:10:39.37-03:00' ],
+		#self : OmReference [ '22' ]
+	},
+	#content : '|Pantalla Fondo|\rPantalla:= OSWindowWorldMorph new.\rFondo:= Morph new.\rFondo bounds: ((0@0) corner:(Display width)-100@(Display height)-100).\rFondo color: (Color black).\rFondo openInWorld: Pantalla.\rPantalla open.\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-03T13:10:53.721-03:00' ],
+		#self : OmReference [ '23' ]
+	},
+	#content : '|Pantalla Fondo|\rPantalla:= OSWindowWorldMorph new.\rFondo:= Morph new.\rFondo bounds: ((0@0) corner:(Display width)@(Display height)).\rFondo color: (Color black).\rFondo openInWorld: Pantalla.\rPantalla open.\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-03T13:12:34.611-03:00' ],
+		#self : OmReference [ '24' ]
+	},
+	#content : '|Pantalla Fondo|\rPantalla:= OSWindowWorldMorph new.\rFondo:= Morph new.\rFondo bounds: ((0@0) corner:(Display width)@(Display height)).\rFondo color: (Color black).\rFondo openInWorld: Pantalla; lock.\rPantalla open.\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-03T13:22:44.002-03:00' ],
+		#self : OmReference [ '25' ]
+	},
+	#content : '|Galaxian|\rGalaxian:= Juego new.\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-03T13:53:29.972-03:00' ],
+		#self : OmReference [ '26' ]
+	},
+	#content : '|Galaxian|\rGalaxian:= Prota new.\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-03T13:53:40.189-03:00' ],
+		#self : OmReference [ '27' ]
+	},
+	#content : '|Galaxian|\rGalaxian:= Prota new.\rGalaxian openInWorld'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-03T13:54:11.398-03:00' ],
+		#self : OmReference [ '28' ]
+	},
+	#content : '|Galaxian|\rGalaxian:= Juego new.\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-03T14:00:58.075-03:00' ],
+		#self : OmReference [ '29' ]
+	},
+	#content : '|Galaxian|\rGalaxian:= Prota new.\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-03T14:01:20.415-03:00' ],
+		#self : OmReference [ '30' ]
+	},
+	#content : '|Galaxian|\rprueba:= OSWindow\rGalaxian:= Prota new.\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-03T14:01:42.862-03:00' ],
+		#self : OmReference [ '31' ]
+	},
+	#content : '|Galaxian|\rprueba:= OSWindowWorldMorph\rGalaxian:= Prota new.\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-03T14:02:07.73-03:00' ],
+		#self : OmReference [ '32' ]
+	},
+	#content : '|Galaxian prueba|\rprueba:= OSWindowWorldMorph.\rGalaxian:= Prota new.\rGalaxian openInWorld: prueba.\rprueba open.\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-03T14:03:16.477-03:00' ],
+		#self : OmReference [ '33' ]
+	},
+	#content : '|Galaxian prueba|\rprueba:= OSWindowWorldMorph new.\rGalaxian:= Prota new.\rGalaxian openInWorld: prueba.\rprueba open.\r'
+}

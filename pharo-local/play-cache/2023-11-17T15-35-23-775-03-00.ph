@@ -1,0 +1,1 @@
+Transcript show: 'hola'.(Delay forSeconds: 5) wait.Transcript show: 'chau'.

@@ -1,0 +1,13 @@
+OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-17T14:14:13.823-03:00' ],
+		#self : OmReference [ '1' ]
+	},
+	#content : '|x vent|\rx:= Explosion new.\rvent:= OSWindowWorldMorph new.\rx openInWorld: vent.\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-17T14:15:33.758-03:00' ],
+		#self : OmReference [ '2' ]
+	},
+	#content : '|x vent|\rx:= Explosion new.\rvent:= OSWindowWorldMorph new.\rx openInWorld: vent.\rvent open.'
+}

@@ -1,0 +1,31 @@
+OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-17T15:12:25.784-03:00' ],
+		#self : OmReference [ '1' ]
+	},
+	#content : '1 = (1 to: 3)'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-17T15:12:31.719-03:00' ],
+		#self : OmReference [ '2' ]
+	},
+	#content : '1 in (1 to: 3)'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-17T15:12:34.437-03:00' ],
+		#self : OmReference [ '3' ]
+	},
+	#content : '1 in: (1 to: 3)'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-17T15:12:50.615-03:00' ],
+		#self : OmReference [ '4' ]
+	},
+	#content : '1'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-17T15:14:06.921-03:00' ],
+		#self : OmReference [ '5' ]
+	},
+	#content : '(1 to: 3) rangeIncludes: 2'
+}

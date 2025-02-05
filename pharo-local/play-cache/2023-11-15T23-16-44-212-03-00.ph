@@ -1,0 +1,1 @@
+|vent x y|vent:= OSWindowWorldMorph new.x:= Bala new.y:= Nave new.x openInWorld: vent.y openInWorld: vent.y position: 40 @ 40.y color: Color red.vent open.(y class = Nave) ifTrue: [ (x intersects: y bounds) ifTrue: [ y delete ] ].

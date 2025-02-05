@@ -1,0 +1,133 @@
+OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-15T23:17:42.607-03:00' ],
+		#self : OmReference [ '1' ]
+	},
+	#content : '|vent x y|\r\rvent:= OSWindowWorldMorph new.\rx:= Morph new.\ry:= Morph new.\rx openInWorld: vent.\ry openInWorld: vent.\ry color: Color red.\rvent open.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-15T23:18:58.997-03:00' ],
+		#self : OmReference [ '2' ]
+	},
+	#content : '|vent x y|\r\rvent:= OSWindowWorldMorph new.\rx:= Morph new.\ry:= Morph new.\rx openInWorld: vent.\ry openInWorld: vent.\ry color: Color red.\rvent open.\rx bounds'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-15T23:19:06.385-03:00' ],
+		#self : OmReference [ '3' ]
+	},
+	#content : '|vent x y|\rvent:= OSWindowWorldMorph new.\rx:= Morph new.\ry:= Morph new.\rx openInWorld: vent.\ry openInWorld: vent.\ry color: Color red.\rvent open.\rx bounds.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-15T23:19:21.308-03:00' ],
+		#self : OmReference [ '4' ]
+	},
+	#content : '|vent x y|\rvent:= OSWindowWorldMorph new.\rx:= Morph new.\ry:= Morph new.\rx openInWorld: vent.\ry openInWorld: vent.\ry color: Color red.\rvent open.\rx bounds.\ry bounds.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-15T23:19:37.265-03:00' ],
+		#self : OmReference [ '5' ]
+	},
+	#content : '|vent x y|\rvent:= OSWindowWorldMorph new.\rx:= Morph new.\ry:= Morph new.\rx openInWorld: vent.\ry openInWorld: vent.\ry position: 10 @ 10.\ry color: Color red.\rvent open.\rx bounds.\ry bounds.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-15T23:20:12.776-03:00' ],
+		#self : OmReference [ '6' ]
+	},
+	#content : '|vent x y|\rvent:= OSWindowWorldMorph new.\rx:= Morph new.\ry:= Morph new.\rx openInWorld: vent.\ry openInWorld: vent.\ry position: 10 @ 10.\ry color: Color red.\rvent open.\r(x bounds) insetBy: (y bounds)\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-15T23:20:37.984-03:00' ],
+		#self : OmReference [ '7' ]
+	},
+	#content : '|vent x y|\rvent:= OSWindowWorldMorph new.\rx:= Morph new.\ry:= Morph new.\rx openInWorld: vent.\ry openInWorld: vent.\ry position: 100 @ 100.\ry color: Color red.\rvent open.\r(x bounds) insetBy: (y bounds)\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-15T23:20:54.133-03:00' ],
+		#self : OmReference [ '8' ]
+	},
+	#content : '|vent x y|\rvent:= OSWindowWorldMorph new.\rx:= Morph new.\ry:= Morph new.\rx openInWorld: vent.\ry openInWorld: vent.\ry position: 5 @ 5.\ry color: Color red.\rvent open.\r(x bounds) insetBy: (y bounds)\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-15T23:21:07.678-03:00' ],
+		#self : OmReference [ '9' ]
+	},
+	#content : '|vent x y|\rvent:= OSWindowWorldMorph new.\rx:= Morph new.\ry:= Morph new.\rx openInWorld: vent.\ry openInWorld: vent.\ry position: 5 @ 5.\ry color: Color red.\rvent open.\r(x bounds) insetBy: y position.\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-15T23:21:36.283-03:00' ],
+		#self : OmReference [ '10' ]
+	},
+	#content : '|vent x y|\rvent:= OSWindowWorldMorph new.\rx:= Morph new.\ry:= Morph new.\rx openInWorld: vent.\ry openInWorld: vent.\ry position: 50 @ 50.\ry color: Color red.\rvent open.\r(x bounds) insetBy: y position.\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-15T23:22:48.598-03:00' ],
+		#self : OmReference [ '11' ]
+	},
+	#content : '|vent x y|\rvent:= OSWindowWorldMorph new.\rx:= Morph new.\ry:= Morph new.\rx openInWorld: vent.\ry openInWorld: vent.\ry position: 50 @ 50.\ry color: Color red.\rvent open.\rx intersection\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-15T23:22:56.18-03:00' ],
+		#self : OmReference [ '12' ]
+	},
+	#content : '|vent x y|\rvent:= OSWindowWorldMorph new.\rx:= Morph new.\ry:= Morph new.\rx openInWorld: vent.\ry openInWorld: vent.\ry position: 50 @ 50.\ry color: Color red.\rvent open.\rx intersectionsWith: y\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-15T23:23:12.859-03:00' ],
+		#self : OmReference [ '13' ]
+	},
+	#content : '|vent x y|\rvent:= OSWindowWorldMorph new.\rx:= Morph new.\ry:= Morph new.\rx openInWorld: vent.\ry openInWorld: vent.\ry position: 50 @ 50.\ry color: Color red.\rvent open.\rx intersection: y\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-15T23:23:20.542-03:00' ],
+		#self : OmReference [ '14' ]
+	},
+	#content : '|vent x y|\rvent:= OSWindowWorldMorph new.\rx:= Morph new.\ry:= Morph new.\rx openInWorld: vent.\ry openInWorld: vent.\ry position: 50 @ 50.\ry color: Color red.\rvent open.\rx intersects: y\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-15T23:25:35.948-03:00' ],
+		#self : OmReference [ '15' ]
+	},
+	#content : '|vent x y|\rvent:= OSWindowWorldMorph new.\rx:= Morph new.\ry:= Morph new.\rx openInWorld: vent.\ry openInWorld: vent.\ry position: 50 @ 50.\ry color: Color red.\rvent open.\rx intersects: (y bounds)\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-15T23:25:43.612-03:00' ],
+		#self : OmReference [ '16' ]
+	},
+	#content : '|vent x y|\rvent:= OSWindowWorldMorph new.\rx:= Morph new.\ry:= Morph new.\rx openInWorld: vent.\ry openInWorld: vent.\ry position: 20 @ 20.\ry color: Color red.\rvent open.\rx intersects: (y bounds)\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-15T23:43:32.117-03:00' ],
+		#self : OmReference [ '17' ]
+	},
+	#content : '|vent x y|\rvent:= OSWindowWorldMorph new.\rx:= Morph new.\ry:= Nave new.\rx openInWorld: vent.\ry openInWorld: vent.\ry position: 20 @ 20.\ry color: Color red.\rvent open.\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-15T23:43:40.592-03:00' ],
+		#self : OmReference [ '18' ]
+	},
+	#content : '|vent x y|\rvent:= OSWindowWorldMorph new.\rx:= Morph new.\ry:= Nave new.\rx openInWorld: vent.\ry openInWorld: vent.\ry position: 20 @ 20.\ry color: Color red.\rvent open.\ry class'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-15T23:43:46.38-03:00' ],
+		#self : OmReference [ '19' ]
+	},
+	#content : '|vent x y|\rvent:= OSWindowWorldMorph new.\rx:= Morph new.\ry:= Nave new.\rx openInWorld: vent.\ry openInWorld: vent.\ry position: 20 @ 20.\ry color: Color red.\rvent open.\ry class = Nave.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-15T23:44:32.647-03:00' ],
+		#self : OmReference [ '20' ]
+	},
+	#content : '|vent x y|\rvent:= OSWindowWorldMorph new.\rx:= Morph new.\ry:= Nave new.\rx openInWorld: vent.\ry openInWorld: vent.\ry position: 20 @ 20.\ry color: Color red.\rvent open.\r(y class = Nave) ifTrue: [ (x intersects: y bounds) ifTrue: [ y delete ] ].'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-15T23:44:40.261-03:00' ],
+		#self : OmReference [ '21' ]
+	},
+	#content : '|vent x y|\rvent:= OSWindowWorldMorph new.\rx:= Morph new.\ry:= Nave new.\rx openInWorld: vent.\ry openInWorld: vent.\ry position: 40 @ 40.\ry color: Color red.\rvent open.\r(y class = Nave) ifTrue: [ (x intersects: y bounds) ifTrue: [ y delete ] ].'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-15T23:46:31.058-03:00' ],
+		#self : OmReference [ '22' ]
+	},
+	#content : '|vent x y|\rvent:= OSWindowWorldMorph new.\rx:= Bala new.\ry:= Nave new.\rx openInWorld: vent.\ry openInWorld: vent.\ry position: 40 @ 40.\ry color: Color red.\rvent open.\r(y class = Nave) ifTrue: [ (x intersects: y bounds) ifTrue: [ y delete ] ].'
+}

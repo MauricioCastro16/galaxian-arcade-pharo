@@ -1,0 +1,73 @@
+OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-17T14:21:46.993-03:00' ],
+		#self : OmReference [ '1' ]
+	},
+	#content : '|x vent|\rx:= Explosion new.\rvent:= OSWindowWorldMorph new.\rx openInWorld: vent.\rvent open.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-17T14:22:47.726-03:00' ],
+		#self : OmReference [ '2' ]
+	},
+	#content : '|x vent|\rx:= Explosion new.\rvent:= OSWindowWorldMorph new.\rx openInWorld: vent.\rvent open.\rx extent < '
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-17T14:23:01.202-03:00' ],
+		#self : OmReference [ '3' ]
+	},
+	#content : '|x vent|\rx:= Explosion new.\rvent:= OSWindowWorldMorph new.\rx openInWorld: vent.\rvent open.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-17T14:23:13.529-03:00' ],
+		#self : OmReference [ '4' ]
+	},
+	#content : '|x vent|\rx:= Explosion new.\rvent:= OSWindowWorldMorph new.\rx openInWorld: vent.\rvent open.\rx extent'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-17T14:23:22.002-03:00' ],
+		#self : OmReference [ '5' ]
+	},
+	#content : '|x vent|\rx:= Explosion new.\rvent:= OSWindowWorldMorph new.\rx openInWorld: vent.\rvent open.\rx extent\r()'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-17T14:23:39.731-03:00' ],
+		#self : OmReference [ '6' ]
+	},
+	#content : '|x vent aux|\rx:= Explosion new.\raux:= Fondo new.\rvent:= OSWindowWorldMorph new.\rx openInWorld: vent.\rvent open.\rx extent\r(((Fondo ancho / 16) @ (Fondo alto / 16)))'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-17T14:23:42.978-03:00' ],
+		#self : OmReference [ '7' ]
+	},
+	#content : '|x vent aux|\rx:= Explosion new.\raux:= Fondo new.\rvent:= OSWindowWorldMorph new.\rx openInWorld: vent.\rvent open.\rx extent.\r(((Fondo ancho / 16) @ (Fondo alto / 16)))'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-17T14:24:08.603-03:00' ],
+		#self : OmReference [ '8' ]
+	},
+	#content : '|x vent aux|\rx:= Explosion new.\raux:= Fondo new.\rvent:= OSWindowWorldMorph new.\rx openInWorld: vent.\rvent open.\r(x extent < ((Fondo ancho / 16) @ (Fondo alto / 16)))'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-17T14:24:16.483-03:00' ],
+		#self : OmReference [ '9' ]
+	},
+	#content : '|x vent aux|\rx:= Explosion new.\raux:= Fondo new.\rvent:= OSWindowWorldMorph new.\rx openInWorld: vent.\rvent open.\r(x extent > ((Fondo ancho / 16) @ (Fondo alto / 16)))'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-17T14:24:36.668-03:00' ],
+		#self : OmReference [ '10' ]
+	},
+	#content : '|x vent aux|\rx:= Explosion new.\raux:= Fondo new.\rvent:= OSWindowWorldMorph new.\rx openInWorld: vent.\rvent open.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-17T14:24:59.857-03:00' ],
+		#self : OmReference [ '11' ]
+	},
+	#content : '|x vent aux|\raux:= Fondo new.\rx:= Explosion new.\rvent:= OSWindowWorldMorph new.\rx openInWorld: vent.\rvent open.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-17T14:55:08.155-03:00' ],
+		#self : OmReference [ '12' ]
+	},
+	#content : '|x y vent aux|\raux:= Fondo new.\rx:= Explosion new.\ry:= Morph new.\rvent:= OSWindowWorldMorph new.\rx openInWorld: vent.\rTime delay: 50.\ry openInWorld: vent.\rvent open.'
+}

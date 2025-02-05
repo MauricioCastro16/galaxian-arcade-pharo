@@ -1,0 +1,277 @@
+OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-16T13:45:49.215-03:00' ],
+		#self : OmReference [ '1' ]
+	},
+	#content : '|x vent|\rvent:= OSWindowWorldMorph new.\rx:= TextMorph new.\rx openInWorld: vent.\rvent open'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-16T13:46:15.603-03:00' ],
+		#self : OmReference [ '2' ]
+	},
+	#content : '|x vent|\rvent:= OSWindowWorldMorph new.\rx:= TextMorph new.\rx \rx openInWorld: vent.\rvent open'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-16T13:46:36.077-03:00' ],
+		#self : OmReference [ '3' ]
+	},
+	#content : '|x vent|\rvent:= OSWindowWorldMorph new.\rx:= TextMorph new.\rx contents: \'hola\'.\rx openInWorld: vent.\rvent open'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-16T13:46:51.557-03:00' ],
+		#self : OmReference [ '4' ]
+	},
+	#content : '|x vent|\rvent:= OSWindowWorldMorph new.\rx:= TextMorph new.\rx contents: \'hola\'.\rx color: Color white.\rx openInWorld: vent.\rvent open'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-16T13:47:35.668-03:00' ],
+		#self : OmReference [ '5' ]
+	},
+	#content : '|x vent|\rvent:= OSWindowWorldMorph new.\rx:= TextMorph new.\rx contents: \'hola\' allBold.\rx color: Color white.\rx openInWorld: vent.\rvent open'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-16T13:47:41.255-03:00' ],
+		#self : OmReference [ '6' ]
+	},
+	#content : '|x vent|\rvent:= OSWindowWorldMorph new.\rx:= TextMorph new.\rx contents: (\'hola\' allBold).\rx color: Color white.\rx openInWorld: vent.\rvent open'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-16T13:48:01.371-03:00' ],
+		#self : OmReference [ '7' ]
+	},
+	#content : '|x vent|\rvent:= OSWindowWorldMorph new.\rx:= TextMorph new.\rx contents: \'hola\'.\rx color: Color white.\rx openInWorld: vent.\rvent open'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-16T13:48:36.757-03:00' ],
+		#self : OmReference [ '8' ]
+	},
+	#content : '|x vent|\rvent:= OSWindowWorldMorph new.\rx:= TextMorph new.\rx contents: \'hola\'.\rx extent: (100 @ 100).\rx color: Color white.\rx openInWorld: vent.\rvent open'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-16T13:48:47.288-03:00' ],
+		#self : OmReference [ '9' ]
+	},
+	#content : '|x vent|\rvent:= OSWindowWorldMorph new.\rx:= TextMorph new.\rx contents: \'hola\'.\rx extent: (200 @ 200).\rx color: Color white.\rx openInWorld: vent.\rvent open'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-16T13:49:46.69-03:00' ],
+		#self : OmReference [ '10' ]
+	},
+	#content : '|x vent|\rvent:= OSWindowWorldMorph new.\rx:= TextMorph new.\rx contents: \'hola\' asText) allB.\rx extent: (200 @ 200).\rx color: Color white.\rx openInWorld: vent.\rvent open'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-16T13:49:52.137-03:00' ],
+		#self : OmReference [ '11' ]
+	},
+	#content : '|x vent|\rvent:= OSWindowWorldMorph new.\rx:= TextMorph new.\rx contents: (\'hola\' asText) allBold.\rx extent: (200 @ 200).\rx color: Color white.\rx openInWorld: vent.\rvent open'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-16T13:49:57.499-03:00' ],
+		#self : OmReference [ '12' ]
+	},
+	#content : '|x vent|\rvent:= OSWindowWorldMorph new.\rx:= TextMorph new.\rx contents: (\'hola\' asText) allBold.\rx position: (200 @ 200).\rx color: Color white.\rx openInWorld: vent.\rvent open'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-16T14:01:38.95-03:00' ],
+		#self : OmReference [ '13' ]
+	},
+	#content : '|x vent|\rvent:= OSWindowWorldMorph new.\rx:= TextMorph new.\rx contents: (\'hola\' asText) allBold; size: 20.\rx position: (200 @ 200).\rx color: Color white.\rx openInWorld: vent.\rvent open'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-16T14:02:17.801-03:00' ],
+		#self : OmReference [ '14' ]
+	},
+	#content : '|x vent text|\rvent:= OSWindowWorldMorph new.\rx:= TextMorph new.\rtext:= Text new\r\rx contents: text.\rx position: (200 @ 200).\rx color: Color white.\rx openInWorld: vent.\rvent open'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-16T14:02:45.211-03:00' ],
+		#self : OmReference [ '15' ]
+	},
+	#content : '|x vent text|\rvent:= OSWindowWorldMorph new.\rx:= TextMorph new.\rtext:= Text new\rtext at: 1 put: \'hola\'.\rx contents: text.\rx position: (200 @ 200).\rx color: Color white.\rx openInWorld: vent.\rvent open'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-16T14:02:52.019-03:00' ],
+		#self : OmReference [ '16' ]
+	},
+	#content : '|x vent text|\rvent:= OSWindowWorldMorph new.\rx:= TextMorph new.\rtext:= Text new.\rtext at: 1 put: \'hola\'.\rx contents: text.\rx position: (200 @ 200).\rx color: Color white.\rx openInWorld: vent.\rvent open'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-16T14:03:28.82-03:00' ],
+		#self : OmReference [ '17' ]
+	},
+	#content : '|x vent text|\rvent:= OSWindowWorldMorph new.\rx:= TextMorph new.\rtext:= \'hola\'.\rtext:= (text asText)\rtext:= text allBold.\rx contents: text.\rx position: (200 @ 200).\rx color: Color white.\rx openInWorld: vent.\rvent open'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-16T14:03:31.61-03:00' ],
+		#self : OmReference [ '18' ]
+	},
+	#content : '|x vent text|\rvent:= OSWindowWorldMorph new.\rx:= TextMorph new.\rtext:= \'hola\'.\rtext:= (text asText).\rtext:= text allBold.\rx contents: text.\rx position: (200 @ 200).\rx color: Color white.\rx openInWorld: vent.\rvent open'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-16T14:03:38.493-03:00' ],
+		#self : OmReference [ '19' ]
+	},
+	#content : '|x vent text|\rvent:= OSWindowWorldMorph new.\rx:= TextMorph new.\rtext:= \'hola\'.\rtext:= (text asText).\rtext:= text allBold; size: 20.\rx contents: text.\rx position: (200 @ 200).\rx color: Color white.\rx openInWorld: vent.\rvent open'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-16T14:05:04.986-03:00' ],
+		#self : OmReference [ '20' ]
+	},
+	#content : '|x vent |\rvent:= OSWindowWorldMorph new.\rx contents: \'hola\'; bold.\rx position: (200 @ 200).\rx color: Color white.\rx openInWorld: vent.\rvent open'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-16T14:05:15.346-03:00' ],
+		#self : OmReference [ '21' ]
+	},
+	#content : '|x vent |\rvent:= OSWindowWorldMorph new.\rx:= TextMorph new.\rx contents: \'hola\'; bold.\rx position: (200 @ 200).\rx color: Color white.\rx openInWorld: vent.\rvent open'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-16T14:06:01.351-03:00' ],
+		#self : OmReference [ '22' ]
+	},
+	#content : '|x vent |\rvent:= OSWindowWorldMorph new.\rx:= TextMorph new.\rx contents: \'hola\'; bold.\rx position: (200 @ 200).\rx color: Color white.\rx openInWorld: vent.\rvent open\r\rTextStyle listFonts.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-16T14:06:54.799-03:00' ],
+		#self : OmReference [ '23' ]
+	},
+	#content : '|x vent |\rvent:= OSWindowWorldMorph new.\rx:= TextMorph new.\rx contents: \'hola\'; bold.\rx position: (200 @ 200).\rx color: Color white.\rx openInWorld: vent.\rvent open\r\rTextStyle fontArray.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-16T14:08:01.293-03:00' ],
+		#self : OmReference [ '24' ]
+	},
+	#content : '|x vent |\rvent:= OSWindowWorldMorph new.\rx:= TextMorph new.\rx contents: \'hola\'; font: \'SuperBold\'.\rx position: (200 @ 200).\rx color: Color white.\rx openInWorld: vent.\rvent open\r\rTextStyle fontArray.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-16T14:08:08.89-03:00' ],
+		#self : OmReference [ '25' ]
+	},
+	#content : '|x vent |\rvent:= OSWindowWorldMorph new.\rx:= TextMorph new.\rx contents: \'hola\'; font: \'SuperBold\'.\rx position: (200 @ 200).\rx color: Color white.\rx openInWorld: vent.\rvent open'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-16T14:08:45.912-03:00' ],
+		#self : OmReference [ '26' ]
+	},
+	#content : '|x vent |\rvent:= OSWindowWorldMorph new.\rx:= TextMorph new.\rx contents: \'hola\'; font: \'Italic\'.\rx position: (200 @ 200).\rx color: Color white.\rx openInWorld: vent.\rvent open'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-16T14:08:50.934-03:00' ],
+		#self : OmReference [ '27' ]
+	},
+	#content : '|x vent |\rvent:= OSWindowWorldMorph new.\rx:= TextMorph new.\rx contents: \'hola\'; font: \'Arial\'.\rx position: (200 @ 200).\rx color: Color white.\rx openInWorld: vent.\rvent open'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-16T14:08:59.142-03:00' ],
+		#self : OmReference [ '28' ]
+	},
+	#content : '|x vent |\rvent:= OSWindowWorldMorph new.\rx:= TextMorph new.\rx contents: \'hola\'; font: \'Calibri\'.\rx position: (200 @ 200).\rx color: Color white.\rx openInWorld: vent.\rvent open'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-16T14:09:33.677-03:00' ],
+		#self : OmReference [ '29' ]
+	},
+	#content : '|x vent |\rvent:= OSWindowWorldMorph new.\rx:= TextMorph new.\rx contents: \'hola\'; font: \'RetroFont\'.\rx position: (200 @ 200).\rx color: Color white.\rx openInWorld: vent.\rvent open'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-16T14:09:46.731-03:00' ],
+		#self : OmReference [ '30' ]
+	},
+	#content : '|x vent |\rvent:= OSWindowWorldMorph new.\rx:= TextMorph new.\rx position: (200 @ 200).\rx color: Color white.\rx openInWorld: vent.\rvent open'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-16T14:10:10.516-03:00' ],
+		#self : OmReference [ '31' ]
+	},
+	#content : '|x vent |\rvent:= OSWindowWorldMorph new.\rx:= TextMorph new.\rx content: (\'hola\' asText allBold).\rx position: (200 @ 200).\rx color: Color white.\rx openInWorld: vent.\rvent open'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-16T14:10:17.016-03:00' ],
+		#self : OmReference [ '32' ]
+	},
+	#content : '|x vent |\rvent:= OSWindowWorldMorph new.\rx:= TextMorph new.\rx content: (\'hola\' asText) allBold.\rx position: (200 @ 200).\rx color: Color white.\rx openInWorld: vent.\rvent open'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-16T14:10:29.085-03:00' ],
+		#self : OmReference [ '33' ]
+	},
+	#content : '|x vent |\rvent:= OSWindowWorldMorph new.\rx:= TextMorph new.\rx content:( (\'hola\' asText) allBold).\rx position: (200 @ 200).\rx color: Color white.\rx openInWorld: vent.\rvent open'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-16T14:10:58.108-03:00' ],
+		#self : OmReference [ '34' ]
+	},
+	#content : '|x vent |\rvent:= OSWindowWorldMorph new.\rx:= TextMorph new.\rx contents: \'hola\' asText allBold.\rx position: (200 @ 200).\rx color: Color white.\rx openInWorld: vent.\rvent open'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-16T14:18:04.416-03:00' ],
+		#self : OmReference [ '35' ]
+	},
+	#content : '|x vent |\rvent:= OSWindowWorldMorph new.\rx:= TextMorph new.\rx contents: \'Hello World\';\r  font: (LogicalFont familyName: \'Arial\' pointSize: 80);\r  emphasis: TextEmphasis bold emphasisCode.\rx position: (200 @ 200).\rx color: Color white.\rx openInWorld: vent.\rvent open'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-16T14:18:10.483-03:00' ],
+		#self : OmReference [ '36' ]
+	},
+	#content : '|x vent |\rvent:= OSWindowWorldMorph new.\rx:= TextMorph new.\rx contents: \'Hello World\';\r  font: (LogicalFont familyName: \'Arial\' pointSize: 80);\rx position: (200 @ 200).\rx color: Color white.\rx openInWorld: vent.\rvent open'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-16T14:18:13.92-03:00' ],
+		#self : OmReference [ '37' ]
+	},
+	#content : '|x vent |\rvent:= OSWindowWorldMorph new.\rx:= TextMorph new.\rx contents: \'Hello World\';\r  font: (LogicalFont familyName: \'Arial\' pointSize: 80).\rx position: (200 @ 200).\rx color: Color white.\rx openInWorld: vent.\rvent open'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-16T14:18:25.394-03:00' ],
+		#self : OmReference [ '38' ]
+	},
+	#content : '|x vent |\rvent:= OSWindowWorldMorph new.\rx:= TextMorph new.\rx contents: \'Hello World\';\r  font: (LogicalFont familyName: \'ComicSans\' pointSize: 80).\rx position: (200 @ 200).\rx color: Color white.\rx openInWorld: vent.\rvent open'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-16T14:19:42.482-03:00' ],
+		#self : OmReference [ '39' ]
+	},
+	#content : '|x vent |\rvent:= OSWindowWorldMorph new.\rx:= TextMorph new.\rx content: \'hola\' asText allBond.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-16T14:19:47.58-03:00' ],
+		#self : OmReference [ '40' ]
+	},
+	#content : '|x vent |\rvent:= OSWindowWorldMorph new.\rx:= TextMorph new.\rx content: \'hola\' asText allBold.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-16T14:20:38.786-03:00' ],
+		#self : OmReference [ '41' ]
+	},
+	#content : '|x vent |\rvent:= OSWindowWorldMorph new.\rx:= TextMorph new.\rx content: (\'hola\' asText allBold).'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-16T14:21:41.035-03:00' ],
+		#self : OmReference [ '42' ]
+	},
+	#content : '|box1 vent headingText|\rvent:= OSWindowWorldMorph new.\rheadingText:= \'Right triangle (AE) / right-angled triangle (BE)\'\rasText allBold.\rbox1 := TextMorph new leftFlush.\rbox1 contents: headingText.\rbox1 backgroundColor: Color white.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-16T14:21:49.324-03:00' ],
+		#self : OmReference [ '43' ]
+	},
+	#content : '|box1 vent headingText|\rvent:= OSWindowWorldMorph new.\rheadingText:= \'hola\'\rasText allBold.\rbox1 := TextMorph new leftFlush.\rbox1 contents: headingText.\rbox1 backgroundColor: Color white.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-16T14:21:54.995-03:00' ],
+		#self : OmReference [ '44' ]
+	},
+	#content : '|box1 vent headingText|\rvent:= OSWindowWorldMorph new.\rheadingText:= \'hola\' asText allBold.\rbox1 := TextMorph new leftFlush.\rbox1 contents: headingText.\rbox1 backgroundColor: Color white.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-16T14:23:15.484-03:00' ],
+		#self : OmReference [ '45' ]
+	},
+	#content : '|box1 vent headingText|\rvent:= OSWindowWorldMorph new.\rheadingText:= \'hola\' asText allBold.\rbox1 := TextMorph new leftFlush.\rbox1 contents: headingText.\rbox1 backgroundColor: (Color white alpha: 0.5).'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-16T14:23:21.655-03:00' ],
+		#self : OmReference [ '46' ]
+	},
+	#content : '|box1 vent headingText|\rvent:= OSWindowWorldMorph new.\rheadingText:= \'hola\' asText allBold.\rbox1 := TextMorph new leftFlush.\rbox1 contents: headingText.\rbox1 backgroundColor: (Color white alpha: 0.8).'
+}

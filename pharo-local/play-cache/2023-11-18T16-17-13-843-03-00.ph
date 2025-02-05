@@ -1,0 +1,1 @@
+|x y vent|x:= EllipseMorph new.x extent: (100@100).vent:= OSWindowWorldMorph new.x openInWorld: vent.vent open

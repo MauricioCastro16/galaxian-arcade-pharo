@@ -1,0 +1,1 @@
+|x y vent|vent:= OSWindowWorldMorph new.x:= Morph new.y:= Morph new.x subMorph: y.y openInWorld: vent.vent open.

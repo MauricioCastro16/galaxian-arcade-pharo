@@ -1,0 +1,25 @@
+OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-16T13:23:59.978-03:00' ],
+		#self : OmReference [ '1' ]
+	},
+	#content : '|x|\rx:= TextMorph new.\rx openInWorld'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-16T13:25:41.513-03:00' ],
+		#self : OmReference [ '2' ]
+	},
+	#content : '|x|\rx:= TextMorph new.\rx text: \'hola\'.\rx openInWorld'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-16T13:26:08.929-03:00' ],
+		#self : OmReference [ '3' ]
+	},
+	#content : '|x|\rx:= TextMorph new.\rx text: \'hola\' textStyle: \'arial\'.\rx openInWorld'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-16T13:26:15.459-03:00' ],
+		#self : OmReference [ '4' ]
+	},
+	#content : '|x|\rx:= TextMorph new.\rx text: \'hola\' textStyle: \'\'.\rx openInWorld'
+}

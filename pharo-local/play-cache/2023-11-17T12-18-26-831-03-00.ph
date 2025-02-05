@@ -1,0 +1,1 @@
+|x y|x:= Nave new.x position: (2.154 @ 3.125).(x position x) truncated . 

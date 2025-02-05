@@ -1,0 +1,1 @@
+|Galaxian prueba|prueba:= OSWindowWorldMorph new.Galaxian:= Prota new.Galaxian openInWorld: prueba.prueba open.

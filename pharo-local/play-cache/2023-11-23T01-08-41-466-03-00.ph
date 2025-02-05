@@ -1,0 +1,1 @@
+|dir pArch|	"Abrir el documento para ver los puntajes"	dir:= FileSystem disk workingDirectory.	pArch:= (dir,'\Score.csv') writeStream.	pArch nextPutAll: ''.

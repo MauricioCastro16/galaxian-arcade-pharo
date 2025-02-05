@@ -1,0 +1,1 @@
+|vent menu|vent:= OSWindowWorldMorph new.vent beCursorOwner.menu:= Menu new.menu openInWorld: vent.menu botonStart.vent open.

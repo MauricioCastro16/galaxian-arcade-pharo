@@ -1,0 +1,25 @@
+OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-09T15:46:28.682-03:00' ],
+		#self : OmReference [ '1' ]
+	},
+	#content : '|ventana|\rventana:= OSWindow'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-09T15:46:52.81-03:00' ],
+		#self : OmReference [ '2' ]
+	},
+	#content : '|ventana|\rventana:= OSWindowWorldMorph new.\rventana open.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-09T15:48:39.687-03:00' ],
+		#self : OmReference [ '3' ]
+	},
+	#content : '|ventana x|\rventana:= OSWindowWorldMorph new.\rx:= Nave new.\rNave openInWorld: ventana.\rventana open.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-09T15:48:52.565-03:00' ],
+		#self : OmReference [ '4' ]
+	},
+	#content : '|ventana x|\rventana:= OSWindowWorldMorph new.\rx:= Nave new.\rx openInWorld: ventana.\rventana open.'
+}

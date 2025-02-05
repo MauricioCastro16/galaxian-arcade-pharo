@@ -1,0 +1,779 @@
+[31mFileDoesNotExistException: 'C:\Users\castr\Documents\Pharo\images\Galaxian - Grupo 16 - 2023.\Score.csv'
+[0mFile>>openForWrite:
+File>>openForRead
+File>>readStream
+FileHandle>>binaryReadStream
+FileSystem>>binaryReadStreamOn:
+FileReference>>binaryReadStream
+FileReference(AbstractFileReference)>>readStreamEncoded:
+FileReference>>readStream
+Score>>initialize
+Score class(Behavior)>>new
+Fondo>>start
+[target perform: actionSelector withArguments: arguments] in SimpleButtonMorph>>doButtonAction in Block: [target perform: actionSelector withArguments:[..]
+FullBlockClosure(BlockClosure)>>ensure:
+CursorWithMask(Cursor)>>showWhile:
+SimpleButtonMorph>>doButtonAction
+SimpleButtonMorph>>mouseDown:
+SimpleButtonMorph(Morph)>>handleMouseDown:
+MouseButtonEvent>>sentTo:
+SimpleButtonMorph(Morph)>>handleEvent:
+MorphicEventDispatcher>>dispatchMouseDown:with:
+MorphicEventDispatcher>>handleMouseDown:
+MouseButtonEvent>>sentTo:
+[ ^ anEvent sentTo: self ] in MorphicEventDispatcher>>dispatchEvent:with: in Block: [ ^ anEvent sentTo: self ]
+FullBlockClosure(BlockClosure)>>ensure:
+MorphicEventDispatcher>>dispatchEvent:with:
+SimpleButtonMorph(Morph)>>processEvent:using:
+MorphicEventDispatcher>>dispatchMouseDown:with:
+MorphicEventDispatcher>>handleMouseDown:
+MouseButtonEvent>>sentTo:
+[ ^ anEvent sentTo: self ] in MorphicEventDispatcher>>dispatchEvent:with: in Block: [ ^ anEvent sentTo: self ]
+[0m[31mFileDoesNotExistException: 'C:\Users\castr\Documents\Pharo\images\Galaxian - Grupo 16 - 2023.\Score.csv'
+[0mFile>>openForWrite:
+File>>openForRead
+File>>readStream
+FileHandle>>binaryReadStream
+FileSystem>>binaryReadStreamOn:
+FileReference>>binaryReadStream
+FileReference(AbstractFileReference)>>readStreamEncoded:
+FileReference>>readStream
+Score>>initialize
+Score class(Behavior)>>new
+Fondo>>start
+[target perform: actionSelector withArguments: arguments] in SimpleButtonMorph>>doButtonAction in Block: [target perform: actionSelector withArguments:[..]
+FullBlockClosure(BlockClosure)>>ensure:
+CursorWithMask(Cursor)>>showWhile:
+SimpleButtonMorph>>doButtonAction
+SimpleButtonMorph>>mouseDown:
+SimpleButtonMorph(Morph)>>handleMouseDown:
+MouseButtonEvent>>sentTo:
+SimpleButtonMorph(Morph)>>handleEvent:
+MorphicEventDispatcher>>dispatchMouseDown:with:
+MorphicEventDispatcher>>handleMouseDown:
+MouseButtonEvent>>sentTo:
+[ ^ anEvent sentTo: self ] in MorphicEventDispatcher>>dispatchEvent:with: in Block: [ ^ anEvent sentTo: self ]
+FullBlockClosure(BlockClosure)>>ensure:
+MorphicEventDispatcher>>dispatchEvent:with:
+SimpleButtonMorph(Morph)>>processEvent:using:
+MorphicEventDispatcher>>dispatchMouseDown:with:
+MorphicEventDispatcher>>handleMouseDown:
+MouseButtonEvent>>sentTo:
+[ ^ anEvent sentTo: self ] in MorphicEventDispatcher>>dispatchEvent:with: in Block: [ ^ anEvent sentTo: self ]
+[0m[31m#fullscreen: was sent to nil
+[0mUndefinedObject(Object)>>doesNotUnderstand: #fullscreen:
+UndefinedObject>>doesNotUnderstand: #fullscreen:
+OSWorldRenderer>>fullscreenMode:
+OSWindowWorldMorph(WorldMorph)>>fullscreenChanged:
+WeakMessageSend>>value:
+WeakMessageSend>>cull:
+WeakMessageSend>>cull:cull:
+[31m#fullscreen: was sent to nil
+[0mUndefinedObject(Object)>>doesNotUnderstand: #fullscreen:
+UndefinedObject>>doesNotUnderstand: #fullscreen:
+OSWorldRenderer>>fullscreenMode:
+OSWindowWorldMorph(WorldMorph)>>fullscreenChanged:
+WeakMessageSend>>value:
+WeakMessageSend>>cull:
+WeakMessageSend>>cull:cull:
+[action cull: anAnnouncement cull: announcer] in WeakAnnouncementSubscription>>deliver: in Block: [action cull: anAnnouncement cull: announcer]
+FullBlockClosure(BlockClosure)>>on:do:
+[31m#fullscreen: was sent to nil
+[0mUndefinedObject(Object)>>doesNotUnderstand: #fullscreen:
+UndefinedObject>>doesNotUnderstand: #fullscreen:
+OSWorldRenderer>>fullscreenMode:
+OSWindowWorldMorph(WorldMorph)>>fullscreenChanged:
+WeakMessageSend>>value:
+WeakMessageSend>>cull:
+WeakMessageSend>>cull:cull:
+[action cull: anAnnouncement cull: announcer] in WeakAnnouncementSubscription>>deliver: in Block: [action cull: anAnnouncement cull: announcer]
+FullBlockClosure(BlockClosure)>>on:do:
+[31m#fullscreen: was sent to nil
+[0mUndefinedObject(Object)>>doesNotUnderstand: #fullscreen:
+UndefinedObject>>doesNotUnderstand: #fullscreen:
+OSWorldRenderer>>fullscreenMode:
+OSWindowWorldMorph(WorldMorph)>>fullscreenChanged:
+WeakMessageSend>>value:
+WeakMessageSend>>cull:
+WeakMessageSend>>cull:cull:
+[action cull: anAnnouncement cull: announcer] in WeakAnnouncementSubscription>>deliver: in Block: [action cull: anAnnouncement cull: announcer]
+FullBlockClosure(BlockClosure)>>on:do:
+[ Processor terminateRealActive ] in [ :ex |
+			  | onDoCtx handler bottom thisCtx |
+			  onDoCtx := thisContext.
+			  thisCtx := onDoCtx home.
+
+			  "find the context on stack for which this method's is sender"
+
+			  [ onDoCtx sender == thisCtx ] whileFalse: [
+				  onDoCtx := onDoCtx sender.
+				  onDoCtx ifNil: [ "Can't find our home context. seems like we're already forked
+				and handling another exception in new thread. In this case, just pass it through handler."
+					  ^ handlerAction cull: ex ] ].
+
+			  bottom := [ Processor terminateRealActive ] asContext.
+			  onDoCtx privSender: bottom.
+
+			  handler := [ handlerAction cull: ex ] asContext.
+			  handler privSender: thisContext sender.
+
+			  (Process forContext: handler priority: Processor activePriority) resume.
+
+			  "cut the stack of current process"
+			  thisContext privSender: thisCtx.
+			  nil ] in FullBlockClosure(BlockClosure)>>on:fork: in Block: [ Processor terminateRealActive ]
+[0m[action cull: anAnnouncement cull: announcer] in WeakAnnouncementSubscription>>deliver: in Block: [action cull: anAnnouncement cull: announcer]
+FullBlockClosure(BlockClosure)>>on:do:
+[ Processor terminateRealActive ] in [ :ex |
+			  | onDoCtx handler bottom thisCtx |
+			  onDoCtx := thisContext.
+			  thisCtx := onDoCtx home.
+
+			  "find the context on stack for which this method's is sender"
+
+			  [ onDoCtx sender == thisCtx ] whileFalse: [
+				  onDoCtx := onDoCtx sender.
+				  onDoCtx ifNil: [ "Can't find our home context. seems like we're already forked
+				and handling another exception in new thread. In this case, just pass it through handler."
+					  ^ handlerAction cull: ex ] ].
+
+			  bottom := [ Processor terminateRealActive ] asContext.
+			  onDoCtx privSender: bottom.
+
+			  handler := [ handlerAction cull: ex ] asContext.
+			  handler privSender: thisContext sender.
+
+			  (Process forContext: handler priority: Processor activePriority) resume.
+
+			  "cut the stack of current process"
+			  thisContext privSender: thisCtx.
+			  nil ] in FullBlockClosure(BlockClosure)>>on:fork: in Block: [ Processor terminateRealActive ]
+[0m[ Processor terminateRealActive ] in [ :ex |
+			  | onDoCtx handler bottom thisCtx |
+			  onDoCtx := thisContext.
+			  thisCtx := onDoCtx home.
+
+			  "find the context on stack for which this method's is sender"
+
+			  [ onDoCtx sender == thisCtx ] whileFalse: [
+				  onDoCtx := onDoCtx sender.
+				  onDoCtx ifNil: [ "Can't find our home context. seems like we're already forked
+				and handling another exception in new thread. In this case, just pass it through handler."
+					  ^ handlerAction cull: ex ] ].
+
+			  bottom := [ Processor terminateRealActive ] asContext.
+			  onDoCtx privSender: bottom.
+
+			  handler := [ handlerAction cull: ex ] asContext.
+			  handler privSender: thisContext sender.
+
+			  (Process forContext: handler priority: Processor activePriority) resume.
+
+			  "cut the stack of current process"
+			  thisContext privSender: thisCtx.
+			  nil ] in FullBlockClosure(BlockClosure)>>on:fork: in Block: [ Processor terminateRealActive ]
+[0m[ Processor terminateRealActive ] in [ :ex |
+			  | onDoCtx handler bottom thisCtx |
+			  onDoCtx := thisContext.
+			  thisCtx := onDoCtx home.
+
+			  "find the context on stack for which this method's is sender"
+
+			  [ onDoCtx sender == thisCtx ] whileFalse: [
+				  onDoCtx := onDoCtx sender.
+				  onDoCtx ifNil: [ "Can't find our home context. seems like we're already forked
+				and handling another exception in new thread. In this case, just pass it through handler."
+					  ^ handlerAction cull: ex ] ].
+
+			  bottom := [ Processor terminateRealActive ] asContext.
+			  onDoCtx privSender: bottom.
+
+			  handler := [ handlerAction cull: ex ] asContext.
+			  handler privSender: thisContext sender.
+
+			  (Process forContext: handler priority: Processor activePriority) resume.
+
+			  "cut the stack of current process"
+			  thisContext privSender: thisCtx.
+			  nil ] in FullBlockClosure(BlockClosure)>>on:fork: in Block: [ Processor terminateRealActive ]
+[0m[31m#fullscreen: was sent to nil
+[0mUndefinedObject(Object)>>doesNotUnderstand: #fullscreen:
+UndefinedObject>>doesNotUnderstand: #fullscreen:
+OSWorldRenderer>>fullscreenMode:
+OSWindowWorldMorph(WorldMorph)>>fullscreenChanged:
+WeakMessageSend>>value:
+WeakMessageSend>>cull:
+WeakMessa[31m#fullscreen: was sent to nil
+[0mUndefinedObject(Object)>>doesNotUnderstand: #fullscreen:
+UndefinedObject>>doesNotUnderstand: #fullscreen:
+OSWorldRenderer>>fullscreenMode:
+OSWindowWorldMorph(WorldMorph)>>fullscreenChanged:
+WeakMessageSend>>value:
+WeakMessageSend>>cull:
+WeakMessageSend>>cull:cull:
+[action cull: anAnnouncement cull: announcer] in WeakAnnouncementSubscription>>deliver: in Block: [action cull: anAnnouncement cull: announcer]
+FullBlockClosure(BlockClosure)>>on:do:
+[ Processor terminateRealActive ] in [ :ex |
+			  | onDoCtx handler bottom thisCtx |
+			  onDoCtx := thisContext.
+			  thisCtx := onDoCtx home.
+
+			  "find the context on stack for which this method's is sender"
+
+			  [ onDoCtx sender == thisCtx ] whileFalse: [
+				  onDoCtx := onDoCtx sender.
+				  onDoCtx ifNil:[31m#fullscreen: was sent to nil
+[0mUndefinedObject(Object)>>doesNotUnderstand: #fullscreen:
+UndefinedObject>>doesNotUnderstand: #fullscreen:
+OSWorldRenderer>>fullscreenMode:
+OSWindowWorldMorph(WorldMorph)>>fullscreenChanged:
+WeakMessageSend>>value:
+WeakMessageSend>>cull:
+WeakMessageSend>>cull:cull:
+[action cull: anAnnouncement cull: announcer] in WeakAnnouncementSubscription>>deliver: in Block: [action cull: anAnnouncement cull: announcer]
+FullBlockClosure(BlockClosure)>>on:do:
+[ Processor terminateRealActive ] in [ :ex |
+			  | onDoCtx handler bottom thisCtx |
+			  onDoCtx := thisContext.
+			  thisCtx := onDoCtx home.
+
+			  "find the context on stack for which this method's is sender"
+
+			  [ onDoCtx sender == thisCtx ] whileFalse: [
+				  onDoCtx := onDoCtx sender.
+				  onDoCtx ifNil: [ "Can't find our hgeSend>>cull:cull:
+[action cull: anAnnouncement cull: announcer] in WeakAnnouncementSubscription>>deliver: in Block: [action cull: anAnnouncement cull: announcer]
+FullBlockClosure(BlockClosure)>>on:do:
+[ Processor terminateRealActive ] in [ :ex |
+			  | onDoCtx handler bottom thisCtx |
+			  onDoCtx := thisContext.
+			  thisCtx := onDoCtx home.
+
+			  "find the context on stack for which this method's is sender"
+
+			  [ onDoCtx sender == thisCtx ] whileFalse: [
+				  onDoCtx := onDoCtx sender.
+				  onDoCtx ifNil: [ "Can't find our home context. seems like we're already forked
+				and handling another exception in new thread. In this case, just pass it through handler."
+					  ^ handlerAction cull: ex ] ].
+
+			  bottom := [ Processor terminateRealActive ] asContext.
+			  onDoCtx privSender [ "Can't find our home context. seems like we're already forked
+				and handling another exception in new thread. In this case, just pass it through handler."
+					  ^ handlerAction cull: ex ] ].
+
+			  bottom := [ Processor terminateRealActive ] asContext.
+			  onDoCtx privSender: bottom.
+
+			  handler := [ handlerAction cull: ex ] asContext.
+			  handler privSender: thisContext sender.
+
+			  (Process forContext: handler priority: Processor activePriority) resume.
+
+			  "cut the stack of current process"
+			  thisContext privSender: thisCtx.
+			  nil ] in FullBlockClosure(BlockClosure)>>on:fork: in Block: [ Processor terminateRealActive ]
+[0mome context. seems like we're already forked
+				and handling another exception in new thread. In this case, just pass it through handler."
+					  ^ handlerAction cull: ex ] ].
+
+			  bottom := [ Processor terminateRealActive ] asContext.
+			  onDoCtx privSender: bottom.
+
+			  handler := [ handlerAction cull: ex ] asContext.
+			  handler privSender: thisContext sender.
+
+			  (Process forContext: handler priority: Processor activePriority) resume.
+
+			  "cut the stack of current process"
+			  thisContext privSender: thisCtx.
+			  nil ] in FullBlockClosure(BlockClosure)>>on:fork: in Block: [ Processor terminateRealActive ]
+[0m: bottom.
+
+			  handler := [ handlerAction cull: ex ] asContext.
+			  handler privSender: thisContext sender.
+
+			  (Process forContext: handler priority: Processor activePriority) resume.
+
+			  "cut the stack of current process"
+			  thisContext privSender: thisCtx.
+			  nil ] in FullBlockClosure(BlockClosure)>>on:fork: in Block: [ Processor terminateRealActive ]
+[0m[31m#fullscreen: was sent to nil
+[0mUndefinedObject(Object)>>doesNotUnderstand: #fullscreen:
+UndefinedObject>>doesNotUnderstand: #fullscreen:
+OSWorldRenderer>>fullscreenMode:
+OSWindowWorldMorph(WorldMorph)>>fullscreenChanged:
+WeakMessageSend>>value:
+WeakMessageSend>>cull:
+WeakMessageSend>>cull:cull:
+[action cull: anAnnouncement cull: announcer] in WeakAnnouncementSubscription>>deliver: in Block: [action cull: anAnnouncement cull: announcer]
+FullBlockClosure(BlockClosure)>>on:do:
+[ Processor terminateRealActive ] in [ :ex |
+			  | onDoCtx handler bottom thisCtx |
+			  onDoCtx := thisContext.
+			  thisCtx := onDoCtx home.
+
+			  "find the context on stack for which this method's is sender"
+
+			  [ onDoCtx sender == thisCtx ] whileFalse: [
+				  onDoCtx := onDoCtx sender.
+				  onDoCtx ifNil: [ "Can't find our home context. seems like we're already forked
+				and handling another exception in new thread. In this case, just pass it through handler."
+					  ^ handlerAction cull: ex ] ].
+
+			  bottom := [ Processor terminateRealActive ] asContext.
+			  onDoCtx privSender: bottom.
+
+			  handler := [ handlerAction cull: ex ] asContext.
+			  handler privSender: thisContext sender.
+
+			  (Process forContext: handler priority: Processor activePriority) resume.
+
+			  "cut the stack of current process"
+			  thisContext privSender: thisCtx.
+			  nil ] in FullBlockClosure(BlockClosure)>>on:fork: in Block: [ Processor terminateRealActive ]
+[0mt privSender: thisCtx.
+			  nil ] in FullBlockClosure(BlockClosure)>>on:fork: in Block: [ Processor terminateRealActive ]
+[0m[31m#fullscreen: was sent to nil
+[0mUndefinedObject(Object)>>doesNotUnderstand: #fullscreen:
+UndefinedObject>>doesNotUnderstand: #fullscreen:
+OSWorldRenderer>>fullscreenMode:
+OSWindowWorldMorph(WorldMorph)>>fullscreenChanged:
+WeakMessageSend>>value:
+WeakMessageSend>>cull:
+WeakMessageSend>>cull:cull:
+[action cull: anAnnouncement cull: announcer] in WeakAnnouncementSubscription>>deliver: in Block: [action cull: anAnnouncement cull: announcer]
+FullBlockClosure(BlockClosure)>>on:do:
+[ Processor terminateRealActive ] in [ :ex |
+			  | onDoCtx handler bottom thisCtx |
+			  onDoCtx := thisContext.
+			  thisCtx := onDoCtx home.
+
+			  "find the context on stack for which this method's is sender"
+
+			  [ onDoCtx sender == thisCtx ] whileFalse: [
+				  onDoCtx := onDoCtx sender.
+				  onDoCtx ifNil: [ "Can't find our home context. seems like we're already forked
+				and handling another exception in new thread. In this case, just pass it through handler."
+					  ^ handlerAction cull: ex ] ].
+
+			  bottom := [ Processor terminateRealActive ] asContext.
+			  onDoCtx privSender: bottom.
+
+			  handler := [ handlerAction cull: ex ] asContext.
+			  handler privSender: thisContext sender.
+
+			  (Process forContext: handler priority: Processor activePriority) resume.
+
+			  "cut the stack of current process"
+			  thisContext privSender: thisCtx.
+			  nil ] in FullBlockClosure(BlockClosure)>>on:fork: in Block: [ Processor terminateRealActive ]
+[0m[31m#fullscreen: was sent to nil
+[0mUndefinedObject(Object)>>doesNotUnderstand: #fullscreen:
+UndefinedObject>>doesNotUnderstand: #fullscreen:
+OSWorldRenderer>>fullscreenMode:
+OSWindowWorldMorph(WorldMorph)>>fullscreenChanged:
+WeakMessageSend>>value:
+WeakMessageSend>>cull:
+WeakMessageSend>>cull:cull:
+[action cull: anAnnouncement cull: announcer] in WeakAnnouncementSubscription>>deliver: in Block: [action cull: anAnnouncement cull: announcer]
+FullBlockClosure(BlockClosure)>>on:do:
+[ Processor terminateRealActive ] in [ :ex |
+			  | onDoCtx handler bottom thisCtx |
+			  onDoCtx := thisContext.
+			  thisCtx := onDoCtx home.
+
+			  "find the context on stack for which this method's is sender"
+
+			  [ onDoCtx sender == thisCtx ] whileFalse: [
+				  onDoCtx := onDoCtx sender.
+				  onDoCtx ifNil: [ "Can't find our home context. seems like we're already forked
+				and handling another exception in new thread. In this case, just pass it through handler."
+					  ^ handlerAction cull: ex ] ].
+
+			  bottom := [ Processor terminateRealActive ] asContext.
+			  onDoCtx privSender: bottom.
+
+			  handler := [ handlerAction cull: ex ] asContext.
+			  handler privSender: thisContext sender.
+
+			  (Process forContext: handler priority: Processor activePriority) resume.
+
+			  "cut the stack of current process"
+			  thisContext privSender: thisCtx.
+			  nil ] in FullBlockClosure(BlockClosure)>>on:fork: in Block: [ Processor terminateRealActive ]
+[0m[31m#fullscreen: was sent to nil
+[0mUndefinedObject(Object)>>doesNotUnderstand: #fullscreen:
+UndefinedObject>>doesNotUnderstand: #fullscreen:
+OSWorldRenderer>>fullscreenMode:
+OSWindowWorldMorph(WorldMorph)>>fullscreenChanged:
+WeakMessageSend>>value:
+WeakMessageSend>>cull:
+WeakMessageSend>>cull:cull:
+[action cull: anAnnouncement cull: announcer] in WeakAnnouncementSubscription>>deliver: in Block: [action cull: anAnnouncement cull: announcer]
+FullBlockClosure(BlockClosure)>>on:do:
+[ Processor terminateRealActive ] in [ :ex |
+			  | onDoCtx handler bottom thisCtx |
+			  onDoCtx := thisContext.
+			  thisCtx := onDoCtx home.
+
+			  "find the context on stack for which this method's is sender"
+
+			  [ onDoCtx sender == thisCtx ] whileFalse: [
+				  onDoCtx := onDoCtx sender.
+				  onDoCtx ifNil: [ "Can't find our home context. seems like we're already forked
+				and handling another exception in new thread. In this case, just pass it through handler."
+					  ^ handlerAction cull: ex ] ].
+
+			  bottom := [ Processor terminateRealActive ] asContext.
+			  onDoCtx privSender: bottom.
+
+			  handler := [ handlerAction cull: ex ] asContext.
+			  handler privSender: thisContext sender.
+
+			  (Process forContext: handler priority: Processor activePriority) resume.
+
+			  "cut the stack of current process"
+			  thisContext privSender: thisCtx.
+			  nil ] in FullBlockClosure(BlockClosure)>>on:fork: in Block: [ Processor terminateRealActive ]
+[0m[31m#fullscreen: was sent to nil
+[0mUndefinedObject(Object)>>doesNotUnderstand: #fullscreen:
+UndefinedObject>>doesNotUnderstand: #fullscreen:
+OSWorldRenderer>>fullscreenMode:
+OSWindowWorldMorph(WorldMorph)>>fullscreenChanged:
+WeakMessageSend>>value:
+WeakMessageSend>>cull:
+WeakMessageSend>>cull:cull:
+[action cull: anAnnouncement cull: announcer] in WeakAnnouncementSubscription>>deliver: in Block: [action cull: anAnnouncement cull: announcer]
+FullBlockClosure(BlockClosure)>>on:do:
+[ Processor terminateRealActive ] in [ :ex |
+			  | onDoCtx handler bottom thisCtx |
+			  onDoCtx := thisContext.
+			  thisCtx := onDoCtx home.
+
+			  "find the context on stack for which this method's is sender"
+
+			  [ onDoCtx sender == thisCtx ] whileFalse: [
+				  onDoCtx := onDoCtx sender.
+				  onDoCtx ifNil: [ "Can't find our home context. seems like we're already forked
+				and handling another exception in new thread. In this case, just pass it through handler."
+					  ^ handlerAction cull: ex ] ].
+
+			  bottom := [ Processor terminateRealActive ] asContext.
+			  onDoCtx privSender: bottom.
+
+			  handler := [ handlerAction cull: ex ] asContext.
+			  handler privSender: thisContext sender.
+
+			  (Process forContext: handler priority: Processor activePriority) resume.
+
+			  "cut the stack of current process"
+			  thisContext privSender: thisCtx.
+			  nil ] in FullBlockClosure(BlockClosure)>>on:fork: in Block: [ Processor terminateRealActive ]
+[0m[31m#fullscreen: was sent to nil
+[0mUndefinedObject(Object)>>doesNotUnderstand: #fullscreen:
+UndefinedObject>>doesNotUnderstand: #fullscreen:
+OSWorldRenderer>>fullscreenMode:
+OSWindowWorldMorph(WorldMorph)>>fullscreenChanged:
+WeakMessageSend>>value:
+WeakMessageSend>>cull:
+WeakMessageSend>>cull:cull:
+[action cull: anAnnouncement cull: announcer] in WeakAnnouncementSubscription>>deliver: in Block: [action cull: anAnnouncement cull: announcer]
+FullBlockClosure(BlockClosure)>>on:do:
+[ Processor terminateRealActive ] in [ :ex |
+			  | onDoCtx handler bottom thisCtx |
+			  onDoCtx := thisContext.
+			  thisCtx := onDoCtx home.
+
+			  "find the context on stack for which this method's is sender"
+
+			  [ onDoCtx sender == thisCtx ] whileFalse: [
+				  onDoCtx := onDoCtx sender.
+				  onDoCtx ifNil: [ "Can't find our home context. seems like we're already forked
+				and handling another exception in new thread. In this case, just pass it through handler."
+					  ^ handlerAction cull: ex ] ].
+
+			  bottom := [ Processor terminateRealActive ] asContext.
+			  onDoCtx privSender: bottom.
+
+			  handler := [ handlerAction cull: ex ] asContext.
+			  handler privSender: thisContext sender.
+
+			  (Process forContext: handler priority: Processor activePriority) resume.
+
+			  "cut the stack of current process"
+			  thisContext privSender: thisCtx.
+			  nil ] in FullBlockClosure(BlockClosure)>>on:fork: in Block: [ Processor terminateRealActive ]
+[0m[31m#fullscreen: was sent to nil
+[0mUndefinedObject(Object)>>doesNotUnderstand: #fullscreen:
+UndefinedObject>>doesNotUnderstand: #fullscreen:
+OSWorldRenderer>>fullscreenMode:
+OSWindowWorldMorph(WorldMorph)>>fullscreenChanged:
+WeakMessageSend>>value:
+WeakMessageSend>>cull:
+WeakMessageSend>>cull:cull:
+[action cull: anAnnouncement cull: announcer] in WeakAnnouncementSubscription>>deliver: in Block: [action cull: anAnnouncement cull: announcer]
+FullBlockClosure(BlockClosure)>>on:do:
+[ Processor terminateRealActive ] in [ :ex |
+			  | onDoCtx handler bottom thisCtx |
+			  onDoCtx := thisContext.
+			  thisCtx := onDoCtx home.
+
+			  "find the context on stack for which this method's is sender"
+
+			  [ onDoCtx sender == thisCtx ] whileFalse: [
+				  onDoCtx := onDoCtx sender.
+				  onDoCtx ifNil: [ "Can't find our home context. seems like we're already forked
+				and handling another exception in new thread. In this case, just pass it through handler."
+					  ^ handlerAction cull: ex ] ].
+
+			  bottom := [ Processor terminateRealActive ] asContext.
+			  onDoCtx privSender: bottom.
+
+			  handler := [ handlerAction cull: ex ] asContext.
+			  handler privSender: thisContext sender.
+
+			  (Process forContext: handler priority: Processor activePriority) resume.
+
+			  "cut the stack of current process"
+			  thisContext privSender: thisCtx.
+			  nil ] in FullBlockClosure(BlockClosure)>>on:fork: in Block: [ Processor terminateRealActive ]
+[0m[31m#fullscreen: was sent to nil
+[0mUndefinedObject(Object)>>doesNotUnderstand: #fullscreen:
+UndefinedObject>>doesNotUnderstand: #fullscreen:
+OSWorldRenderer>>fullscreenMode:
+OSWindowWorldMorph(WorldMorph)>>fullscreenChanged:
+WeakMessageSend>>value:
+WeakMessageSend>>cull:
+WeakMessageSend>>cull:cull:
+[action cull: anAnnouncement cull: announcer] in WeakAnnouncementSubscription>>deliver: in Block: [action cull: anAnnouncement cull: announcer]
+FullBlockClosure(BlockClosure)>>on:do:
+[ Processor terminateRealActive ] in [ :ex |
+			  | onDoCtx handler bottom thisCtx |
+			  onDoCtx := thisContext.
+			  thisCtx := onDoCtx home.
+
+			  "find the context on stack for which this method's is sender"
+
+			  [ onDoCtx sender == thisCtx ] whileFalse: [
+				  onDoCtx := onDoCtx sender.
+				  onDoCtx ifNil: [ "Can't find our home context. seems like we're already forked
+				and handling another exception in new thread. In this case, just pass it through handler."
+					  ^ handlerAction cull: ex ] ].
+
+			  bottom := [ Processor terminateRealActive ] asContext.
+			  onDoCtx privSender: bottom.
+
+			  handler := [ handlerAction cull: ex ] asContext.
+			  handler privSender: thisContext sender.
+
+			  (Process forContext: handler priority: Processor activePriority) resume.
+
+			  "cut the stack of current process"
+			  thisContext privSender: thisCtx.
+			  nil ] in FullBlockClosure(BlockClosure)>>on:fork: in Block: [ Processor terminateRealActive ]
+[0m[31m#fullscreen: was sent to nil
+[0mUndefinedObject(Object)>>doesNotUnderstand: #fullscreen:
+UndefinedObject>>doesNotUnderstand: #fullscreen:
+OSWorldRenderer>>fullscreenMode:
+OSWindowWorldMorph(WorldMorph)>>fullscreenChanged:
+WeakMessageSend>>value:
+WeakMessageSend>>cull:
+WeakMessageSend>>cull:cull:
+[action cull: anAnnouncement cull: announcer] in WeakAnnouncementSubscription>>deliver: in Block: [action cull: anAnnouncement cull: announcer]
+FullBlockClosure(BlockClosure)>>on:do:
+[ Processor terminateRealActi[31m#fullscreen: was sent to nil
+[0mUndefinedObject(Object)>>doesNotUnderstand: #fullscreen:
+UndefinedObject>>doesNotUnderstand: #fullscreen:
+OSWorldRenderer>>fullscreenMode:
+OSWindowWorldMorph(WorldMorph)>>fullscreenChanged:
+WeakMessageSend>>value:
+WeakMessageSend>>cull:
+WeakMessageSend>>cull:cull:
+[action cull: anAnnouncement cull: announcer] in WeakAnnouncementSubscription>>deliver: in Block: [action cull: anAnnouncement cull: announcer]
+FullBlockClosure(BlockClosure)>>on:do:
+[ Processor terminateRealActive ] in [ :ex |
+			  | onDoCtx handler bottom thisCtx |
+			  onDoCtx := thisContext.
+			  thisCtx := onDoCtx home.
+
+			  "find the context on stack for which this method's is sender"
+
+			  [ onDoCtx sender == thisCtx ] whileFalse: [
+				  onDoCtx := onDoCtx sender.
+				  onDoCtx ifNil: [ "Can't find our home context. seems like we're already forked
+				and handling another exception in new thread. In this case, just pass it through handler."
+					  ^ handlerAction cull: ex ] ].
+
+			  bottom := [ Processor terminateRealActive ] asContext.
+			  onDoCtx privSender: bottom.
+
+			  handler := [ handlerAction cuve ] in [ :ex |
+			  | onDoCtx handler bottom thisCtx |
+			  onDoCtx := thisContext.
+			  thisCtx := onDoCtx home.
+
+			  "find the context on stack for which this method's is sender"
+
+			  [ onDoCtx sender == thisCtx ] whileFalse: [
+				  onDoCtx := onDoCtx sender.
+				  onDoCtx ifNil: [ "Can't find our home context. seems like we're already forked
+				and handling another exception in new thread. In this case, just pass it through handler."
+					  ^ handlerAction cull: ex ] ].
+
+			  bottom := [ Processor terminateRealActive ] asContext.
+			  onDoCtx privSender: bottom.
+
+			  handler := [ handlerAction cull: ex ] asContext.
+			  handler privSender: thisContext sender.
+
+			  (Process forContext: handler priority: Processor activePriority) resume.
+
+			  "cut the stack of current process"
+			  thisContext privSender: thisCtx.
+			  nil ] in FullBlockClosure(BlockClosure)>>on:fork: in Block: [ Processor terminateRealActive ]
+[0mll: ex ] asContext.
+			  handler privSender: thisContext sender.
+
+			  (Process forContext: handler priority: Processor activePriority) resume.
+
+			  "cut the stack of current process"
+			  thisContext privSender: thisCtx.
+			  nil ] in FullBlockClosure(BlockClosure)>>on:fork: in Block: [ Processor terminateRealActive ]
+[0m[31m#fullscreen: was sent to nil
+[0mUndefinedObject(Object)>>doesNotUnderstand: #fullscreen:
+UndefinedObject>>doesNotUnderstand: #fullscreen:
+OSWorldRenderer>>fullscreenMode:
+OSWindowWorldMorph(WorldMorph)>>fullscreenChanged:
+WeakMessageSend>>value:
+WeakMessageSend>>cull:
+WeakMessageSend>>cull:cull:
+[action cull: anAnnouncement cull: announcer] in WeakAnnouncementSubscription>>deliver: in Block: [action cull: anAnnouncement cull: announcer]
+FullBlockClosure(BlockClosure)>>on:do:
+[ Processor terminateRealActive ] in [ :ex |
+			  | onDoCtx handler bottom thisCtx |
+			  onDoCtx := thisContext.
+			  thisCtx := onDoCtx home.
+
+			  "find the context on stack for which this method's is sender"
+
+			  [ onDoCtx sender == thisCtx ] whileFalse: [
+				  onDoCtx := onDoCtx sender.
+				  onDoCtx ifNil: [ "Can't find our home context. seems like we're already forked
+				and handling another exception in new thread. In this case, just pass it through handler."
+					  ^ handlerAction cull: ex ] ].
+
+			  bottom := [ Processor terminateRealActive ] asContext.
+			  onDoCtx privSender: bottom.
+
+			  handler := [ handlerAction cull: ex ] asContext.
+			  handler privSender: thisContext sender.
+
+			  (Process forContext: handler priority: Processor activePriority) resume.
+
+			  "cut the stack of current process"
+			  thisContext privSender: thisCtx.
+			  nil ] in FullBlockClosure(BlockClosure)>>on:fork: in Block: [ Processor terminateRealActive ]
+[0m[31m#fullscreen: was sent to nil
+[0mUndefinedObject(Object)>>doesNotUnderstand: #fullscreen:
+UndefinedObject>>doesNotUnderstand: #fullscreen:
+OSWorldRenderer>>fullscreenMode:
+OSWindowWorldMorph(WorldMorph)>>fullscreenChanged:
+WeakMessageSend>>value:
+WeakMessageSend>>cull:
+WeakMessageSend>>cull:cull:
+[action cull: anAnnouncement cull: announcer] in WeakAnnouncementSubscription>>deliver: in Block: [action cull: anAnnouncement cull: announcer]
+FullBlockClosure(BlockClosure)>>on:do:
+[ Processor terminateRealActive ] in [ :ex |
+			  | onDoCtx handler bottom thisCtx |
+			  onDoCtx := thisContext.
+			  thisCtx := onDoCtx home.
+
+			  "find the context on stack for which this method's is sender"
+
+			  [ onDoCtx sender == thisCtx ] whileFalse: [
+				  onDoCtx := onDoCtx sender.
+				  onDoCtx ifNil: [ "Can't find our home context. seems like we're already forked
+				and handling another exception in new thread. In this case, just pass it through handler."
+					  ^ handlerAction cull: ex ] ].
+
+			  bottom := [ Processor terminateRealActive ] asContext.
+			  onDoCtx privSender: bottom.
+
+			  handler := [ handlerAction cull: ex ] asContext.
+			  handler privSender: thisContext sender.
+
+			  (Process forContext: handler priority: Processor activePriority) resume.
+
+			  "cut the stack of current process"
+			  thisContext privSender: thisCtx.
+			  nil ] in FullBlockClosure(BlockClosure)>>on:fork: in Block: [ Processor terminateRealActive ]
+[0m[31m#fullscreen: was sent to nil
+[0mUndefinedObject(Object)>>doesNotUnderstand: #fullscreen:
+UndefinedObject>>doesNotUnderstand: #fullscreen:
+OSWorldRenderer>>fullscreenMode:
+OSWindowWorldMorph(WorldMorph)>>fullscreenChanged:
+WeakMessageSend>>value:
+WeakMessageSend>>cull:
+WeakMessageSend>>cull:cull:
+[action cull: anAnnouncement cull: announcer] in WeakAnnouncementSubscription>>deliver: in Block: [action cull: anAnnouncement cull: announcer]
+FullBlockClosure(BlockClosure)>>on:do:
+[ Processor terminateRealActive ] in [ :ex |
+			  | onDoCtx handler bottom thisCtx |
+			  onDoCtx := thisContext.
+			  thisCtx := onDoCtx home.
+
+			  "find the context on stack for which this method's is sender"
+
+			  [ onDoCtx sender == thisCtx ] whileFalse: [
+				  onDoCtx := onDoCtx sender.
+				  onDoCtx ifNil: [ "Can't find our home context. seems like we're already forked
+				and handling another exception in new thread. In this case, just pass it through handler."
+					  ^ handlerAction cull: ex ] ].
+
+			  bottom := [ Processor terminateRealActive ] asContext.
+			  onDoCtx privSender: bottom.
+
+			  handler := [ handlerAction cull: ex ] asContext.
+			  handler privSender: thisContext sender.
+
+			  (Process forContext: handler priority: Processor activePriority) resume.
+
+			  "cut the stack of current process"
+			  thisContext privSender: thisCtx.
+			  nil ] in FullBlockClosure(BlockClosure)>>on:fork: in Block: [ Processor terminateRealActive ]
+[0m[31m#fullscreen: was sent to nil
+[0mUndefinedObject(Object)>>doesNotUnderstand: #fullscreen:
+UndefinedObject>>doesNotUnderstand: #fullscreen:
+OSWorldRenderer>>fullscreenMode:
+OSWindowWorldMorph(WorldMorph)>>fullscreenChanged:
+WeakMessageSend>>value:
+WeakMessageSend>>cull:
+WeakMessageSend>>cull:cull:
+[action cull: anAnnouncement cull: announcer] in WeakAnnouncementSubscription>>deliver: in Block: [action cull: anAnnouncement cull: announcer]
+FullBlockClosure(BlockClosure)>>on:do:
+[ Processor terminateRealActive ] in [ :ex |
+			  | onDoCtx handler bottom thisCtx |
+			  onDoCtx := thisContext.
+			  thisCtx := onDoCtx home.
+
+			  "find the context on stack for which this method's is sender"
+
+			  [ onDoCtx sender == thisCtx ] whileFalse: [
+				  onDoCtx := onDoCtx sender.
+				  onDoCtx ifNil: [ "Can't find our home context. seems like we're already forked
+				and handling another exception in new thread. In this case, just pass it through handler."
+					  ^ handlerAction cull: ex ] ].
+
+			  bottom := [ Processor terminateRealActive ] asContext.
+			  onDoCtx privSender: bottom.
+
+			  handler := [ handlerAction cull: ex ] asContext.
+			  handler privSender: thisContext sender.
+
+			  (Process forContext: handler priority: Processor activePriority) resume.
+
+			  "cut the stack of current process"
+			  thisContext privSender: thisCtx.
+			  nil ] in FullBlockClosure(BlockClosure)>>on:fork: in Block: [ Processor terminateRealActive ]
+[0m

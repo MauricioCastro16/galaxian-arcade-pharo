@@ -1,0 +1,109 @@
+OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-17T12:18:50.883-03:00' ],
+		#self : OmReference [ '1' ]
+	},
+	#content : '|x y|\rx:= Nave new.\ry:= Morph new.\rx check: y.\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-17T12:19:02.676-03:00' ],
+		#self : OmReference [ '2' ]
+	},
+	#content : '|x y|\rx:= Nave new.\ry:= Morph new.\rx check: y.\r(x check) delete'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-17T12:19:07.301-03:00' ],
+		#self : OmReference [ '3' ]
+	},
+	#content : '|x y|\rx:= Nave new.\ry:= Morph new.\r(x check) delete'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-17T12:19:32.247-03:00' ],
+		#self : OmReference [ '4' ]
+	},
+	#content : '|x y|\rx:= Nave new.\ry:= Morph new.\rx check: y.\r((x check) isNil) ifFalse: [x check delete]'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-17T12:19:36.575-03:00' ],
+		#self : OmReference [ '5' ]
+	},
+	#content : '|x y|\rx:= Nave new.\ry:= Morph new.\r((x check) isNil) ifFalse: [x check delete]'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-17T12:22:32.353-03:00' ],
+		#self : OmReference [ '6' ]
+	},
+	#content : '|x y|\rx:= Nave new.\rx position (2.154 @ 3.125)\ry:= Morph new.\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-17T12:22:35.136-03:00' ],
+		#self : OmReference [ '7' ]
+	},
+	#content : '|x y|\rx:= Nave new.\rx position (2.154 @ 3.125).\ry:= Morph new.\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-17T12:22:39.287-03:00' ],
+		#self : OmReference [ '8' ]
+	},
+	#content : '|x y|\rx:= Nave new.\rx position: (2.154 @ 3.125).\ry:= Morph new.\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-17T12:22:44.924-03:00' ],
+		#self : OmReference [ '9' ]
+	},
+	#content : '|x y|\rx:= Nave new.\rx position: (2.154 @ 3.125).\rx position\ry:= Morph new.\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-17T12:23:01.804-03:00' ],
+		#self : OmReference [ '10' ]
+	},
+	#content : '|x y|\rx:= Nave new.\rx position: (2.154 @ 3.125).\rx position.\ry:= Morph new.\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-17T12:23:06.031-03:00' ],
+		#self : OmReference [ '11' ]
+	},
+	#content : '|x y|\rx:= Nave new.\rx position: (2.154 @ 3.125).\rx position.\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-17T12:23:09.051-03:00' ],
+		#self : OmReference [ '12' ]
+	},
+	#content : '|x y|\rx:= Nave new.\rx position: (2.154 @ 3.125).\rx position abs.\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-17T12:23:14.148-03:00' ],
+		#self : OmReference [ '13' ]
+	},
+	#content : '|x y|\rx:= Nave new.\rx position: (2.154 @ 3.125).\rx position x abs.\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-17T12:23:22.065-03:00' ],
+		#self : OmReference [ '14' ]
+	},
+	#content : '|x y|\rx:= Nave new.\rx position: (2.154 @ 3.125).\r(x position x) abs.\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-17T12:23:41.297-03:00' ],
+		#self : OmReference [ '15' ]
+	},
+	#content : '|x y|\rx:= Nave new.\rx position: (2.154 @ 3.125).\rtruncate: (x position x). '
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-17T12:23:49.346-03:00' ],
+		#self : OmReference [ '16' ]
+	},
+	#content : '|x y|\rx:= Nave new.\rx position: (2.154 @ 3.125).\r(x position x) truncate. '
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-17T12:23:56.903-03:00' ],
+		#self : OmReference [ '17' ]
+	},
+	#content : '|x y|\rx:= Nave new.\rx position: (2.154 @ 3.125).\r(x position x) truncate: 3. '
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-17T12:24:07.574-03:00' ],
+		#self : OmReference [ '18' ]
+	},
+	#content : '|x y|\rx:= Nave new.\rx position: (2.154 @ 3.125).\r(x position x) truncated . '
+}

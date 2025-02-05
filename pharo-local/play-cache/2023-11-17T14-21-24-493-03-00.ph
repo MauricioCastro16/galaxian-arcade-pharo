@@ -1,0 +1,1 @@
+|x y vent aux|aux:= Fondo new.x:= Explosion new.y:= Morph new.vent:= OSWindowWorldMorph new.x openInWorld: vent.Time delay: 50.y openInWorld: vent.vent open.

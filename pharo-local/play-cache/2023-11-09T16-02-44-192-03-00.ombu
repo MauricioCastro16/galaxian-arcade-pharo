@@ -1,0 +1,391 @@
+OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-09T16:03:32.499-03:00' ],
+		#self : OmReference [ '1' ]
+	},
+	#content : '|x y vent|\rvent:= OSWindowWorldMorph new.\rx:= Morph new.\ry:= Morph new.\rx subMorph: y.\ry openInWorld: vent.\rvent open.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-09T16:03:52.212-03:00' ],
+		#self : OmReference [ '2' ]
+	},
+	#content : '|x y vent|\rvent:= OSWindowWorldMorph new.\rx:= Morph new.\ry:= Morph new.\rx addMorph: y.\ry openInWorld: vent.\rvent open.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-09T16:04:23.881-03:00' ],
+		#self : OmReference [ '3' ]
+	},
+	#content : '|vent morph1 morph2 |\rvent:= OSWindowWorldMorph new.\r\rmorph1 := Morph new.\rmorph1 color: Color red.\rmorph1 extent: 200@200.\r\rmorph2 := Morph new.\rmorph2 color: Color green.\rmorph2 extent: 50@50.\r\rmorph1 addMorph: morph2.\rmorph2 position: 100@100.\r\rmorph1 openInWorld: vent.\rvent open.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-09T16:05:07.813-03:00' ],
+		#self : OmReference [ '4' ]
+	},
+	#content : '|vent morph1 morph2 |\rvent:= OSWindowWorldMorph new.\r\rmorph1 := Morph new.\rmorph1 color: Color red.\rmorph1 extent: 200@200.\r\rmorph2 := Morph new.\rmorph2 color: Color green.\rmorph2 extent: 50@50.\r\rmorph1 addMorph: morph2.\rmorph2 position: 100@100.\rmorph1 subMorph.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-09T16:05:14.216-03:00' ],
+		#self : OmReference [ '5' ]
+	},
+	#content : '|vent morph1 morph2 |\rvent:= OSWindowWorldMorph new.\r\rmorph1 := Morph new.\rmorph1 color: Color red.\rmorph1 extent: 200@200.\r\rmorph2 := Morph new.\rmorph2 color: Color green.\rmorph2 extent: 50@50.\r\rmorph1 addMorph: morph2.\rmorph2 position: 100@100.\rmorph1 subMorph: 1.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-09T16:07:20.608-03:00' ],
+		#self : OmReference [ '6' ]
+	},
+	#content : '|vent morph1 morph2 |\rvent:= OSWindowWorldMorph new.\r\rmorph1 := Morph new.\rmorph1 color: Color red.\rmorph1 extent: 200@200.\r\rmorph2 := Morph new.\rmorph2 color: Color green.\rmorph2 extent: 50@50.\r\rmorph1 addMorph: morph2.\rmorph2 position: 100@100.\rmorph1 submorphsDo: [ :a |  ].\r\rmorph1 openInWorld: vent.\rvent open.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-09T16:09:41.137-03:00' ],
+		#self : OmReference [ '7' ]
+	},
+	#content : '|vent morph|\rvent:= OSWindowWorldMorph new.\rDisplay\rvent open.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-09T16:09:45.783-03:00' ],
+		#self : OmReference [ '8' ]
+	},
+	#content : '|vent morph|\rvent:= OSWindowWorldMorph new.\rDisplay x\rvent open.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-09T16:09:56.622-03:00' ],
+		#self : OmReference [ '9' ]
+	},
+	#content : '|vent morph|\rvent:= OSWindowWorldMorph new.\rDisplay width\rvent open.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-09T16:10:21.74-03:00' ],
+		#self : OmReference [ '10' ]
+	},
+	#content : '|vent morph|\rvent:= OSWindowWorldMorph new.\r(Display width)@(Display length)\rvent open.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-09T16:10:37.513-03:00' ],
+		#self : OmReference [ '11' ]
+	},
+	#content : '|vent morph|\rvent:= OSWindowWorldMorph new.\r(Display width)@(Display height)\rvent open.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-09T16:11:16.12-03:00' ],
+		#self : OmReference [ '12' ]
+	},
+	#content : '|vent morph|\rvent:= OSWindowWorldMorph new.\rmorph:= Morph new.\rmorph extent: (Display width)@(Display height).\rmorph openInWorld: vent.\rvent open.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-09T16:11:30.111-03:00' ],
+		#self : OmReference [ '13' ]
+	},
+	#content : '|vent morph|\rvent:= OSWindowWorldMorph new.\rmorph:= Morph new.\rmorph extent: (Display width)@(Display height).\rmorph openInWorld: vent; lock.\rvent open.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-09T16:12:27.2-03:00' ],
+		#self : OmReference [ '14' ]
+	},
+	#content : '|vent fondo|\rvent:= OSWindowWorldMorph new.\rfondo:= Fondo new.\rfondo openInWorld: vent; lock.\rvent open.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-09T16:13:38.747-03:00' ],
+		#self : OmReference [ '15' ]
+	},
+	#content : '|vent fondo fila|\rvent:= OSWindowWorldMorph new.\rfondo:= Fondo new.\rfila:= FiladeNaves new.\rfondo addMorph: fila.\rfondo openInWorld: vent; lock.\rvent open.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-09T16:13:57.013-03:00' ],
+		#self : OmReference [ '16' ]
+	},
+	#content : '|vent fondo fila|\rvent:= OSWindowWorldMorph new.\rfondo:= Fondo new.\rfila:= FiladeNaves new.\rfila color: Color red.\rfondo addMorph: fila.\rfondo openInWorld: vent; lock.\rvent open.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-10T17:29:19.726-03:00' ],
+		#self : OmReference [ '17' ]
+	},
+	#content : '|vent fondo fila|\rvent:= OSWindowWorldMorph new.\rfondo:= Fondo new.\rfondo openInWorld: vent; lock.\rvent open.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-14T16:55:29.773-03:00' ],
+		#self : OmReference [ '18' ]
+	},
+	#content : '|vent fondo fila|\rvent:= OSWindowWorldMorph new.\rfondo:= Fondo new.\rfondo openInWorld.\rvent open.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-14T16:55:49.21-03:00' ],
+		#self : OmReference [ '19' ]
+	},
+	#content : 'awdasdwd'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-14T16:56:58.656-03:00' ],
+		#self : OmReference [ '20' ]
+	},
+	#content : '|vent fondo fila|\rvent:= OSWindowWorldMorph new.\rfondo:= Fondo new.\rfondo openInWorld: vent; lock.\rvent open.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-14T17:21:44.743-03:00' ],
+		#self : OmReference [ '21' ]
+	},
+	#content : '|vent fondo fila|\rvent:= OSWindowWorldMorph new.\rfondo:= Fondo new.\rfondo openInWorld: vent.\rvent open.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-14T17:22:22.14-03:00' ],
+		#self : OmReference [ '22' ]
+	},
+	#content : '|vent fondo fila|\rvent:= OSWindowWorldMorph new.\rfondo:= Fondo new.\rfondo openInWorld: vent; lock.\rvent open.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-14T17:22:50.465-03:00' ],
+		#self : OmReference [ '23' ]
+	},
+	#content : '|vent fondo fila|\rvent:= OSWindowWorldMorph new.\rfondo:= Fondo new.\rfondo openInWorld: vent.\rvent open.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-14T18:15:29.469-03:00' ],
+		#self : OmReference [ '24' ]
+	},
+	#content : '|vent fondo|\rvent:= OSWindowWorldMorph new.\rfondo:= Fondo new.\rfondo openInWorld: vent.\rvent open.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-15T22:01:47.273-03:00' ],
+		#self : OmReference [ '25' ]
+	},
+	#content : '|vent fondo|\r\rInstrucciones cantconfig: 3.\r\rvent:= OSWindowWorldMorph new.\rfondo:= Fondo new.\rfondo openInWorld: vent.\rvent open.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-16T00:20:10.475-03:00' ],
+		#self : OmReference [ '26' ]
+	},
+	#content : '|vent fondo|\r\rInstrucciones cantconfig: 3.\r\rvent:= OSWindowWorldMorph new.\rvent title: \'Galaxian\'.\rfondo:= Fondo new.\rfondo openInWorld: vent.\rvent open.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-16T00:21:14.905-03:00' ],
+		#self : OmReference [ '27' ]
+	},
+	#content : '|vent fondo|\r\rInstrucciones cantconfig: 3.\r\rvent:= OSWindowWorldMorph new.\rvent title: \'Galaxian\'.\rvent isResizeable: false.\rfondo:= Fondo new.\rfondo openInWorld: vent.\rvent open.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-16T00:21:30.881-03:00' ],
+		#self : OmReference [ '28' ]
+	},
+	#content : '|vent fondo|\r\rInstrucciones cantconfig: 3.\r\rvent:= OSWindowWorldMorph new.\rfondo:= Fondo new.\rfondo openInWorld: vent.\rvent open.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-16T12:54:53.615-03:00' ],
+		#self : OmReference [ '29' ]
+	},
+	#content : '|vent fondo|\r\rInstrucciones cantconfig: 3.\r\rvent:= OSWindowWorldMorph new.\rfondo:= Fondo new.\rfondo position: (Display width / 2) @ (Display length / 2).\rfondo openInWorld: vent.\rvent open.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-16T12:55:06.215-03:00' ],
+		#self : OmReference [ '30' ]
+	},
+	#content : '|vent fondo|\r\rInstrucciones cantconfig: 3.\r\rvent:= OSWindowWorldMorph new.\rfondo:= Fondo new.\rfondo position: (Display width / 2) @ (Display height / 2).\rfondo openInWorld: vent.\rvent open.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-16T12:55:14.724-03:00' ],
+		#self : OmReference [ '31' ]
+	},
+	#content : '|vent fondo|\r\rInstrucciones cantconfig: 3.\r\rvent:= OSWindowWorldMorph new.\rfondo:= Fondo new.\rfondo center: (Display width / 2) @ (Display height / 2).\rfondo openInWorld: vent.\rvent open.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-16T12:55:47.015-03:00' ],
+		#self : OmReference [ '32' ]
+	},
+	#content : '|vent fondo|\r\rInstrucciones cantconfig: 3.\r\rvent:= OSWindowWorldMorph new.\rfondo:= Fondo new.\rfondo center: ((Display width / 2) abs) @ ((Display height / 2) abs).\rfondo openInWorld: vent.\rvent open.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-16T12:56:23.672-03:00' ],
+		#self : OmReference [ '33' ]
+	},
+	#content : '|vent fondo|\r\rInstrucciones cantconfig: 3.\r\rvent:= OSWindowWorldMorph new.\rfondo:= Fondo new.\rfondo center: (Display width / 2) @ (Display height / 2).\rfondo openInWorld: vent.\rvent open.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-16T13:45:06.753-03:00' ],
+		#self : OmReference [ '34' ]
+	},
+	#content : '|vent fondo|\r\rInstrucciones cantconfig: 3.\rInstrucciones score: 0.\r\rvent:= OSWindowWorldMorph new.\rfondo:= Fondo new.\rfondo center: (Display width / 2) @ (Display height / 2).\rfondo openInWorld: vent.\rvent open.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-17T14:06:33.622-03:00' ],
+		#self : OmReference [ '35' ]
+	},
+	#content : '|vent fondo|\r\rInstrucciones cantconfig: 3.\rInstrucciones score: 0.\r\rvent:= OSWindowWorldMorph new.\rfondo:= Fondo new.\rfondo center: (Display width / 2) @ (Display height / 2).\rfondo openInWorld: vent.\rvent open.\r\rDisplay height'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-17T14:25:18.474-03:00' ],
+		#self : OmReference [ '36' ]
+	},
+	#content : '|vent fondo aux|\r\rInstrucciones cantconfig: 3.\rInstrucciones score: 0.\r\rvent:= OSWindowWorldMorph new.\rfondo:= Fondo new.\rfondo center: (Display width / 2) @ (Display height / 2).\rfondo openInWorld: vent.\raux openInWorld: vent.\rvent open.\r\rDisplay height'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-17T14:25:37.804-03:00' ],
+		#self : OmReference [ '37' ]
+	},
+	#content : '|vent fondo aux|\r\rInstrucciones cantconfig: 3.\rInstrucciones score: 0.\r\rvent:= OSWindowWorldMorph new.\rfondo:= Fondo new.\rfondo center: (Display width / 2) @ (Display height / 2).\rfondo openInWorld: vent.\r\raux:= Explosion new.\raux openInWorld: vent.\r\rvent open.\r\rDisplay height'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-17T14:38:17.662-03:00' ],
+		#self : OmReference [ '38' ]
+	},
+	#content : '|vent fondo|\r\rInstrucciones cantconfig: 3.\rInstrucciones score: 0.\r\rvent:= OSWindowWorldMorph new.\rfondo:= Fondo new.\rfondo center: (Display width / 2) @ (Display height / 2).\rfondo openInWorld: vent.\rvent open.\r\rDisplay height'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-17T15:18:40.776-03:00' ],
+		#self : OmReference [ '39' ]
+	},
+	#content : '|vent fondo|\r\rInstrucciones cantconfig: 3.\rInstrucciones score: 0.\r\rvent:= OSWindowWorldMorph new.\rfondo:= Fondo new.\rfondo center: (Display width / 2) @ (Display height / 2).\rfondo openInWorld: vent.\rvent open.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-17T15:30:03.517-03:00' ],
+		#self : OmReference [ '40' ]
+	},
+	#content : '|vent fondo|\r\rInstrucciones cantconfig: 3.\rInstrucciones score: 0.\rInstrucciones vidas: 3.\r\rvent:= OSWindowWorldMorph new.\rfondo:= Fondo new.\rfondo center: (Display width / 2) @ (Display height / 2).\rfondo openInWorld: vent.\rvent open.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-17T16:40:40.301-03:00' ],
+		#self : OmReference [ '41' ]
+	},
+	#content : '|vent fondo|\r\rInstrucciones cantconfig: 8. "Configuraciones de naves"\rInstrucciones score: 0. "Score inicial"\rInstrucciones vidas: 3. "Vidas iniciales"\r\rvent:= OSWindowWorldMorph new. "Ventana que se ejecutará el código"\rfondo:= Fondo new. "Primer morph que da inicio a todo el juego"\rfondo center: (Display width / 2) @ (Display height / 2). "Centrar el morph"\rfondo openInWorld: vent. "Abrirlo en la ventana"\rvent open. "Abrir la ventana"'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-17T18:08:53.715-03:00' ],
+		#self : OmReference [ '42' ]
+	},
+	#content : '|vent fondo|\r\rInstrucciones cantconfig: 8. "Configuraciones de naves"\rInstrucciones score: 0. "Score inicial"\rInstrucciones vidas: 10. "Vidas iniciales"\r\rvent:= OSWindowWorldMorph new. "Ventana que se ejecutará el código"\rfondo:= Fondo new. "Primer morph que da inicio a todo el juego"\rfondo center: (Display width / 2) @ (Display height / 2). "Centrar el morph"\rfondo openInWorld: vent. "Abrirlo en la ventana"\rvent open. "Abrir la ventana"'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-17T18:10:44.218-03:00' ],
+		#self : OmReference [ '43' ]
+	},
+	#content : '|vent fondo|\r\rInstrucciones cantconfig: 8. "Configuraciones de naves"\rInstrucciones score: 10000. "Score inicial"\rInstrucciones vidas: 10. "Vidas iniciales"\r\rvent:= OSWindowWorldMorph new. "Ventana que se ejecutará el código"\rfondo:= Fondo new. "Primer morph que da inicio a todo el juego"\rfondo center: (Display width / 2) @ (Display height / 2). "Centrar el morph"\rfondo openInWorld: vent. "Abrirlo en la ventana"\rvent open. "Abrir la ventana"'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-17T18:10:53.671-03:00' ],
+		#self : OmReference [ '44' ]
+	},
+	#content : '|vent fondo|\r\rInstrucciones cantconfig: 8. "Configuraciones de naves"\rInstrucciones score: 0. "Score inicial"\rInstrucciones vidas: 10. "Vidas iniciales"\r\rvent:= OSWindowWorldMorph new. "Ventana que se ejecutará el código"\rfondo:= Fondo new. "Primer morph que da inicio a todo el juego"\rfondo center: (Display width / 2) @ (Display height / 2). "Centrar el morph"\rfondo openInWorld: vent. "Abrirlo en la ventana"\rvent open. "Abrir la ventana"'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-18T00:07:35.618-03:00' ],
+		#self : OmReference [ '45' ]
+	},
+	#content : '|vent fondo|\r\rInstrucciones cantconfig: 8. "Configuraciones de naves"\rInstrucciones score: 0. "Score inicial"\rInstrucciones vidas: 10. "Vidas iniciales"\r\rvent:= OSWindowWorldMorph new. "Ventana que se ejecutará el código"\rfondo:= Fondo new. "Primer morph que da inicio a todo el juego"\rfondo center: (Display width / 2) @ (Display height / 2). "Centrar el morph"\rfondo openInWorld: vent. "Abrirlo en la ventana"\rvent open. "Abrir la ventana"\rfondo alto.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-18T00:07:42.075-03:00' ],
+		#self : OmReference [ '46' ]
+	},
+	#content : '|vent fondo|\r\rInstrucciones cantconfig: 8. "Configuraciones de naves"\rInstrucciones score: 0. "Score inicial"\rInstrucciones vidas: 10. "Vidas iniciales"\r\rvent:= OSWindowWorldMorph new. "Ventana que se ejecutará el código"\rfondo:= Fondo new. "Primer morph que da inicio a todo el juego"\rfondo center: (Display width / 2) @ (Display height / 2). "Centrar el morph"\rfondo openInWorld: vent. "Abrirlo en la ventana"\rvent open. "Abrir la ventana"\rFondo alto.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-18T00:22:04.101-03:00' ],
+		#self : OmReference [ '47' ]
+	},
+	#content : '|vent fondo|\r\rInstrucciones cantconfig: 8. "Configuraciones de naves"\rInstrucciones score: 0. "Score inicial"\rInstrucciones vidas: 10. "Vidas iniciales"\r\rvent:= OSWindowWorldMorph new. "Ventana que se ejecutará el código"\rfondo:= Fondo new. "Primer morph que da inicio a todo el juego"\rfondo center: (Display width / 2) @ (Display height / 2). "Centrar el morph"\rfondo openInWorld: vent. "Abrirlo en la ventana"\rvent open. "Abrir la ventana"\rFondo alto.\rFondo ancho'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-18T00:22:15.467-03:00' ],
+		#self : OmReference [ '48' ]
+	},
+	#content : '|vent fondo|\r\rInstrucciones cantconfig: 8. "Configuraciones de naves"\rInstrucciones score: 0. "Score inicial"\rInstrucciones vidas: 10. "Vidas iniciales"\r\rvent:= OSWindowWorldMorph new. "Ventana que se ejecutará el código"\rfondo:= Fondo new. "Primer morph que da inicio a todo el juego"\rfondo center: (Display width / 2) @ (Display height / 2). "Centrar el morph"\rfondo openInWorld: vent. "Abrirlo en la ventana"\rvent open. "Abrir la ventana"'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-18T20:15:47.441-03:00' ],
+		#self : OmReference [ '49' ]
+	},
+	#content : '|vent fondo|\r\rInstrucciones cantconfig: 8. "Configuraciones de naves"\rInstrucciones score: 0. "Score inicial"\rInstrucciones vidas: 3. "Vidas iniciales"\r\rvent:= OSWindowWorldMorph new. "Ventana que se ejecutará el código"\rfondo:= Fondo new. "Primer morph que da inicio a todo el juego"\rfondo center: (Display width / 2) @ (Display height / 2). "Centrar el morph"\rfondo openInWorld: vent. "Abrirlo en la ventana"\rvent open. "Abrir la ventana"'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-18T23:51:45.021-03:00' ],
+		#self : OmReference [ '50' ]
+	},
+	#content : '|vent fondo|\r\rInstrucciones cantconfig: 8. "Configuraciones de naves"\rInstrucciones score: 0. "Score inicial"\rInstrucciones vidas: 3. "Vidas iniciales"\rfondo:= Fondo new. "Primer morph que da inicio a todo el juego"\rfondo center: (Display width / 2) @ (Display height / 2). "Centrar el morph"\rfondo openInWindowLabeled: \'Galaxian\'. "Abrirlo en la ventana"'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-18T23:54:04.677-03:00' ],
+		#self : OmReference [ '51' ]
+	},
+	#content : '|vent fondo|\r\rInstrucciones cantconfig: 8. "Configuraciones de naves"\rInstrucciones score: 0. "Score inicial"\rInstrucciones vidas: 3.\r\rvent:= OSWindowWorldMorph new.\rfondo:= Fondo new.\rfondo openInWorld: vent.\rvent open.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-18T23:54:42.275-03:00' ],
+		#self : OmReference [ '52' ]
+	},
+	#content : '|vent fondo|\r\rInstrucciones cantconfig: 8. "Configuraciones de naves"\rInstrucciones score: 0. "Score inicial"\rInstrucciones vidas: 3.\r\rvent:= OSWindowWorldMorph new.\rfondo:= Fondo new.\rfondo openInWorld: vent.\rfondo center: (Display height / 2)@( Display width /2).\rvent open.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-18T23:55:13.146-03:00' ],
+		#self : OmReference [ '53' ]
+	},
+	#content : '|vent fondo|\r\rInstrucciones cantconfig: 8. "Configuraciones de naves"\rInstrucciones score: 0. "Score inicial"\rInstrucciones vidas: 3.\r\rvent:= OSWindowWorldMorph new.\rfondo:= Fondo new.\rfondo center: (Display width / 2) @ (Display height / 2).\rfondo openInWorld: vent.\rvent open.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-19T00:01:18.996-03:00' ],
+		#self : OmReference [ '54' ]
+	},
+	#content : '|vent fondo|\r\rInstrucciones cantconfig: 8. "Configuraciones de naves"\rInstrucciones score: 0. "Score inicial"\rInstrucciones vidas: 3.\r\rvent:= OSWindowWorldMorph new.\rfondo:= Fondo new.\rfondo center: (Display width / 2) @ (Display height / 2).\rfondo openInWorld: vent.\rvent open.\r\rfondo world.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-19T00:01:30.074-03:00' ],
+		#self : OmReference [ '55' ]
+	},
+	#content : '|vent fondo|\r\rInstrucciones cantconfig: 8. "Configuraciones de naves"\rInstrucciones score: 0. "Score inicial"\rInstrucciones vidas: 3.\r\rvent:= OSWindowWorldMorph new.\rfondo:= Fondo new.\rfondo center: (Display width / 2) @ (Display height / 2).\rfondo openInWorld: vent.\rvent open.\r\rfondo world osWindowCloseButtonPressed.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-19T00:04:49.402-03:00' ],
+		#self : OmReference [ '56' ]
+	},
+	#content : '|vent fondo|\r\rInstrucciones cantconfig: 8. "Configuraciones de naves"\rInstrucciones score: 0. "Score inicial"\rInstrucciones vidas: 3.\r\rvent:= OSWindowWorldMorph new.\rfondo:= Fondo new.\rfondo center: (Display width / 2) @ (Display height / 2).\rfondo openInWorld: vent.\rvent \rvent open.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-19T00:05:01.042-03:00' ],
+		#self : OmReference [ '57' ]
+	},
+	#content : '|vent fondo|\r\rInstrucciones cantconfig: 8. "Configuraciones de naves"\rInstrucciones score: 0. "Score inicial"\rInstrucciones vidas: 3.\r\rvent:= OSWindowWorldMorph new.\rfondo:= Fondo new.\rfondo center: (Display width / 2) @ (Display height / 2).\rfondo openInWorld: vent.\rvent isResizeable: false.\rvent open.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-19T00:05:17.048-03:00' ],
+		#self : OmReference [ '58' ]
+	},
+	#content : '|vent fondo|\r\rInstrucciones cantconfig: 8. "Configuraciones de naves"\rInstrucciones score: 0. "Score inicial"\rInstrucciones vidas: 3.\r\rvent:= OSWindowWorldMorph new.\rfondo:= Fondo new.\rfondo center: (Display width / 2) @ (Display height / 2).\rfondo openInWorld: vent.\rvent isResizeable: (Display width)@(Display height).\rvent open.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-19T00:06:02.663-03:00' ],
+		#self : OmReference [ '59' ]
+	},
+	#content : '|vent fondo|\r\rInstrucciones cantconfig: 8. "Configuraciones de naves"\rInstrucciones score: 0. "Score inicial"\rInstrucciones vidas: 3.\r\rvent:= OSWindowWorldMorph new.\rfondo:= Fondo new.\rfondo center: (Display width / 2) @ (Display height / 2).\rfondo openInWorld: vent.\rvent extent: (Display width)@(Display height).\rvent open.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-19T00:54:21.087-03:00' ],
+		#self : OmReference [ '60' ]
+	},
+	#content : '|vent fondo|\r\rInstrucciones cantconfig: 8. "Configuraciones de naves"\rInstrucciones score: 0. "Score inicial"\rInstrucciones vidas: 3.\r\r"vent:= OSWindowWorldMorph new."\rfondo:= Fondo new.\rfondo center: (Display width / 2) @ (Display height / 2).\r"fondo openInWorld: vent.\rvent open."\rfondo openInWindowLabeled: \'L-Game\'.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-19T00:55:28.877-03:00' ],
+		#self : OmReference [ '61' ]
+	},
+	#content : '|vent fondo|\r\rInstrucciones cantconfig: 8. "Configuraciones de naves"\rInstrucciones score: 0. "Score inicial"\rInstrucciones vidas: 3.\r\rvent:= OSWindowWorldMorph new.\rfondo:= Fondo new.\rfondo center: (Display width / 2) @ (Display height / 2).\rfondo openInWorld: vent.\rvent open.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-20T14:36:06.739-03:00' ],
+		#self : OmReference [ '62' ]
+	},
+	#content : '|juego fondo|\r\rInstrucciones cantconfig: 8. "Configuraciones de naves"\rInstrucciones score: 0. "Score inicial"\rInstrucciones vidas: 3.\r\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-20T14:36:39.945-03:00' ],
+		#self : OmReference [ '63' ]
+	},
+	#content : '|juego fondo|\r\rInstrucciones cantconfig: 8. "Configuraciones de naves"\rInstrucciones score: 0. "Score inicial"\rInstrucciones vidas: 3.\r\rjuego:= Juego new.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-26T10:30:33.986-03:00' ],
+		#self : OmReference [ '64' ]
+	},
+	#content : '|juego|\r\rInstrucciones cantconfig: 8. "Configuraciones de naves"\rInstrucciones score: 0. "Score inicial"\rInstrucciones vidas: 3.\r\rjuego:= Juego new.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-26T14:43:59.051-03:00' ],
+		#self : OmReference [ '65' ]
+	},
+	#content : '|x y vent|\rvent:= OSWindowWorldMorph new.\rx:= Morph new.\ry:= Morph new.\rx subMorph: y.\ry openInWorld: vent.\rvent open.'
+}

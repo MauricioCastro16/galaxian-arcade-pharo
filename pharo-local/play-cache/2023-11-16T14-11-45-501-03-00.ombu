@@ -1,0 +1,61 @@
+OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-16T14:12:02.964-03:00' ],
+		#self : OmReference [ '1' ]
+	},
+	#content : '|tMorph font1 bMorph|\rtMorph := StringMorph new.\r        font1 := LogicalFont familyName: \'Arial\' pointSize: 24.\r       \r        tMorph contents: \'Hello World\';\r                fontName: \'Open Sans\' size: 24;\r                emphasis: TextEmphasis bold emphasisCode.\r       \r        bMorph := Morph new\r                                                color: Color red;\r                                                addMorph: tMorph.\r                                               \r        bMorph openInWorld.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-16T14:12:13.021-03:00' ],
+		#self : OmReference [ '2' ]
+	},
+	#content : '|tMorph font1 bMorph|\rtMorph := StringMorph new.\r        font1 := LogicalFont familyName: \'Arial\' pointSize: 50.\r       \r        tMorph contents: \'Hello World\';\r                fontName: \'Open Sans\' size: 24;\r                emphasis: TextEmphasis bold emphasisCode.\r       \r        bMorph := Morph new\r                                                color: Color red;\r                                                addMorph: tMorph.\r                                               \r        bMorph openInWorld.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-16T14:12:28.485-03:00' ],
+		#self : OmReference [ '3' ]
+	},
+	#content : '|s v|\rv := RTView new.\rs := RTMultiCompositeShape new.\rs add: (RTBox new color: Color red; size: 500).\rs add: (RTLabel new height: 70).\rv add: (s elementOn: \'Hello World\').\rv open'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-16T14:13:09.548-03:00' ],
+		#self : OmReference [ '4' ]
+	},
+	#content : '|tMorph font1|\rtMorph := StringMorph new.\rfont1 := LogicalFont familyName: \'Arial\' pointSize: 24.\r\rtMorph contents: \'Hello World\';\rfontName: \'Open Sans\' size: 24;\remphasis: TextEmphasis bold emphasisCode.\r\rtMorph openInWorld.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-16T14:13:34.138-03:00' ],
+		#self : OmReference [ '5' ]
+	},
+	#content : '|font tMorph bMorph|\rfont := LogicalFont familyName: \'Open Sans\' pointSize: 70.\r    tMorph := StringMorph new.\r    tMorph\r        contents: \'Hello World\';\r        font: font;\r        emphasis: TextEmphasis bold emphasisCode.\r    bMorph := Morph new\r        color: Color red;\r        addMorphBack: tMorph.\r        bMorph bounds:(tMorph fullBounds).\r\r    bMorph openInHand'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-16T14:14:04.426-03:00' ],
+		#self : OmReference [ '6' ]
+	},
+	#content : '|font tMorph bMorph|\rfont := LogicalFont familyName: \'Open Sans\' pointSize: 80.\r    tMorph := StringMorph new.\r    tMorph\r        contents: \'Hello World\';\r        font: font;\r        emphasis: TextEmphasis bold emphasisCode.\r    bMorph := Morph new\r        color: Color red;\r        addMorphBack: tMorph.\r        bMorph bounds:(tMorph fullBounds).\r\r    bMorph openInHand'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-16T14:14:34.314-03:00' ],
+		#self : OmReference [ '7' ]
+	},
+	#content : '|font tMorph bMorph|\rfont := LogicalFont familyName: \'Roboto\' pointSize: 80.\r    tMorph := StringMorph new.\r    tMorph\r        contents: \'Hello World\';\r        font: font;\r        emphasis: TextEmphasis bold emphasisCode.\r    bMorph := Morph new\r        color: Color red;\r        addMorphBack: tMorph.\r        bMorph bounds:(tMorph fullBounds).\r\r    bMorph openInHand'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-16T14:15:27.235-03:00' ],
+		#self : OmReference [ '8' ]
+	},
+	#content : '|font tMorph bMorph|\rfont := LogicalFont familyName: \'Arial\' pointSize: 80.\r    tMorph := StringMorph new.\r    tMorph\r        contents: \'Hello World\';\r        font: font;\r        emphasis: TextEmphasis bold emphasisCode.\r    bMorph := Morph new\r        color: Color red;\r        addMorphBack: tMorph.\r        bMorph bounds:(tMorph fullBounds).\r\r    bMorph openInHand'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-16T14:15:32.807-03:00' ],
+		#self : OmReference [ '9' ]
+	},
+	#content : '|font tMorph bMorph|\rfont := LogicalFont familyName: \'\' pointSize: 80.\r    tMorph := StringMorph new.\r    tMorph\r        contents: \'Hello World\';\r        font: font;\r        emphasis: TextEmphasis bold emphasisCode.\r    bMorph := Morph new\r        color: Color red;\r        addMorphBack: tMorph.\r        bMorph bounds:(tMorph fullBounds).\r\r    bMorph openInHand'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-16T14:17:50.759-03:00' ],
+		#self : OmReference [ '10' ]
+	},
+	#content : '|font tMorph bMorph|\rfont := LogicalFont familyName: \'\' pointSize: 80.\r    tMorph := StringMorph new.\r    tMorph\r        contents: \'Hello World\';\r        font: (LogicalFont familyName: \'Arial\' pointSize: 80);\r        emphasis: TextEmphasis bold emphasisCode.\r    bMorph := Morph new\r        color: Color red;\r        addMorphBack: tMorph.\r        bMorph bounds:(tMorph fullBounds).\r\r    bMorph openInHand'
+}

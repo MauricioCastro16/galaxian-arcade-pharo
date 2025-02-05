@@ -1,0 +1,7 @@
+OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-18T16:18:34.984-03:00' ],
+		#self : OmReference [ '1' ]
+	},
+	#content : '|x y vent|\rx:= EllipseMorph new.\rx extent: (100@100).\r\rvent:= OSWindowWorldMorph new.\rx openInWorld: vent.\rvent open'
+}

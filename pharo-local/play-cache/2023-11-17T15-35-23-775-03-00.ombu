@@ -1,0 +1,25 @@
+OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-17T15:35:37.904-03:00' ],
+		#self : OmReference [ '1' ]
+	},
+	#content : 'Transcript show: \'hola\'\r(Delay forSeconds: 5) wait.\rTranscript show: \'chau\''
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-17T15:35:45.173-03:00' ],
+		#self : OmReference [ '2' ]
+	},
+	#content : 'Transcript show: \'hola\'.\r(Delay forSeconds: 5) wait.\rTranscript show: \'chau\'.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-17T15:36:09.032-03:00' ],
+		#self : OmReference [ '3' ]
+	},
+	#content : 'Transcript show: \'hola\'.\r(Delay forSeconds: 5).\rTranscript show: \'chau\'.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-17T15:36:17.923-03:00' ],
+		#self : OmReference [ '4' ]
+	},
+	#content : 'Transcript show: \'hola\'.\r(Delay forSeconds: 5) wait.\rTranscript show: \'chau\'.'
+}

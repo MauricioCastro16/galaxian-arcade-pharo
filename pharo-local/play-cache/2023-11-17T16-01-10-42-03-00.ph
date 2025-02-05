@@ -1,0 +1,1 @@
+|headingText|	headingText:= ('SCORE: ', (Instrucciones score) asString ) asText allBold.	headingText append: '	hola'

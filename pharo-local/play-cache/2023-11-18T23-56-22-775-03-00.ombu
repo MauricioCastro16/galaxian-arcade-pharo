@@ -1,0 +1,307 @@
+OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-18T23:56:47.072-03:00' ],
+		#self : OmReference [ '1' ]
+	},
+	#content : '|vent menu button|\r\rvent:= OSWindowWorldMorph new.\rvent fullscreenOn.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-18T23:56:57.239-03:00' ],
+		#self : OmReference [ '2' ]
+	},
+	#content : '|vent menu button|\r\rvent:= OSWindowWorldMorph new.\r(vent asWorldWindow) fullscreenOn.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-18T23:57:35.82-03:00' ],
+		#self : OmReference [ '3' ]
+	},
+	#content : '|vent menu button|\r\rvent:= OSWindowWorldMorph new.\rmenu:= Morph new.\rbutton:= SimpleButtonMorph new.\r\rmenu addMorph: button.\rmenu openInWorld: vent.\rvent open.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-19T00:14:43.103-03:00' ],
+		#self : OmReference [ '4' ]
+	},
+	#content : '|vent menu|\r\rvent:= OSWindowWorldMorph new.\rmenu:= Menu new.\r\rmenu openInWorld: vent.\rvent open.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-19T00:50:32.644-03:00' ],
+		#self : OmReference [ '5' ]
+	},
+	#content : '|vent menu|\r\rvent:= OSWindowWorldMorph new.\rmenu:= Menu new.\r\rmenu openInWorld.\rvent open.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-19T00:51:32.446-03:00' ],
+		#self : OmReference [ '6' ]
+	},
+	#content : '|vent menu|\r\rvent:= OSWindowWorldMorph new.\rmenu:= Menu new.\r\rmenu openInWorld: vent.\rvent open.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-19T00:52:33.557-03:00' ],
+		#self : OmReference [ '7' ]
+	},
+	#content : '|vent menu|\r\rvent:= OSWindowWorldMorph new.\rmenu:= Menu new.\r\rmenu openInWorld: vent.\rvent activeHand.\rvent open.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-19T00:52:54.718-03:00' ],
+		#self : OmReference [ '8' ]
+	},
+	#content : '|vent menu|\r\rvent:= OSWindowWorldMorph new.\rmenu:= Menu new.\r\rmenu openInWorld: vent.\rvent activateCursor: true withMask: false.\rvent open.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-19T00:53:25.107-03:00' ],
+		#self : OmReference [ '9' ]
+	},
+	#content : '|vent menu|\r\rvent:= OSWindowWorldMorph new.\rmenu:= Menu new.\r\rmenu openInWindowLabeled: \'L-Game\'.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-19T00:56:49.848-03:00' ],
+		#self : OmReference [ '10' ]
+	},
+	#content : '|vent menu|\r\rvent:= OSWindowWorldMorph new.\rmenu:= Menu new.\r\rvent beCursorOwner.\rmenu openInWorld: vent.\rvent open.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-19T00:58:27.445-03:00' ],
+		#self : OmReference [ '11' ]
+	},
+	#content : '|vent menu|\r\rvent:= OSWindowWorldMorph new.\rmenu:= Menu new.\r\rvent currentCursor: Cursor.\rmenu openInWorld: vent.\rvent open.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-19T00:58:47.22-03:00' ],
+		#self : OmReference [ '12' ]
+	},
+	#content : '|vent menu|\r\rvent:= OSWindowWorldMorph new.\rmenu:= Menu new.\r\rvent currentCursor: self cursor.\rmenu openInWorld: vent.\rvent open.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-19T01:00:05.212-03:00' ],
+		#self : OmReference [ '13' ]
+	},
+	#content : '|vent menu|\r\rvent:= OSWindowWorldMorph new.\rmenu:= Menu new.\r\rmenu openInWorld: vent.\rvent restoreCursor.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-19T01:00:15.359-03:00' ],
+		#self : OmReference [ '14' ]
+	},
+	#content : '|vent menu|\r\rvent:= OSWindowWorldMorph new.\rmenu:= Menu new.\r\rmenu openInWorld: vent.\rvent restoreDisplay.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-19T01:01:14.355-03:00' ],
+		#self : OmReference [ '12' ]
+	},
+	#content : '|vent menu|\r\rvent:= OSWindowWorldMorph new.\rmenu:= Menu new.\r\rvent currentCursor: self cursor.\rmenu openInWorld: vent.\rvent open.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-19T15:33:58.071-03:00' ],
+		#self : OmReference [ '13' ]
+	},
+	#content : '|vent menu|\r\rvent:= OSWindowWorldMorph new.\rmenu:= Menu new.\r\rmenu openInWorld: vent.\rvent open.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-19T15:34:35.434-03:00' ],
+		#self : OmReference [ '14' ]
+	},
+	#content : '|vent menu|\r\rvent:= OSWindowWorldMorph new.\rmenu:= Menu new.\r\rmenu openInWorld: vent.\rself \rvent open.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-19T15:35:47.149-03:00' ],
+		#self : OmReference [ '15' ]
+	},
+	#content : '|vent menu|\r\rvent:= OSWindowWorldMorph new.\rmenu:= Menu new.\r\rmenu openInWorld: vent.\rvent open.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-19T15:36:07.402-03:00' ],
+		#self : OmReference [ '16' ]
+	},
+	#content : '|vent menu|\r\rvent:= OSWindowWorldMorph new.\rmenu:= Menu new.\r\rmenu openInWorld: vent.\rvent open.\rvent activeHand.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-19T15:36:45.434-03:00' ],
+		#self : OmReference [ '17' ]
+	},
+	#content : '|vent menu cursor|\r\rvent:= OSWindowWorldMorph new.\rmenu:= Menu new.\r\rcursor:= HandMorph new.\rmenu openInWorld: vent.\rvent open.\rvent activeHand: cursor.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-19T15:37:13.662-03:00' ],
+		#self : OmReference [ '18' ]
+	},
+	#content : '|vent menu|\r\rvent:= OSWindowWorldMorph new.\rmenu:= Menu new.\r\rmenu openInWorld: vent.\rvent open.\rvent beCursorOwner.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-19T15:55:56.907-03:00' ],
+		#self : OmReference [ '19' ]
+	},
+	#content : '|vent menu|\r\rvent:= OSWindowWorldMorph new.\rmenu:= Menu new.\rvent beCursorOwner.\rmenu openInWorld: vent.\rvent open.\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-19T15:56:39.894-03:00' ],
+		#self : OmReference [ '20' ]
+	},
+	#content : '|vent menu|\r\rvent:= OSWindowWorldMorph new.\rvent beCursorOwner.\rmenu:= Menu new.\rmenu openInWorld: vent.\rvent open.\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-19T17:50:31.09-03:00' ],
+		#self : OmReference [ '21' ]
+	},
+	#content : '|vent menu|\r\rvent:= OSWindowWorldMorph new.\rvent beCursorOwner.\rmenu:= Menu new.\rmenu openInWorld: vent.\rvent open.\rvent addCursor.\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-19T17:50:38.177-03:00' ],
+		#self : OmReference [ '22' ]
+	},
+	#content : '|vent menu|\r\rvent:= OSWindowWorldMorph new.\rvent beCursorOwner.\rmenu:= Menu new.\rmenu openInWorld: vent.\rvent open.\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-20T11:02:18.274-03:00' ],
+		#self : OmReference [ '23' ]
+	},
+	#content : '|vent menu|\r\rvent:= OSWindowWorldMorph new.\rmenu:= Menu new.\rmenu openInWorld: vent.\rvent open.\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-20T11:03:19.88-03:00' ],
+		#self : OmReference [ '24' ]
+	},
+	#content : '|vent menu nombre start dificultad|\r\rvent:= OSWindowWorldMorph new.\r\r\t menu:= Morph new.\r    menu extent:(400@400).\r    menu color: (Color r:0.9  g:0.9  b:0.9).\r    nombre:= TextMorph new.\r    nombre contents: \'GALAXIAN\'.\r    nombre center: self center - (0@40).\r    nombre color: Color black.\r    start:= Botones new.\r    start label: (\'START\').\r\t start target: start.\r\t start extent: (200 @ 100).\r\t start actionSelector: #prueba.\r\t start actWhen: #buttonDown.\r    start center: self center.\r    dificultad:= Botones new.\r    dificultad label: \'Dificultad: FÁCIL\'.\r    dificultad center: self center + (0@40).\r    self addMorph: dificultad. \r    self addMorph: start.\r    self addMorph: nombre.\r\rmenu openInWorld: vent.\rvent open.\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-20T11:03:29.704-03:00' ],
+		#self : OmReference [ '25' ]
+	},
+	#content : '|vent menu nombre start dificultad|\r\rvent:= OSWindowWorldMorph new.\r\r\t menu:= Morph new.\r    menu extent:(400@400).\r    menu color: (Color r:0.9  g:0.9  b:0.9).\r    nombre:= TextMorph new.\r    nombre contents: \'GALAXIAN\'.\r    nombre center: menu center - (0@40).\r    nombre color: Color black.\r    start:= Botones new.\r    start label: (\'START\').\r\t start target: start.\r\t start extent: (200 @ 100).\r\t start actionSelector: #prueba.\r\t start actWhen: #buttonDown.\r    start center: self center.\r    dificultad:= Botones new.\r    dificultad label: \'Dificultad: FÁCIL\'.\r    dificultad center: self center + (0@40).\r    self addMorph: dificultad. \r    self addMorph: start.\r    self addMorph: nombre.\r\rmenu openInWorld: vent.\rvent open.\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-20T11:03:47.899-03:00' ],
+		#self : OmReference [ '26' ]
+	},
+	#content : '|vent menu nombre start dificultad|\r\rvent:= OSWindowWorldMorph new.\r\r\t menu:= Morph new.\r    menu extent:(400@400).\r    menu color: (Color r:0.9  g:0.9  b:0.9).\r    nombre:= TextMorph new.\r    nombre contents: \'GALAXIAN\'.\r    nombre center: menu center - (0@40).\r    nombre color: Color black.\r    start:= Botones new.\r    start label: (\'START\').\r\t start target: start.\r\t start extent: (200 @ 100).\r\t start actionSelector: #prueba.\r\t start actWhen: #buttonDown.\r    start center: menu center.\r    dificultad:= Botones new.\r    dificultad label: \'Dificultad: FÁCIL\'.\r    dificultad center: menu center + (0@40).\r    menu addMorph: dificultad. \r    menu addMorph: start.\r    menu addMorph: nombre.\r\rmenu openInWorld: vent.\rvent open.\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-20T11:04:20.128-03:00' ],
+		#self : OmReference [ '27' ]
+	},
+	#content : '|vent menu nombre start dificultad|\r\rvent:= OSWindowWorldMorph new.\r\r\t menu:= Morph new.\r    menu extent:(400@400).\r    menu color: (Color r:0.9  g:0.9  b:0.9).\r    "nombre:= TextMorph new.\r    nombre contents: \'GALAXIAN\'.\r    nombre center: menu center - (0@40).\r    nombre color: Color black."\r    start:= Botones new.\r    start label: (\'START\').\r\t start target: start.\r\t start extent: (200 @ 100).\r\t start actionSelector: #prueba.\r\t start actWhen: #buttonDown.\r    start center: menu center.\r    "dificultad:= Botones new.\r    dificultad label: \'Dificultad: FÁCIL\'.\r    dificultad center: menu center + (0@40)."\r    "menu addMorph: dificultad. \r \t menu addMorph: nombre."\r    menu addMorph: start.\r\rmenu openInWorld: vent.\rvent open.\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-20T11:12:58.211-03:00' ],
+		#self : OmReference [ '28' ]
+	},
+	#content : '|vent menu nombre start dificultad|\r\rvent:= OSWindowWorldMorph new.\r\r\t menu:= Morph new.\r    menu extent:(400@400).\r    menu color: (Color r:0.9  g:0.9  b:0.9).\r    "nombre:= TextMorph new.\r    nombre contents: \'GALAXIAN\'.\r    nombre center: menu center - (0@40).\r    nombre color: Color black."\r    start:= Botones new.\r    start label: (\'START\').\r\t (start label) selfWidth: 100.\r\t start target: start.\r\t start extent: (200 @ 100).\r\t start actionSelector: #prueba.\r\t start actWhen: #buttonDown.\r    start center: menu center.\r    "dificultad:= Botones new.\r    dificultad label: \'Dificultad: FÁCIL\'.\r    dificultad center: menu center + (0@40)."\r    "menu addMorph: dificultad. \r \t menu addMorph: nombre."\r    menu addMorph: start.\r\rmenu openInWorld: vent.\rvent open.\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-20T11:13:12.902-03:00' ],
+		#self : OmReference [ '29' ]
+	},
+	#content : '|vent menu nombre start dificultad|\r\rvent:= OSWindowWorldMorph new.\r\r\t menu:= Morph new.\r    menu extent:(400@400).\r    menu color: (Color r:0.9  g:0.9  b:0.9).\r    "nombre:= TextMorph new.\r    nombre contents: \'GALAXIAN\'.\r    nombre center: menu center - (0@40).\r    nombre color: Color black."\r    start:= Botones new.\r    start label: (\'START\').\r\t (start label) setWidth: 100.\r\t start target: start.\r\t start extent: (200 @ 100).\r\t start actionSelector: #prueba.\r\t start actWhen: #buttonDown.\r    start center: menu center.\r    "dificultad:= Botones new.\r    dificultad label: \'Dificultad: FÁCIL\'.\r    dificultad center: menu center + (0@40)."\r    "menu addMorph: dificultad. \r \t menu addMorph: nombre."\r    menu addMorph: start.\r\rmenu openInWorld: vent.\rvent open.\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-20T11:21:35.545-03:00' ],
+		#self : OmReference [ '30' ]
+	},
+	#content : '|vent menu nombre start dificultad|\r\rvent:= OSWindowWorldMorph new.\r\r\t menu:= Morph new.\r    menu extent:(400@400).\r    menu color: (Color r:0.9  g:0.9  b:0.9).\r    "nombre:= TextMorph new.\r    nombre contents: \'GALAXIAN\'.\r    nombre center: menu center - (0@40).\r    nombre color: Color black."\r    start:= Botones new.\r    start label: (\'START\') font: .\r\t (start label) setWidth: 100.\r\t start target: start.\r\t start extent: (200 @ 100).\r\t start actionSelector: #prueba.\r\t start actWhen: #buttonDown.\r    start center: menu center.\r    "dificultad:= Botones new.\r    dificultad label: \'Dificultad: FÁCIL\'.\r    dificultad center: menu center + (0@40)."\r    "menu addMorph: dificultad. \r \t menu addMorph: nombre."\r    menu addMorph: start.\r\rmenu openInWorld: vent.\rvent open.\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-20T11:22:15.533-03:00' ],
+		#self : OmReference [ '31' ]
+	},
+	#content : '|vent menu nombre start dificultad|\r\rvent:= OSWindowWorldMorph new.\r\r\t menu:= Morph new.\r    menu extent:(400@400).\r    menu color: (Color r:0.9  g:0.9  b:0.9).\r    "nombre:= TextMorph new.\r    nombre contents: \'GALAXIAN\'.\r    nombre center: menu center - (0@40).\r    nombre color: Color black."\r    start:= Botones new.\r    start label: (\'START\') font: (fontName: \'Arial\' size: 32).\r\t (start label) setWidth: 100.\r\t start target: start.\r\t start extent: (200 @ 100).\r\t start actionSelector: #prueba.\r\t start actWhen: #buttonDown.\r    start center: menu center.\r    "dificultad:= Botones new.\r    dificultad label: \'Dificultad: FÁCIL\'.\r    dificultad center: menu center + (0@40)."\r    "menu addMorph: dificultad. \r \t menu addMorph: nombre."\r    menu addMorph: start.\r\rmenu openInWorld: vent.\rvent open.\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-20T11:22:26.368-03:00' ],
+		#self : OmReference [ '32' ]
+	},
+	#content : '|vent menu nombre start dificultad|\r\rvent:= OSWindowWorldMorph new.\r\r\t menu:= Morph new.\r    menu extent:(400@400).\r    menu color: (Color r:0.9  g:0.9  b:0.9).\r    "nombre:= TextMorph new.\r    nombre contents: \'GALAXIAN\'.\r    nombre center: menu center - (0@40).\r    nombre color: Color black."\r    start:= Botones new.\r    start label: (\'START\') font:(fontName: \'Arial\' size: 32).\r\t (start label) setWidth: 100.\r\t start target: start.\r\t start extent: (200 @ 100).\r\t start actionSelector: #prueba.\r\t start actWhen: #buttonDown.\r    start center: menu center.\r    "dificultad:= Botones new.\r    dificultad label: \'Dificultad: FÁCIL\'.\r    dificultad center: menu center + (0@40)."\r    "menu addMorph: dificultad. \r \t menu addMorph: nombre."\r    menu addMorph: start.\r\rmenu openInWorld: vent.\rvent open.\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-20T11:22:31.965-03:00' ],
+		#self : OmReference [ '33' ]
+	},
+	#content : '|vent menu nombre start dificultad|\r\rvent:= OSWindowWorldMorph new.\r\r\t menu:= Morph new.\r    menu extent:(400@400).\r    menu color: (Color r:0.9  g:0.9  b:0.9).\r    "nombre:= TextMorph new.\r    nombre contents: \'GALAXIAN\'.\r    nombre center: menu center - (0@40).\r    nombre color: Color black."\r    start:= Botones new.\r    start label:(\'START\') font:(fontName: \'Arial\' size: 32).\r\t (start label) setWidth: 100.\r\t start target: start.\r\t start extent: (200 @ 100).\r\t start actionSelector: #prueba.\r\t start actWhen: #buttonDown.\r    start center: menu center.\r    "dificultad:= Botones new.\r    dificultad label: \'Dificultad: FÁCIL\'.\r    dificultad center: menu center + (0@40)."\r    "menu addMorph: dificultad. \r \t menu addMorph: nombre."\r    menu addMorph: start.\r\rmenu openInWorld: vent.\rvent open.\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-20T11:23:03.124-03:00' ],
+		#self : OmReference [ '34' ]
+	},
+	#content : '|vent menu nombre start dificultad|\r\rvent:= OSWindowWorldMorph new.\r\r\t menu:= Morph new.\r    menu extent:(400@400).\r    menu color: (Color r:0.9  g:0.9  b:0.9).\r    "nombre:= TextMorph new.\r    nombre contents: \'GALAXIAN\'.\r    nombre center: menu center - (0@40).\r    nombre color: Color black."\r    start:= Botones new.\r    start label:(\'START\') font: \'Arial\'.\r\t (start label) setWidth: 100.\r\t start target: start.\r\t start extent: (200 @ 100).\r\t start actionSelector: #prueba.\r\t start actWhen: #buttonDown.\r    start center: menu center.\r    "dificultad:= Botones new.\r    dificultad label: \'Dificultad: FÁCIL\'.\r    dificultad center: menu center + (0@40)."\r    "menu addMorph: dificultad. \r \t menu addMorph: nombre."\r    menu addMorph: start.\r\rmenu openInWorld: vent.\rvent open.\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-20T11:24:01.442-03:00' ],
+		#self : OmReference [ '35' ]
+	},
+	#content : '|vent menu nombre start dificultad|\r\rvent:= OSWindowWorldMorph new.\r\r\t menu:= Morph new.\r    menu extent:(400@400).\r    menu color: (Color r:0.9  g:0.9  b:0.9).\r    "nombre:= TextMorph new.\r    nombre contents: \'GALAXIAN\'.\r    nombre center: menu center - (0@40).\r    nombre color: Color black."\r    start:= Botones new.\r    start label: (\'test\' asText addAttribute: \'Arial\').\r\t start target: start.\r\t start extent: (200 @ 100).\r\t start actionSelector: #prueba.\r\t start actWhen: #buttonDown.\r    start center: menu center.\r    "dificultad:= Botones new.\r    dificultad label: \'Dificultad: FÁCIL\'.\r    dificultad center: menu center + (0@40)."\r    "menu addMorph: dificultad. \r \t menu addMorph: nombre."\r    menu addMorph: start.\r\rmenu openInWorld: vent.\rvent open.\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-20T11:24:16.048-03:00' ],
+		#self : OmReference [ '36' ]
+	},
+	#content : '|vent menu nombre start dificultad|\r\rvent:= OSWindowWorldMorph new.\r\r\t menu:= Morph new.\r    menu extent:(400@400).\r    menu color: (Color r:0.9  g:0.9  b:0.9).\r    "nombre:= TextMorph new.\r    nombre contents: \'GALAXIAN\'.\r    nombre center: menu center - (0@40).\r    nombre color: Color black."\r    start:= Botones new.\r    start label: \'hola\'.\r\t start target: start.\r\t start extent: (200 @ 100).\r\t start actionSelector: #prueba.\r\t start actWhen: #buttonDown.\r    start center: menu center.\r    "dificultad:= Botones new.\r    dificultad label: \'Dificultad: FÁCIL\'.\r    dificultad center: menu center + (0@40)."\r    "menu addMorph: dificultad. \r \t menu addMorph: nombre."\r    menu addMorph: start.\r\rmenu openInWorld: vent.\rvent open.\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-20T11:25:12.393-03:00' ],
+		#self : OmReference [ '37' ]
+	},
+	#content : '|vent menu nombre start dificultad|\r\rvent:= OSWindowWorldMorph new.\r\r\t menu:= Morph new.\r    menu extent:(400@400).\r    menu color: (Color r:0.9  g:0.9  b:0.9).\r    "nombre:= TextMorph new.\r    nombre contents: \'GALAXIAN\'.\r    nombre center: menu center - (0@40).\r    nombre color: Color black."\r    start:= Botones new.\r    start label: \'hola\'.\r\t start target: start.\r\t start extent: (200 @ 100).\r\t start actionSelector: #prueba.\r\t start actWhen: #buttonDown.\r    start center: menu center.\r    "dificultad:= Botones new.\r    dificultad label: \'Dificultad: FÁCIL\'.\r    dificultad center: menu center + (0@40)."\r    "menu addMorph: dificultad. \r \t menu addMorph: nombre."\r    menu addMorph: start.\r\rmenu openInWorld: vent.\rvent open.\r\rfontChooser example\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-20T11:25:31.549-03:00' ],
+		#self : OmReference [ '38' ]
+	},
+	#content : '|vent menu nombre start dificultad|\r\rvent:= OSWindowWorldMorph new.\r\r\t menu:= Morph new.\r    menu extent:(400@400).\r    menu color: (Color r:0.9  g:0.9  b:0.9).\r    "nombre:= TextMorph new.\r    nombre contents: \'GALAXIAN\'.\r    nombre center: menu center - (0@40).\r    nombre color: Color black."\r    start:= Botones new.\r    start label: \'hola\'.\r\t start target: start.\r\t start extent: (200 @ 100).\r\t start actionSelector: #prueba.\r\t start actWhen: #buttonDown.\r    start center: menu center.\r    "dificultad:= Botones new.\r    dificultad label: \'Dificultad: FÁCIL\'.\r    dificultad center: menu center + (0@40)."\r    "menu addMorph: dificultad. \r \t menu addMorph: nombre."\r    menu addMorph: start.\r\rmenu openInWorld: vent.\rvent open.\r\rFontChooser example\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-20T11:26:55.142-03:00' ],
+		#self : OmReference [ '39' ]
+	},
+	#content : '|vent menu nombre start dificultad|\r\rvent:= OSWindowWorldMorph new.\r\r\t menu:= Morph new.\r    menu extent:(400@400).\r    menu color: (Color r:0.9  g:0.9  b:0.9).\r    "nombre:= TextMorph new.\r    nombre contents: \'GALAXIAN\'.\r    nombre center: menu center - (0@40).\r    nombre color: Color black."\r    start:= Botones new.\r    start label: \'hola\'.\r\t start target: start.\r\t start extent: (200 @ 100).\r\t start actionSelector: #prueba.\r\t start actWhen: #buttonDown.\r    start center: menu center.\r    "dificultad:= Botones new.\r    dificultad label: \'Dificultad: FÁCIL\'.\r    dificultad center: menu center + (0@40)."\r    "menu addMorph: dificultad. \r \t menu addMorph: nombre."\r    menu addMorph: start.\r\rmenu openInWorld: vent.\rvent open.\r\rFontChooser new ; fontList\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-20T11:27:09.469-03:00' ],
+		#self : OmReference [ '40' ]
+	},
+	#content : '|vent menu nombre start dificultad|\r\rvent:= OSWindowWorldMorph new.\r\r\t menu:= Morph new.\r    menu extent:(400@400).\r    menu color: (Color r:0.9  g:0.9  b:0.9).\r    "nombre:= TextMorph new.\r    nombre contents: \'GALAXIAN\'.\r    nombre center: menu center - (0@40).\r    nombre color: Color black."\r    start:= Botones new.\r    start label: \'hola\'.\r\t start target: start.\r\t start extent: (200 @ 100).\r\t start actionSelector: #prueba.\r\t start actWhen: #buttonDown.\r    start center: menu center.\r    "dificultad:= Botones new.\r    dificultad label: \'Dificultad: FÁCIL\'.\r    dificultad center: menu center + (0@40)."\r    "menu addMorph: dificultad. \r \t menu addMorph: nombre."\r    menu addMorph: start.\r\rmenu openInWorld: vent.\rvent open.\r\rnombre:= FontChooser new ; fontList\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-20T11:27:42.421-03:00' ],
+		#self : OmReference [ '41' ]
+	},
+	#content : '|vent menu nombre start dificultad|\r\rvent:= OSWindowWorldMorph new.\r\r\t menu:= Morph new.\r    menu extent:(400@400).\r    menu color: (Color r:0.9  g:0.9  b:0.9).\r    "nombre:= TextMorph new.\r    nombre contents: \'GALAXIAN\'.\r    nombre center: menu center - (0@40).\r    nombre color: Color black."\r    start:= Botones new.\r    start label: \'hola\'.\r\t start target: start.\r\t start extent: (200 @ 100).\r\t start actionSelector: #prueba.\r\t start actWhen: #buttonDown.\r    start center: menu center.\r    "dificultad:= Botones new.\r    dificultad label: \'Dificultad: FÁCIL\'.\r    dificultad center: menu center + (0@40)."\r    "menu addMorph: dificultad. \r \t menu addMorph: nombre."\r    menu addMorph: start.\r\rmenu openInWorld: vent.\rvent open.\r\rnombre:= FontChooser new.\rnombre fontList\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-20T11:28:00.747-03:00' ],
+		#self : OmReference [ '42' ]
+	},
+	#content : '|vent menu nombre start dificultad|\r\rvent:= OSWindowWorldMorph new.\r\r\t menu:= Morph new.\r    menu extent:(400@400).\r    menu color: (Color r:0.9  g:0.9  b:0.9).\r    "nombre:= TextMorph new.\r    nombre contents: \'GALAXIAN\'.\r    nombre center: menu center - (0@40).\r    nombre color: Color black."\r    start:= Botones new.\r    start label: \'hola\' font: .\r\t start target: start.\r\t start extent: (200 @ 100).\r\t start actionSelector: #prueba.\r\t start actWhen: #buttonDown.\r    start center: menu center.\r    "dificultad:= Botones new.\r    dificultad label: \'Dificultad: FÁCIL\'.\r    dificultad center: menu center + (0@40)."\r    "menu addMorph: dificultad. \r \t menu addMorph: nombre."\r    menu addMorph: start.\r\rmenu openInWorld: vent.\rvent open.\r\r\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-20T11:28:32.874-03:00' ],
+		#self : OmReference [ '43' ]
+	},
+	#content : '|vent menu nombre start dificultad|\r\rvent:= OSWindowWorldMorph new.\r\r\t menu:= Morph new.\r    menu extent:(400@400).\r    menu color: (Color r:0.9  g:0.9  b:0.9).\r    "nombre:= TextMorph new.\r    nombre contents: \'GALAXIAN\'.\r    nombre center: menu center - (0@40).\r    nombre color: Color black."\r    start:= Botones new.\r    start label: \'hola\' font: .\r\t start target: start.\r\t start extent: (200 @ 100).\r\t start actionSelector: #prueba.\r\t start actWhen: #buttonDown.\r    start center: menu center.\r    "dificultad:= Botones new.\r    dificultad label: \'Dificultad: FÁCIL\'.\r    dificultad center: menu center + (0@40)."\r    "menu addMorph: dificultad. \r \t menu addMorph: nombre."\r    menu addMorph: start.\r\rmenu openInWorld: vent.\rvent open.\r\rFontChooser example\r\r\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-20T11:29:23.127-03:00' ],
+		#self : OmReference [ '44' ]
+	},
+	#content : '|vent menu nombre start dificultad|\r\rvent:= OSWindowWorldMorph new.\r\r\t menu:= Morph new.\r    menu extent:(400@400).\r    menu color: (Color r:0.9  g:0.9  b:0.9).\r    "nombre:= TextMorph new.\r    nombre contents: \'GALAXIAN\'.\r    nombre center: menu center - (0@40).\r    nombre color: Color black."\r    start:= Botones new.\r    start label: \'hola\' font: \'Source Code Pro\'.\r\t start target: start.\r\t start extent: (200 @ 100).\r\t start actionSelector: #prueba.\r\t start actWhen: #buttonDown.\r    start center: menu center.\r    "dificultad:= Botones new.\r    dificultad label: \'Dificultad: FÁCIL\'.\r    dificultad center: menu center + (0@40)."\r    "menu addMorph: dificultad. \r \t menu addMorph: nombre."\r    menu addMorph: start.\r\rmenu openInWorld: vent.\rvent open.\r\rFontChooser example\r\r\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-20T11:30:21.653-03:00' ],
+		#self : OmReference [ '45' ]
+	},
+	#content : '|vent menu nombre start dificultad|\r\rvent:= OSWindowWorldMorph new.\r\r\t menu:= Morph new.\r    menu extent:(400@400).\r    menu color: (Color r:0.9  g:0.9  b:0.9).\r    "nombre:= TextMorph new.\r    nombre contents: \'GALAXIAN\'.\r    nombre center: menu center - (0@40).\r    nombre color: Color black."\r    start:= Botones new.\r    start label: \'hola\' font: \'Atlanta\'.\r\t start target: start.\r\t start extent: (200 @ 100).\r\t start actionSelector: #prueba.\r\t start actWhen: #buttonDown.\r    start center: menu center.\r    "dificultad:= Botones new.\r    dificultad label: \'Dificultad: FÁCIL\'.\r    dificultad center: menu center + (0@40)."\r    "menu addMorph: dificultad. \r \t menu addMorph: nombre."\r    menu addMorph: start.\r\rmenu openInWorld: vent.\rvent open.\r\rFontChooser example\r\r\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-20T11:32:12.301-03:00' ],
+		#self : OmReference [ '46' ]
+	},
+	#content : '|vent menu nombre start dificultad|\r\rvent:= OSWindowWorldMorph new.\r\r\t menu:= Morph new.\r    menu extent:(400@400).\r    menu color: (Color r:0.9  g:0.9  b:0.9).\r    "nombre:= TextMorph new.\r    nombre contents: \'GALAXIAN\'.\r    nombre center: menu center - (0@40).\r    nombre color: Color black."\r    start:= Botones new.\r    start label: \'hola\'.\r\t start target: start.\r\t start extent: (200 @ 100).\r\t start actionSelector: #prueba.\r\t start actWhen: #buttonDown.\r    start center: menu center.\r    "dificultad:= Botones new.\r    dificultad label: \'Dificultad: FÁCIL\'.\r    dificultad center: menu center + (0@40)."\r    "menu addMorph: dificultad. \r \t menu addMorph: nombre."\r    menu addMorph: start.\r\rmenu openInWorld: vent.\rvent open.\r\rFontChooser example\r\r\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-20T14:51:56.714-03:00' ],
+		#self : OmReference [ '23' ]
+	},
+	#content : '|vent menu|\r\rvent:= OSWindowWorldMorph new.\rvent beCursorOwner.\rmenu:= Menu new.\rmenu openInWorld: vent.\rmenu startButton.\rvent open.\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-20T14:52:10.905-03:00' ],
+		#self : OmReference [ '24' ]
+	},
+	#content : '|vent menu|\r\rvent:= OSWindowWorldMorph new.\rvent beCursorOwner.\rmenu:= Menu new.\rmenu openInWorld: vent.\rmenu botonStart.\rvent open.\r'
+}

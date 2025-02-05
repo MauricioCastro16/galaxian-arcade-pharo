@@ -1,0 +1,289 @@
+OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-21T18:16:12.706-03:00' ],
+		#self : OmReference [ '1' ]
+	},
+	#content : '|dir pArch line max|\r\t"Abrir el documento para ver los puntajes"\r\tdir:= FileSystem disk workingDirectory.\r\tpArch:= (dir,\'\\Score.csv\') writeStream.\r\tpArch addLine: \'BMG 1256\''
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-21T18:17:29.037-03:00' ],
+		#self : OmReference [ '2' ]
+	},
+	#content : '|dir pArch line max|\r\t"Abrir el documento para ver los puntajes"\r\tdir:= FileSystem disk workingDirectory.\r\tpArch:= (dir,\'\\Score.csv\') writeStream.\r\tpArch nextPut: \'BMG 1256\''
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-21T18:17:56.416-03:00' ],
+		#self : OmReference [ '3' ]
+	},
+	#content : '|dir pArch line max|\r\t"Abrir el documento para ver los puntajes"\r\tdir:= FileSystem disk workingDirectory.\r\tpArch:= (dir,\'\\Score.csv\') writeStream.\r\tpArch nextPut: \'BMG 1256\'.\r\tpArch close.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-21T18:18:31.238-03:00' ],
+		#self : OmReference [ '4' ]
+	},
+	#content : '|dir pArch line max|\r\t"Abrir el documento para ver los puntajes"\r\tdir:= FileSystem disk workingDirectory.\r\tpArch:= (dir,\'\\Score.csv\') writeStream.\r\tpArch nextPut: \'BMG 1256\' asText.\r\tpArch close.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-21T18:18:42.688-03:00' ],
+		#self : OmReference [ '5' ]
+	},
+	#content : '|dir pArch line max|\r\t"Abrir el documento para ver los puntajes"\r\tdir:= FileSystem disk workingDirectory.\r\tpArch:= (dir,\'\\Score.csv\') writeStream.\r\tpArch nextPut: \'BMG 1256\' asString.\r\tpArch close.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-21T18:20:19.139-03:00' ],
+		#self : OmReference [ '6' ]
+	},
+	#content : '|dir pArch line max|\r\t"Abrir el documento para ver los puntajes"\r\tdir:= FileSystem disk workingDirectory.\r\tpArch:= (dir,\'\\Score.csv\') writeStream.\r\tpArch nextPut: \'Hola que onda\'.\r\tpArch close.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-21T18:20:30.737-03:00' ],
+		#self : OmReference [ '7' ]
+	},
+	#content : '|dir pArch line max|\r\t"Abrir el documento para ver los puntajes"\r\tdir:= FileSystem disk workingDirectory.\r\tpArch:= (dir,\'\\Score.csv\') writeStream.\r\tpArch nextPutAll: \'Hola que onda\'.\r\tpArch close.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-21T18:21:07.519-03:00' ],
+		#self : OmReference [ '8' ]
+	},
+	#content : '|dir pArch line max|\r\t"Abrir el documento para ver los puntajes"\r\tdir:= FileSystem disk workingDirectory.\r\tpArch:= (dir,\'\\Score.csv\') writeStream.\r\tpArch nextPutAll: \'BGM 1598\'.\r\tpArch close.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-21T18:23:38.6-03:00' ],
+		#self : OmReference [ '9' ]
+	},
+	#content : '|dir pArch line max|\r\t"Abrir el documento para ver los puntajes"\r\tdir:= FileSystem disk workingDirectory.\r\tpArch:= (dir,\'\\Score.csv\') writeStream.\r\tpArch nextPutAll: \'BGM 1598\'.\r\tpArch cr.\r\tpArch close.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-21T18:25:20.89-03:00' ],
+		#self : OmReference [ '10' ]
+	},
+	#content : '|dir pArch lectura line max|\r\t"Abrir el documento para ver los puntajes"\r\tdir:= FileSystem disk workingDirectory.\r\tlectura:= (dir,\'\\Score.csv\') readStream.\r\tpArch:= (dir,\'\\Score.csv\') writeStream.\r\tpArch nextPutAll: (lectura asString),\'BGM 1598\'.\r\tpArch cr.\r\tpArch close.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-21T18:26:36.978-03:00' ],
+		#self : OmReference [ '11' ]
+	},
+	#content : '|dir pArch lectura line max|\r\t"Abrir el documento para ver los puntajes"\r\tdir:= FileSystem disk workingDirectory.\r\tlectura:= (dir,\'\\Score.csv\') readStream.\r\tpArch:= (dir,\'\\Score.csv\') writeStream.\r\tpArch nextPutAll: (lectura),\'BGM 1598\'.\r\tpArch cr.\r\tpArch close.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-21T18:27:25.182-03:00' ],
+		#self : OmReference [ '12' ]
+	},
+	#content : '|dir pArch lectura line max|\r\t"Abrir el documento para ver los puntajes"\r\tdir:= FileSystem disk workingDirectory.\r\tlectura:= (dir,\'\\Score.csv\') readStream.\r\tpArch:= (dir,\'\\Score.csv\') writeStream.\r\tline:= \'\'\r\t[lectura atEnd] whileFalse: [\r\t\tline:= line, pArch nextLine.\r\t].\r\tpArch nextPutAll: line,\'BGM 1598\'.\r\tpArch cr.\r\tpArch close.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-21T18:27:27.691-03:00' ],
+		#self : OmReference [ '13' ]
+	},
+	#content : '|dir pArch lectura line max|\r\t"Abrir el documento para ver los puntajes"\r\tdir:= FileSystem disk workingDirectory.\r\tlectura:= (dir,\'\\Score.csv\') readStream.\r\tpArch:= (dir,\'\\Score.csv\') writeStream.\r\tline:= \'\'.\r\t[lectura atEnd] whileFalse: [\r\t\tline:= line, pArch nextLine.\r\t].\r\tpArch nextPutAll: line,\'BGM 1598\'.\r\tpArch cr.\r\tpArch close.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-21T18:27:35.971-03:00' ],
+		#self : OmReference [ '14' ]
+	},
+	#content : '|dir pArch lectura line max|\r\t"Abrir el documento para ver los puntajes"\r\tdir:= FileSystem disk workingDirectory.\r\tlectura:= (dir,\'\\Score.csv\') readStream.\r\tpArch:= (dir,\'\\Score.csv\') writeStream.\r\tline:= \'\'.\r\t[lectura atEnd] whileFalse: [\r\t\tline:= line, lectura nextLine.\r\t].\r\tpArch nextPutAll: line,\'BGM 1598\'.\r\tpArch cr.\r\tpArch close.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-21T18:28:27.308-03:00' ],
+		#self : OmReference [ '15' ]
+	},
+	#content : '|dir pArch lectura line max|\r\t"Abrir el documento para ver los puntajes"\r\tdir:= FileSystem disk workingDirectory.\r\tlectura:= (dir,\'\\Score.csv\') readStream.\r\tpArch:= (dir,\'\\Score.csv\') writeStream.\r\tline:= \'\'.\r\t[lectura atEnd] whileFalse: [\r\t\tline:= line, lectura nextLine.\r\t].\r\tpArch nextPutAll: line,\'BGM 1598\', Character cr.\r\tpArch close.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-21T18:28:35.932-03:00' ],
+		#self : OmReference [ '16' ]
+	},
+	#content : '|dir pArch lectura line max|\r\t"Abrir el documento para ver los puntajes"\r\tdir:= FileSystem disk workingDirectory.\r\tlectura:= (dir,\'\\Score.csv\') readStream.\r\tpArch:= (dir,\'\\Score.csv\') writeStream.\r\tline:= \'\'.\r\t[lectura atEnd] whileFalse: [\r\t\tline:= line, lectura nextLine.\r\t].\r\tpArch nextPutAll: line,\'BGM 1598\', (Character cr) asString.\r\tpArch close.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-21T18:29:21.902-03:00' ],
+		#self : OmReference [ '17' ]
+	},
+	#content : '|dir pArch lectura line max|\r\t"Abrir el documento para ver los puntajes"\r\tdir:= FileSystem disk workingDirectory.\r\tlectura:= (dir,\'\\Score.csv\') readStream.\r\tpArch:= (dir,\'\\Score.csv\') writeStream.\r\tline:= \'\'.\r\t[lectura atEnd] whileFalse: [\r\t\tline:= line, lectura nextLine.\r\t].\r\tpArch nextPutAll: line,\'BGM 1598\',\'\r\t\'.\r\tpArch close.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-21T18:29:23.777-03:00' ],
+		#self : OmReference [ '18' ]
+	},
+	#content : '|dir pArch lectura line max|\r\t"Abrir el documento para ver los puntajes"\r\tdir:= FileSystem disk workingDirectory.\r\tlectura:= (dir,\'\\Score.csv\') readStream.\r\tpArch:= (dir,\'\\Score.csv\') writeStream.\r\tline:= \'\'.\r\t[lectura atEnd] whileFalse: [\r\t\tline:= line, lectura nextLine.\r\t].\r\tpArch nextPutAll: line,\'BGM 1598\',\'\r\t\'.\r\tpArch close. a ZnCharacterWriteStream'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-21T18:29:27.797-03:00' ],
+		#self : OmReference [ '19' ]
+	},
+	#content : '|dir pArch lectura line max|\r\t"Abrir el documento para ver los puntajes"\r\tdir:= FileSystem disk workingDirectory.\r\tlectura:= (dir,\'\\Score.csv\') readStream.\r\tpArch:= (dir,\'\\Score.csv\') writeStream.\r\tline:= \'\'.\r\t[lectura atEnd] whileFalse: [\r\t\tline:= line, lectura nextLine.\r\t].\r\tpArch nextPutAll: line,\'BGM 1598\',\'\r\t\'.\r\tpArch close.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-21T18:30:56.402-03:00' ],
+		#self : OmReference [ '20' ]
+	},
+	#content : '|dir pArch lectura line max|\r\t"Abrir el documento para ver los puntajes"\r\tdir:= FileSystem disk workingDirectory.\r\tlectura:= (dir,\'\\Score.csv\') readStream.\r\tpArch:= (dir,\'\\Score.csv\') writeStream.\r\tline:= \'\'.\r\t[lectura atEnd] whileFalse: [\r\t\tline:= line, lectura nextLine.\r\t].\r\tpArch nextPutAll: line,\'BGM 1598\'; cr.\r\tpArch close.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-21T18:31:36.18-03:00' ],
+		#self : OmReference [ '21' ]
+	},
+	#content : '|dir pArch lectura line max|\r\t"Abrir el documento para ver los puntajes"\r\tdir:= FileSystem disk workingDirectory.\r\tlectura:= (dir,\'\\Score.csv\') readStream.\r\tpArch:= (dir,\'\\Score.csv\') writeStream.\r\tline:= \'\'.\r\t[lectura atEnd] whileFalse: [\r\t\tline:= line, lectura nextLine.\r\t].\r\tpArch nextPutAll: line,\'BGM 1800\'; cr.\r\tpArch close.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-21T18:31:40.339-03:00' ],
+		#self : OmReference [ '22' ]
+	},
+	#content : '|dir pArch lectura line max|\r\t"Abrir el documento para ver los puntajes"\r\tdir:= FileSystem disk workingDirectory.\r\tlectura:= (dir,\'\\Score.csv\') readStream.\r\tpArch:= (dir,\'\\Score.csv\') writeStream.\r\tline:= \'\'.\r\t[lectura atEnd] whileFalse: [\r\t\tline:= line, lectura nextLine.\r\t].\r\tpArch nextPutAll: line,\'BGM 2500\'; cr.\r\tpArch close.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-21T18:31:45.784-03:00' ],
+		#self : OmReference [ '23' ]
+	},
+	#content : '|dir pArch lectura line max|\r\t"Abrir el documento para ver los puntajes"\r\tdir:= FileSystem disk workingDirectory.\r\tlectura:= (dir,\'\\Score.csv\') readStream.\r\tpArch:= (dir,\'\\Score.csv\') writeStream.\r\tline:= \'\'.\r\t[lectura atEnd] whileFalse: [\r\t\tline:= line, lectura nextLine.\r\t].\r\tpArch nextPutAll: line,\'BGM 1600\'; cr.\r\tpArch close.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-21T18:32:47.736-03:00' ],
+		#self : OmReference [ '24' ]
+	},
+	#content : '|dir pArch lectura line max|\r\t"Abrir el documento para ver los puntajes"\r\tdir:= FileSystem disk workingDirectory.\r\tlectura:= (dir,\'\\Score.csv\') readStream.\r\tpArch:= (dir,\'\\Score.csv\') writeStream.\r\tline:= \'\'.\r\t[lectura atEnd] whileFalse: [\r\t\tline:= line, lectura nextLine.\r\t].\r\tpArch nextPutAll: line,\'BGM 1600\', \';\'.\r\tpArch close.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-21T18:33:20.795-03:00' ],
+		#self : OmReference [ '25' ]
+	},
+	#content : '|dir pArch lectura line max|\r\t"Abrir el documento para ver los puntajes"\r\tdir:= FileSystem disk workingDirectory.\r\tlectura:= (dir,\'\\Score.csv\') readStream.\r\tpArch:= (dir,\'\\Score.csv\') writeStream.\r\tline:= \'\'.\r\t[lectura atEnd] whileFalse: [\r\t\tline:= line, lectura nextLine.\r\t].\r\tpArch nextPutAll: line,\'BGM 1800\', \';\'.\r\tpArch close.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-21T18:33:24.423-03:00' ],
+		#self : OmReference [ '26' ]
+	},
+	#content : '|dir pArch lectura line max|\r\t"Abrir el documento para ver los puntajes"\r\tdir:= FileSystem disk workingDirectory.\r\tlectura:= (dir,\'\\Score.csv\') readStream.\r\tpArch:= (dir,\'\\Score.csv\') writeStream.\r\tline:= \'\'.\r\t[lectura atEnd] whileFalse: [\r\t\tline:= line, lectura nextLine.\r\t].\r\tpArch nextPutAll: line,\'BGM 2000\', \';\'.\r\tpArch close.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-21T18:33:28.532-03:00' ],
+		#self : OmReference [ '27' ]
+	},
+	#content : '|dir pArch lectura line max|\r\t"Abrir el documento para ver los puntajes"\r\tdir:= FileSystem disk workingDirectory.\r\tlectura:= (dir,\'\\Score.csv\') readStream.\r\tpArch:= (dir,\'\\Score.csv\') writeStream.\r\tline:= \'\'.\r\t[lectura atEnd] whileFalse: [\r\t\tline:= line, lectura nextLine.\r\t].\r\tpArch nextPutAll: line,\'BGM 1500\', \';\'.\r\tpArch close.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-21T20:58:15.501-03:00' ],
+		#self : OmReference [ '28' ]
+	},
+	#content : '|dir pArch lectura line max|\r\t"Abrir el documento para ver los puntajes"\r\tdir:= FileSystem disk workingDirectory.\r\tlectura:= (dir,\'\\Score.csv\') readStream.\r\tpArch:= (dir,\'\\Score.csv\') writeStream.\r\tline:= \'\'.\r\t[lectura atEnd] whileFalse: [\r\t\tline:= line, lectura nextLine.\r\t].\r\tpArch nextPutAll: line,\'AGM 1500\', \';\'.\r\tpArch close.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-21T20:58:29.71-03:00' ],
+		#self : OmReference [ '29' ]
+	},
+	#content : '|dir pArch lectura line max|\r\t"Abrir el documento para ver los puntajes"\r\tdir:= FileSystem disk workingDirectory.\r\tlectura:= (dir,\'\\Score.csv\') readStream.\r\tpArch:= (dir,\'\\Score.csv\') writeStream.\r\tline:= \'\'.\r\t[lectura atEnd] whileFalse: [\r\t\tline:= line, lectura nextLine.\r\t].\r\tpArch nextPutAll: line,\'AGM 2000\', \';\'.\r\tpArch close.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-22T00:22:32.897-03:00' ],
+		#self : OmReference [ '30' ]
+	},
+	#content : '|dir pArch lectura line max vent|\r\t"Abrir el documento para ver los puntajes"\r\tdir:= FileSystem disk workingDirectory.\r\tlectura:= (dir,\'\\Score.csv\') readStream.\r\tpArch:= (dir,\'\\Score.csv\') writeStream.\r\tline:= \'\'.\r\tvent:= OSWindowWorldMorph new.\r\t[lectura atEnd] whileFalse: [\r\t\tline:= line, lectura nextLine.\r\t].\r\tpArch nextPutAll: line,\'AGM 2000\', \';\'.\r\tpArch close.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-23T00:35:51.579-03:00' ],
+		#self : OmReference [ '31' ]
+	},
+	#content : '|dir pArch lectura line max vent|\r\t"Abrir el documento para ver los puntajes"\r\tdir:= FileSystem disk workingDirectory.\r\tlectura:= (dir,\'\\Score.csv\') readStream.\r\tpArch:= (dir,\'\\Score.csv\') writeStream.\r\tline:= \'\'.\r\tvent:= OSWindowWorldMorph new.\r\t[lectura atEnd] whileFalse: [\r\t\tline:= line, lectura nextLine.\r\t].\r\tpArch nextPutAll: line,\'AGM\', Instrucciones score , \';\'.\r\tpArch close. '
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-23T00:35:58.98-03:00' ],
+		#self : OmReference [ '32' ]
+	},
+	#content : '|dir pArch lectura line max vent|\r\t"Abrir el documento para ver los puntajes"\r\tdir:= FileSystem disk workingDirectory.\r\tlectura:= (dir,\'\\Score.csv\') readStream.\r\tpArch:= (dir,\'\\Score.csv\') writeStream.\r\tline:= \'\'.\r\tvent:= OSWindowWorldMorph new.\r\t[lectura atEnd] whileFalse: [\r\t\tline:= line, lectura nextLine.\r\t].\r\tpArch nextPutAll: line,\'AGM\', Instrucciones score asString, \';\'.\r\tpArch close. '
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-23T00:36:12.218-03:00' ],
+		#self : OmReference [ '33' ]
+	},
+	#content : '|dir pArch lectura line max vent|\r\t"Abrir el documento para ver los puntajes"\r\tdir:= FileSystem disk workingDirectory.\r\tlectura:= (dir,\'\\Score.csv\') readStream.\r\tpArch:= (dir,\'\\Score.csv\') writeStream.\r\tline:= \'\'.\r\tvent:= OSWindowWorldMorph new.\r\t[lectura atEnd] whileFalse: [\r\t\tline:= line, lectura nextLine.\r\t].\r\tpArch nextPutAll: line,\'AGM \', Instrucciones score asString, \';\'.\r\tpArch close. '
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-23T01:02:28.923-03:00' ],
+		#self : OmReference [ '34' ]
+	},
+	#content : '|dir pArch lectura line max vent|\r\t"Abrir el documento para ver los puntajes"\r\tdir:= FileSystem disk workingDirectory.\r\tlectura:= (dir,\'\\Score.csv\') readStream.\r\tpArch:= (dir,\'\\Score.csv\') writeStream.\r\tline:= \'\'.\r\tvent:= OSWindowWorldMorph new.\r\t[lectura atEnd] whileFalse: [\r\t\tline:= line, lectura nextLine.\r\t].\r\tpArch nextPutAll: line,\'AGM \', Instrucciones score asString, \';\'.\r\tpArch:= \'\'.\r\tpArch close. '
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-23T01:02:38.495-03:00' ],
+		#self : OmReference [ '35' ]
+	},
+	#content : '|dir pArch lectura line max vent|\r\t"Abrir el documento para ver los puntajes"\r\tdir:= FileSystem disk workingDirectory.\r\tlectura:= (dir,\'\\Score.csv\') readStream.\r\tpArch:= (dir,\'\\Score.csv\') writeStream.\r\tline:= \'\'.\r\tvent:= OSWindowWorldMorph new.\r\t[lectura atEnd] whileFalse: [\r\t\tline:= line, lectura nextLine.\r\t].\r\tpArch nextPutAll: line,\'AGM \', Instrucciones score asString, \';\'.\r\tpArch class\r\tpArch close. '
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-23T01:04:16.013-03:00' ],
+		#self : OmReference [ '36' ]
+	},
+	#content : '|dir pArch lectura line max vent|\r\t"Abrir el documento para ver los puntajes"\r\tdir:= FileSystem disk workingDirectory.\r\tlectura:= (dir,\'\\Score.csv\') readStream.\r\tpArch:= (dir,\'\\Score.csv\') writeStream.\r\tline:= \'\'.\r\tvent:= OSWindowWorldMorph new.\r\t[lectura atEnd] whileFalse: [\r\t\tline:= line, lectura nextLine.\r\t].\r\tpArch nextPutAll: line,\'AGM \', Instrucciones score asString, \';\'.\r\tpArch close. '
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-23T01:06:01.265-03:00' ],
+		#self : OmReference [ '37' ]
+	},
+	#content : '|dir pArch lectura line max vent|\r\t"Abrir el documento para ver los puntajes"\r\tdir:= FileSystem disk workingDirectory.\r\tlectura:= (dir,\'\\Score.csv\') readStream.\r\tpArch:= (dir,\'\\Score.csv\') writeStream.\r\tline:= \'\'.\r\tvent:= OSWindowWorldMorph new.\r\t[lectura atEnd] whileFalse: [\r\t\tline:= line, lectura nextLine.\r\t].\r\tpArch nextPutAll: line,\'AGM \', Instrucciones score asString, \';\'.\r\t\r\tpArch nextPutAll: \'\'.\r\tpArch close. '
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-23T01:06:15.476-03:00' ],
+		#self : OmReference [ '38' ]
+	},
+	#content : '|dir pArch lectura line max vent|\r\t"Abrir el documento para ver los puntajes"\r\tdir:= FileSystem disk workingDirectory.\r\tlectura:= (dir,\'\\Score.csv\') readStream.\r\tpArch:= (dir,\'\\Score.csv\') writeStream.\r\tline:= \'\'.\r\tvent:= OSWindowWorldMorph new.\r\t[lectura atEnd] whileFalse: [\r\t\tline:= line, lectura nextLine.\r\t].\r\tpArch nextPutAll: \'\'.\r\tpArch close. '
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-23T01:06:25.366-03:00' ],
+		#self : OmReference [ '39' ]
+	},
+	#content : '|dir pArch lectura line max vent|\r\t"Abrir el documento para ver los puntajes"\r\tdir:= FileSystem disk workingDirectory.\r\tlectura:= (dir,\'\\Score.csv\') readStream.\r\tpArch:= (dir,\'\\Score.csv\') writeStream.\r\tline:= \'\'.\r\tvent:= OSWindowWorldMorph new.\r\t[lectura atEnd] whileFalse: [\r\t\tline:= line, lectura nextLine.\r\t].\r\tpArch nextPutAll: line,\'AGM \', Instrucciones score asString, \';\'.\r\tpArch nextPutAll: \'\'.\r\tpArch close. '
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-23T01:06:41.653-03:00' ],
+		#self : OmReference [ '40' ]
+	},
+	#content : '|dir pArch lectura line max vent|\r\t"Abrir el documento para ver los puntajes"\r\tdir:= FileSystem disk workingDirectory.\r\tlectura:= (dir,\'\\Score.csv\') readStream.\r\tpArch:= (dir,\'\\Score.csv\') writeStream.\r\tline:= \'\'.\r\tvent:= OSWindowWorldMorph new.\r\t[lectura atEnd] whileFalse: [\r\t\tline:= line, lectura nextLine.\r\t].\r\tpArch nextPutAll: \'AGM \', Instrucciones score asString, \';\'.\r\tpArch close. '
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-23T01:07:17.956-03:00' ],
+		#self : OmReference [ '41' ]
+	},
+	#content : '|dir pArch lectura line max vent|\r\t"Abrir el documento para ver los puntajes"\r\tdir:= FileSystem disk workingDirectory.\r\tlectura:= (dir,\'\\Score.csv\') readStream.\r\tpArch:= (dir,\'\\Score.csv\') writeStream.\r\tline:= \'\'.\r\tvent:= OSWindowWorldMorph new.\r\t[lectura atEnd] whileFalse: [\r\t\tline:= line, lectura nextLine.\r\t].\r\tpArch nextPutAll: line, \'AGM\', Instrucciones score asString, \';\'.\r\tpArch close. '
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-23T01:07:30.606-03:00' ],
+		#self : OmReference [ '42' ]
+	},
+	#content : '|dir pArch lectura line max vent|\r\t"Abrir el documento para ver los puntajes"\r\tdir:= FileSystem disk workingDirectory.\r\tlectura:= (dir,\'\\Score.csv\') readStream.\r\tpArch:= (dir,\'\\Score.csv\') writeStream.\r\tline:= \'\'.\r\tvent:= OSWindowWorldMorph new.\r\t[lectura atEnd] whileFalse: [\r\t\tline:= line, lectura nextLine.\r\t].\r\tpArch nextPutAll: line, \'AGM\', Instrucciones score asString, \';\'.\r\t^pArch\r\tpArch close. '
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-23T01:07:42.231-03:00' ],
+		#self : OmReference [ '43' ]
+	},
+	#content : '|dir pArch lectura line max vent|\r\t"Abrir el documento para ver los puntajes"\r\tdir:= FileSystem disk workingDirectory.\r\tlectura:= (dir,\'\\Score.csv\') readStream.\r\tpArch:= (dir,\'\\Score.csv\') writeStream.\r\tline:= \'\'.\r\tvent:= OSWindowWorldMorph new.\r\t[lectura atEnd] whileFalse: [\r\t\tline:= line, lectura nextLine.\r\t].\r\tpArch nextPutAll: line, \'AGM \', Instrucciones score asString, \';\'.\r\tpArch close. '
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-23T12:43:12.835-03:00' ],
+		#self : OmReference [ '44' ]
+	},
+	#content : '|dir pArch lectura line max vent |\r\t"Abrir el documento para ver los puntajes"\r\tdir:= FileSystem disk workingDirectory.\r\tlectura:= (dir,\'\\Score.csv\') readStream.\r\tpArch:= (dir,\'\\Score.csv\') writeStream.\r\tline:= \'\'.\r\tvent:= OSWindowWorldMorph new.\r\t[lectura atEnd] whileFalse: [\r\t\tline:= line, lectura nextLine.\r\t].\r\t\r\tpArch nextPutAll: line, \'AGM \', Instrucciones score asString, \';\'.\r\tpArch close. '
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-23T12:44:13.465-03:00' ],
+		#self : OmReference [ '45' ]
+	},
+	#content : '|dir pArch lectura line max vent intro texto|\r\t"Abrir el documento para ver los puntajes"\r\tdir:= FileSystem disk workingDirectory.\r\tlectura:= (dir,\'\\Score.csv\') readStream.\r\tpArch:= (dir,\'\\Score.csv\') writeStream.\r\tline:= \'\'.\r\tvent:= OSWindowWorldMorph new.\r\t[lectura atEnd] whileFalse: [\r\t\tline:= line, lectura nextLine.\r\t].\r\tintro:= Morph new.\r\ttexto:= TextMorph new.\r\t\r\tpArch nextPutAll: line, \'AGM \', Instrucciones score asString, \';\'.\r\tpArch close. '
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-23T12:44:44.278-03:00' ],
+		#self : OmReference [ '46' ]
+	},
+	#content : '|dir pArch lectura line max vent intro texto|\r\t"Abrir el documento para ver los puntajes"\r\tdir:= FileSystem disk workingDirectory.\r\tlectura:= (dir,\'\\Score.csv\') readStream.\r\tpArch:= (dir,\'\\Score.csv\') writeStream.\r\tline:= \'\'.\r\tvent:= OSWindowWorldMorph new.\r\t[lectura atEnd] whileFalse: [\r\t\tline:= line, lectura nextLine.\r\t].\r\tintro:= Morph new.\r\ttexto:= TextMorph new.\r\tintro addMorph: texto.\r\t\r\tpArch nextPutAll: line, \'AGM \', Instrucciones score asString, \';\'.\r\tpArch close. '
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-23T12:44:50.971-03:00' ],
+		#self : OmReference [ '47' ]
+	},
+	#content : '|dir pArch lectura line max vent intro texto|\r\t"Abrir el documento para ver los puntajes"\r\tdir:= FileSystem disk workingDirectory.\r\tlectura:= (dir,\'\\Score.csv\') readStream.\r\tpArch:= (dir,\'\\Score.csv\') writeStream.\r\tline:= \'\'.\r\tvent:= OSWindowWorldMorph new.\r\t[lectura atEnd] whileFalse: [\r\t\tline:= line, lectura nextLine.\r\t].\r\tintro:= Morph new.\r\ttexto:= TextMorph new.\r\tintro addMorph: texto.\r\tintro openInWorld.\r\tpArch nextPutAll: line, \'AGM \', Instrucciones score asString, \';\'.\r\tpArch close. '
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-23T13:22:59.018-03:00' ],
+		#self : OmReference [ '48' ]
+	},
+	#content : '|dir pArch lectura line max vent intro texto|\r\t"Abrir el documento para ver los puntajes"\r\tdir:= FileSystem disk workingDirectory.\r\tlectura:= (dir,\'\\Score.csv\') readStream.\r\tpArch:= (dir,\'\\Score.csv\') writeStream.\r\tline:= \'\'.\r\tvent:= OSWindowWorldMorph new.\r\t[lectura atEnd] whileFalse: [\r\t\tline:= line, lectura nextLine.\r\t].\r\tpArch nextPutAll: line, \'AGM \', Instrucciones score asString, \';\'.\r\tpArch close. '
+}

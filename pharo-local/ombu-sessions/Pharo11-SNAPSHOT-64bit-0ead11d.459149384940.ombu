@@ -1,0 +1,31 @@
+OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2025-02-04T21:15:09.022-03:00' ],
+		#prior : OmReference [ 'Pharo11-SNAPSHOT-64bit-0ead11d.4138B86B1700', '1' ],
+		#self : OmReference [ '1' ]
+	},
+	#content : EpSessionSnapshot {
+		#imageName : 'C:\\Users\\castr\\Documents\\Pharo\\images\\Galaxian - Grupo 16 - 2023\\Galaxian - Grupo 16 - 2023.image'
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2025-02-04T21:17:35.259-03:00' ],
+		#prior : OmReference [ '1' ],
+		#self : OmReference [ '2' ]
+	},
+	#content : EpSessionSnapshot {
+		#imageName : 'C:\\Users\\castr\\Documents\\Pharo\\images\\Galaxian - Grupo 16 - 2023\\Galaxian - Grupo 16 - 2023.image'
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2025-02-04T21:34:41.68-03:00' ],
+		#prior : OmReference [ '2' ],
+		#self : OmReference [ '3' ]
+	},
+	#content : EpSessionSnapshot {
+		#imageName : 'C:\\Users\\castr\\Documents\\Pharo\\images\\Galaxian - Grupo 16 - 2023\\Galaxian - Grupo 16 - 2023.image'
+	}
+}

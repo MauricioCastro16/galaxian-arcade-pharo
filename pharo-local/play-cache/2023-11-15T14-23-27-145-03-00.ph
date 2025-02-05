@@ -1,0 +1,1 @@
+|vent x y z|vent:= OSWindowWorldMorph new.x:= Fondo new.y:= Nave new.z:= Bala new.y position: (10 @ 10).x addMorph: y.(y owner) addMorph: z.x openInWorld: vent.vent open.

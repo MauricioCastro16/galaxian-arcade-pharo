@@ -1,0 +1,1 @@
+|ventana x|ventana:= OSWindowWorldMorph new.x:= Nave new.x openInWorld: ventana.ventana open.

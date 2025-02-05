@@ -1,0 +1,1 @@
+|x|x:= TextMorph new.x text: 'hola' textStyle: ''.x openInWorld

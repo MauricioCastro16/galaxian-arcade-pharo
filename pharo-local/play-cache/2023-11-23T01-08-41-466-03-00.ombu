@@ -1,0 +1,25 @@
+OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-23T01:08:57.16-03:00' ],
+		#self : OmReference [ '1' ]
+	},
+	#content : '|dir pArch|\r\t"Abrir el documento para ver los puntajes"\r\tdir:= FileSystem disk workingDirectory.\r\tpArch:= (dir,\'\\Score.csv\') writeStream.\r\tpArch nextPut: \'\'.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-23T01:09:07.416-03:00' ],
+		#self : OmReference [ '2' ]
+	},
+	#content : '|dir pArch|\r\t"Abrir el documento para ver los puntajes"\r\tdir:= FileSystem disk workingDirectory.\r\tpArch:= (dir,\'\\Score.csv\') writeStream.\r\tpArch nextPutAll: \'\'.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-23T01:10:06.553-03:00' ],
+		#self : OmReference [ '3' ]
+	},
+	#content : '|dir pArch|\r\t"Abrir el documento para ver los puntajes"\r\tdir:= FileSystem disk workingDirectory.\r\tpArch:= (dir,\'\\Score.csv\') writeStream.\r\tpArch nextPutAll: \' \'.'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-23T01:11:15.787-03:00' ],
+		#self : OmReference [ '4' ]
+	},
+	#content : '|dir pArch|\r\t"Abrir el documento para ver los puntajes"\r\tdir:= FileSystem disk workingDirectory.\r\tpArch:= (dir,\'\\Score.csv\') writeStream.\r\tpArch nextPutAll: \'\'.'
+}

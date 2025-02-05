@@ -1,0 +1,1 @@
+|x vent|x:= GameOver new.vent:= OSWindowWorldMorph new.x openInWorld: vent.vent open.

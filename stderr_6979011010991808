@@ -1,0 +1,63 @@
+[31mFileDoesNotExistException: 'C:\Users\castr\Documents\Pharo\images\Galaxian - Grupo 16 - 2023.\Score.csv'
+[0mFile>>openForWrite:
+File>>openForRead
+File>>readStream
+FileHandle>>binaryReadStream
+FileSystem>>binaryReadStreamOn:
+FileReference>>binaryReadStream
+FileReference(AbstractFileReference)>>readStreamEncoded:
+FileReference>>readStream
+Score>>initialize
+Score class(Behavior)>>new
+Fondo>>start
+[target perform: actionSelector withArguments: arguments] in SimpleButtonMorph>>doButtonAction in Block: [target perform: actionSelector withArguments:[..]
+FullBlockClosure(BlockClosure)>>ensure:
+CursorWithMask(Cursor)>>showWhile:
+SimpleButtonMorph>>doButtonAction
+SimpleButtonMorph>>mouseDown:
+SimpleButtonMorph(Morph)>>handleMouseDown:
+MouseButtonEvent>>sentTo:
+SimpleButtonMorph(Morph)>>handleEvent:
+MorphicEventDispatcher>>dispatchMouseDown:with:
+MorphicEventDispatcher>>handleMouseDown:
+MouseButtonEvent>>sentTo:
+[ ^ anEvent sentTo: self ] in MorphicEventDispatcher>>dispatchEvent:with: in Block: [ ^ anEvent sentTo: self ]
+FullBlockClosure(BlockClosure)>>ensure:
+MorphicEventDispatcher>>dispatchEvent:with:
+SimpleButtonMorph(Morph)>>processEvent:using:
+MorphicEventDispatcher>>dispatchMouseDown:with:
+MorphicEventDispatcher>>handleMouseDown:
+MouseButtonEvent>>sentTo:
+[ ^ anEvent sentTo: self ] in MorphicEventDispatcher>>dispatchEvent:with: in Block: [ ^ anEvent sentTo: self ]
+[0m[31mFileDoesNotExistException: 'C:\Users\castr\Documents\Pharo\images\Galaxian - Grupo 16 - 2023.\Score.csv'
+[0mFile>>openForWrite:
+File>>openForRead
+File>>readStream
+FileHandle>>binaryReadStream
+FileSystem>>binaryReadStreamOn:
+FileReference>>binaryReadStream
+FileReference(AbstractFileReference)>>readStreamEncoded:
+FileReference>>readStream
+Score>>initialize
+Score class(Behavior)>>new
+Fondo>>start
+[target perform: actionSelector withArguments: arguments] in SimpleButtonMorph>>doButtonAction in Block: [target perform: actionSelector withArguments:[..]
+FullBlockClosure(BlockClosure)>>ensure:
+CursorWithMask(Cursor)>>showWhile:
+SimpleButtonMorph>>doButtonAction
+SimpleButtonMorph>>mouseDown:
+SimpleButtonMorph(Morph)>>handleMouseDown:
+MouseButtonEvent>>sentTo:
+SimpleButtonMorph(Morph)>>handleEvent:
+MorphicEventDispatcher>>dispatchMouseDown:with:
+MorphicEventDispatcher>>handleMouseDown:
+MouseButtonEvent>>sentTo:
+[ ^ anEvent sentTo: self ] in MorphicEventDispatcher>>dispatchEvent:with: in Block: [ ^ anEvent sentTo: self ]
+FullBlockClosure(BlockClosure)>>ensure:
+MorphicEventDispatcher>>dispatchEvent:with:
+SimpleButtonMorph(Morph)>>processEvent:using:
+MorphicEventDispatcher>>dispatchMouseDown:with:
+MorphicEventDispatcher>>handleMouseDown:
+MouseButtonEvent>>sentTo:
+[ ^ anEvent sentTo: self ] in MorphicEventDispatcher>>dispatchEvent:with: in Block: [ ^ anEvent sentTo: self ]
+[0m

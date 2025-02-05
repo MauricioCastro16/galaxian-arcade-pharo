@@ -1,0 +1,1 @@
+|box1 vent headingText|vent:= OSWindowWorldMorph new.headingText:= 'hola' asText allBold.box1 := TextMorph new leftFlush.box1 contents: headingText.box1 backgroundColor: (Color white alpha: 0.8).

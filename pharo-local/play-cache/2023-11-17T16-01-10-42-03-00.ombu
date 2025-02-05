@@ -1,0 +1,49 @@
+OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-17T16:01:14.64-03:00' ],
+		#self : OmReference [ '1' ]
+	},
+	#content : '|headingText|\r\theadingText:= (\'SCORE: \', (Instrucciones score) asString ) asText allBold.\r\theadingText:= headingText nextLine.\r\theadingText:= \'hola\''
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-17T16:03:17.649-03:00' ],
+		#self : OmReference [ '2' ]
+	},
+	#content : '|headingText|\r\theadingText:= (\'SCORE: \', (Instrucciones score) asString ) asText allBold.\r\theadingText append: \'hola\''
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-17T16:03:23.578-03:00' ],
+		#self : OmReference [ '3' ]
+	},
+	#content : '|headingText|\r\theadingText:= (\'SCORE: \', (Instrucciones score) asString ) asText allBold.\r\theadingText append: \'\t\''
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-17T16:03:27.449-03:00' ],
+		#self : OmReference [ '4' ]
+	},
+	#content : '|headingText|\r\theadingText:= (\'SCORE: \', (Instrucciones score) asString ) asText allBold.\r\theadingText append: \'\thola\''
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-17T16:03:34.711-03:00' ],
+		#self : OmReference [ '5' ]
+	},
+	#content : '|headingText|\r\theadingText:= (\'SCORE: \', (Instrucciones score) asString ) asText allBold.\r\theadingText append: \'\\nhola\''
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-17T16:03:39.795-03:00' ],
+		#self : OmReference [ '6' ]
+	},
+	#content : '|headingText|\r\theadingText:= (\'SCORE: \', (Instrucciones score) asString ) asText allBold.\r\theadingText append: \'crhola\''
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-17T16:03:47.465-03:00' ],
+		#self : OmReference [ '7' ]
+	},
+	#content : '|headingText|\r\theadingText:= (\'SCORE: \', (Instrucciones score) asString ) asText allBold.\r\theadingText append: \'hola\''
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-17T16:03:53.149-03:00' ],
+		#self : OmReference [ '8' ]
+	},
+	#content : '|headingText|\r\theadingText:= (\'SCORE: \', (Instrucciones score) asString ) asText allBold.\r\theadingText append: \'\r\thola\''
+}

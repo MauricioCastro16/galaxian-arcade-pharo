@@ -1,0 +1,1 @@
+|x vent|vent:= OSWindowWorldMorph new.x:= Explosion new.x openInWorld: vent.vent open.

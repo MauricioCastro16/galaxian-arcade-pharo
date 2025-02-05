@@ -1,0 +1,43 @@
+OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-23T12:33:30.889-03:00' ],
+		#self : OmReference [ '1' ]
+	},
+	#content : '|x|\rx:= FullscreenMorph new.\rx openInWorld'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-23T12:37:15.579-03:00' ],
+		#self : OmReference [ '2' ]
+	},
+	#content : '|x|\rx:= TaskbarMorph new.\rx openInWorld'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-23T12:38:42.782-03:00' ],
+		#self : OmReference [ '3' ]
+	},
+	#content : '|x|\rx:= CheckboxMorph new.\rx openInWorld'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-23T12:38:53.135-03:00' ],
+		#self : OmReference [ '4' ]
+	},
+	#content : '|x|\rx:= CheckboxButtonMorph new.\rx openInWorld'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-23T12:41:26.623-03:00' ],
+		#self : OmReference [ '5' ]
+	},
+	#content : '|x|\rx:= TabMorph new.\rx openInWorld'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-23T12:41:51.807-03:00' ],
+		#self : OmReference [ '6' ]
+	},
+	#content : '|x|\rx:= TaskbarMorph new.\rx openInWorld'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2023-11-23T12:49:31.683-03:00' ],
+		#self : OmReference [ '7' ]
+	},
+	#content : '|x vent|\rx:= GameOver new.\rvent:= OSWindowWorldMorph new.\rx openInWorld: vent.\rvent open.'
+}
